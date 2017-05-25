@@ -1,0 +1,29 @@
+<footer class="mdl-mega-footer">
+  <div class="site-footer .mdl-mega-footer--top-section">
+    <img class="site-logo-image" src="{{ "/img/small-logo.png" | prepend: site.baseurl }}">
+    <div class="design" style="float:right">
+      <a href="#top">Back to Top</a>
+    </div>
+	</div>
+
+  <div class="mdl-mega-footer--middle-section">
+		{% for block in site.data.footer.footerBlocks %}
+		<div class="mdl-mega-footer--drop-down-section">
+			<h1 class="mdl-mega-footer--heading">{{ block.title }}</h1>
+			<ul class="mdl-mega-footer--link-list">
+				{% for linkElement in block.links %}
+				<li><a href="{% if linkElement.permalink != null %} {{ linkElement.permalink | prepend: site.baseurl }} {% else %} {{ linkElement.link }} {% endif %}" {% if linkElement.link != null %}target="_blank"{% endif %}>{{ linkElement.text }}</a></li>
+				{% endfor %}
+			</ul>
+		</div>
+		{% endfor %}
+	</div>
+
+  <div class="mdl-mega-footer--bottom-section">
+      © {{ site.time | date: '%Y' }} {{ site.title }}, All rights reserved
+      <div class="site-footer" style="float:right">
+        <a target="_blank" href="https://www.traversoft.com">Developed by @traversoft</a>
+      </div>
+  </div>
+
+</footer>

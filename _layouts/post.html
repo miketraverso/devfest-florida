@@ -1,0 +1,62 @@
+---
+layout: post
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  {% include header.html %}
+  <body>
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+      {% include navigation.html %}
+      <div class="android-content mdl-layout__content">
+        <a name="top"></a>
+        <div class="page-layout mdl-layout mdl-layout--fixed-header mdl-js-layout mdl-color--grey-100">
+
+          <div class="page-ribbon"></div>
+          <main class="page-main mdl-layout__content">
+            <div class="page-container mdl-grid">
+
+              <div id="blog-post">
+                <div class="site-card-container mdl-grid">
+                  <div class="mdl-cell mdl-cell--1-col mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
+                  <div class="mdl-cell mdl-cell--10-col mdl-cell--12-col-tablet mdl-cell--12-col-phone mdl-card mdl-shadow--3dp">
+                    <div class="post-content">
+                      <h2>{{ page.title }}</h2>
+                      {{ content }}
+                    </div>
+                    <br>
+                    <a class="android-link mdl-button mdl-js-button mdl-typography--text-uppercase mdl-js-ripple-effect" href="/blog/" data-upgraded=",MaterialButton">
+                      <i class="material-icons">chevron_left</i>Back to blog
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+            {% include footer.html %}
+          </main>
+        </div>
+      </div>
+    </div>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+    <script>
+      window.twttr = (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0],
+          t = window.twttr || {};
+        if (d.getElementById(id)) return t;
+        js = d.createElement(s);
+        js.id = id;
+        js.src = "https://platform.twitter.com/widgets.js";
+        fjs.parentNode.insertBefore(js, fjs);
+
+        t._e = [];
+        t.ready = function(f) {
+          t._e.push(f);
+        };
+
+        return t;
+      }(document, "script", "twitter-wjs"));</script>
+    <script src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+  </body>
+</html>

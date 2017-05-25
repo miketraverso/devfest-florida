@@ -1,0 +1,29 @@
+# -
+#   group: "Partners"
+#   elements:
+#     - {name: "Google", description: "Google", link: "https://www.google.com.ua/intl/en/about/", imageUrl: "google.svg"}
+# -
+#   group: "Diamond sponsors"
+#   elements:
+#     - {name: "Traversoft", description: "Traversoft Software", link: "https://www.traversoft.com/", imageUrl: "traversoft.svg"}
+# -
+#   group: "Gold sponsors"
+#   elements:
+#     - {name: "Google", description: "Google", link: "https://www.google.com.ua/intl/en/about/", imageUrl: "google.svg"}
+-
+  group: "Gold sponsors"
+  elements:
+    - {name: "Traversoft", description: "Traversoft Software", link: "https://www.traversoft.com/", imageUrl: "traversoft.svg"}
+# -
+#   group: "Silver sponsors"
+#   elements:
+    # - {name: "Google", description: "Google", link: "https://www.google.com.ua/intl/en/about/", imageUrl: "google.svg"}
+# -
+#   group: "Copper sponsors"
+#   elements:
+    # - {name: "Google", description: "Google", link: "https://www.google.com.ua/intl/en/about/", imageUrl: "google.svg"}
+-
+  group: "General sponsors"
+  elements:
+    - {name: "Google", description: "Google", link: "https://developers.google.com/", imageUrl: "google-logo.svg"}
+    - {name: "GDG", description: "Google Developer Groups", link: "https://developers.google.com/groups/", imageUrl: "gdg-logo.svg"}

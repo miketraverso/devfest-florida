@@ -1,0 +1,41 @@
+<div id="partners" class="partners">
+    <div class="site-card-container mdl-grid">
+        <div class="col-lg-10 col-lg-offset-1 center-align-items">
+          {% for partner in site.data.partners %}
+          <div class="section-header mdl-typography--font-light mdl-typography--display-1-color-contrast">{{ partner.group }}</div>
+          <ul class="list-inline">
+              {% for element in partner.elements %}
+              <li {% if element.width != null %}style="width: {{ element.width }};"{% endif %}>
+                  <a href="{{ element.link }}" target="_blank">
+                      <img src="{{ site.baseurl }}/img/partners/{{ element.imageUrl }}" title="{{ element.description }}" alt="{{ element.name }}">
+                  </a>
+              </li>
+              {% endfor %}
+          </ul>
+          {% endfor %}
+
+          <div class="section-header mdl-typography--font-light mdl-typography--display-1-color-contrast">Organizers</div>
+            {% for organizer in site.data.organizers %}
+              {% if organizer.group == "Organizers" %}
+                <ul class="list-inline">
+                    {% for element in organizer.elements %}
+                    <li {% if element.width != null %}style="width: {{ element.width }};"{% endif %}>
+                        <a href="{{ element.link }}" target="_blank">
+                            <img src="{{ site.baseurl }}/img/partners/{{ element.imageUrl }}" title="{{ element.description }}" alt="{{ element.name }}">
+                        </a>
+                    </li>
+                    {% endfor %}
+                </ul>
+              {% endif %}
+            {% endfor %}
+        </div>
+
+      <div class="centered-div">
+        <a class="site-link mdl-button mdl-js-button mdl-typography--text-uppercase" href="https://devfestflorida.eventbrite.com" target="_blank">Become a Sponsor</a>
+        &nbsp;&nbsp;&nbsp;
+        <a class="site-link mdl-button mdl-js-button mdl-typography--text-uppercase" href="https://firebasestorage.googleapis.com/v0/b/devfestflorida.appspot.com/o/DevFestFlorida-PartnershipProposal-2017.pdf?alt=media&token=612c2a95-8a54-4224-bbc8-6d48a48da539" target="_blank">Partnership Opportunities</a>
+      </div>
+      <div class="centered-div">
+      </div>
+    </div>
+</div>

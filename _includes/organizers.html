@@ -1,0 +1,28 @@
+<div id="organizers">
+  <div class="site-section-title logo-font section-header">Organizers</div>
+  <div class="site-card-container mdl-grid">
+    {% for organizer in site.data.organizers %}
+      {% if organizer.group == "Individuals" %}
+        {% for person in organizer.elements %}
+        {% assign postUrl = site.baseurl | append: post.url %}
+
+
+        <div class="mdl-cell mdl-cell--3-col mdl-cell--12-col-tablet mdl-cell--12-col-phone mdl-card mdl-shadow--3dp center-align-items">
+            <div class="mdl-card__media">
+              <a href="{{ person.link }}" >
+                <img class="small-img-circle img-circle" src="{{ site.baseurl }}/img/people/{{ person.imageUrl }}" title="{{ person.name }}" alt="{{ person.name }}" style="width:200px">
+              </a>
+            </div>
+            <div class="mdl-card__title center-align-items">
+               <h4 class="mdl-card__title-text center-align-items">{{ person.name }}</h4>
+            </div>
+            <div class="mdl-card__supporting-text center-align-items">
+              <span class="mdl-typography--font-light mdl-typography--subhead">{{ person.description | strip_html | truncate: 175 }}</span>
+            </div>
+        </div>
+
+        {% endfor %}
+      {% endif %}
+    {% endfor %}
+  </div>
+</div>

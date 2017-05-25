@@ -1,0 +1,79 @@
+---
+layout: post
+title:  "Call for papers is open"
+date:   2017-04-12 13:30:47 -0400
+categories: blog
+img: 'img/posts/microphone.jpg'
+---
+
+DevFest Florida 2017 planning is underway.
+
+Have you solved a tough problem with Angular? Used a new library to simplify something with Android? Are you passionate about designing apps & web apps? Are you interested in showing off your amazing app or framework? If you've answered yes to any of those than we want YOU to submit papers and talks for the event!  
+
+<a class="big-button white mdl-button mdl-js-ripple-effect" href="https://docs.google.com/forms/d/e/1FAIpQLSfcchhhaKETrOEVY-h5EngpTby7QMJl_G2LEl8XjYP5nXIS4g/viewform">Submit Talk</a>
+
+### Presenters – who should speak at the DevFest Conference?
+
+* Developers
+* Software Companies (apps, tools, frameworks etc.)
+* Universities or Research Institutions
+
+If you belong to one of those groups & you work with Google technologies like Android, Angular, Polymer, Firebase, Material Design, Go, TypeScript, etc, we'd love to see your proposal(s) for talks. The deadline for submitting proposals is **July 17th**.
+We will notify applicants of accepted proposals by **late July**.
+<br/>
+
+### Themes and topics
+
+We're preparing this DevFest to be full of great content in the Android and Web space!
+However, if you've got a great talk about anything in the Google technology space and want to share it with your peers, then please submit it!
+Here's a list of some topics that we are looking to hear about.
+
+#### Android
+
+* New features in Android O
+* Firebase
+* Functional programming
+* Google DayDream and Android Virtual Reality
+* Test Driven Development
+* Developer Tools
+* Google Cast
+* Wear 2.0
+* Continuous integration best practices
+* Android Things
+
+#### Web
+
+* Angular 2
+* Firebase
+* Google Cloud
+* Progressive Web Apps
+* Polymer
+* WebAssembly
+
+#### Design
+
+* Material Design for Android or Web
+* Designing for Accessibility
+* Designing for localization
+* Responsive design
+
+#### Expertise
+
+* Inclusiveness in technology
+* Sketchnoting
+* Developer responsibility
+* Project management
+
+
+### Please complete the [Call for Papers form](https://docs.google.com/forms/d/e/1FAIpQLSfcchhhaKETrOEVY-h5EngpTby7QMJl_G2LEl8XjYP5nXIS4g/viewform) to submit your proposals.
+
+**Deadline is July 17, 2017**
+
+<a class="big-button white mdl-button mdl-js-ripple-effect" href="https://docs.google.com/forms/d/e/1FAIpQLSfcchhhaKETrOEVY-h5EngpTby7QMJl_G2LEl8XjYP5nXIS4g/viewform">Submit Talk</a>
+
+**Please note:** There is no guarantee that your submission will be put onto the conference agenda!<br/>
+
+The program committee will deliberate and select proposals that are expected to generate the most interest. This is done via a blind review process where all submissions are evaluated for their content.
+The committee will inform all applicants of the status of their proposal by late July.<br/>
+
+Any questions? Email the organizers at [organizers@devfestflorida.org](mailto:organizers@devfestflorida.org).

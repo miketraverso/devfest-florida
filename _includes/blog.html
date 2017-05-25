@@ -1,0 +1,37 @@
+<div id="blog">
+  <div class="site-section-title logo-font white section-header">Blog</div>
+  <div class="site-card-container mdl-grid">
+    {% for post in site.posts %}
+    {% assign postUrl = site.baseurl | append: post.url %}
+        <div class="mdl-cell mdl-cell--1-col mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
+        <div class="mdl-cell mdl-cell--10-col mdl-cell--12-col-tablet mdl-cell--12-col-phone mdl-card mdl-shadow--3dp">
+            <div class="row">
+              <div class="col-lg-4">
+                <div class="mdl-card__media">
+                  <a href="{{ postUrl }}" >
+                    <img src="{{ site.baseurl }}/{{ post.img }}" style="height:300px">
+                  </a>
+                </div>
+              </div>
+
+              <div class="col-lg-8">
+                <div class="mdl-card__title large-text">
+                   <span style="align-items:center;">
+                     <h4 class="mdl-card__title-text">{{ post.title }}</h4>
+                   </span>
+                </div>
+                <div class="mdl-card__supporting-text">
+                  <span class="mdl-typography--font-light mdl-typography--subhead">{{ post.content | strip_html | truncate: 250 }}</span>
+                </div>
+                <div class="mdl-card__actions">
+                   <a class="android-link mdl-button mdl-js-button mdl-typography--text-uppercase mdl-js-ripple-effect" href="{{ postUrl }}" data-upgraded=",MaterialButton">Continue reading...
+                     <i class="material-icons">chevron_right</i>
+                   </a>
+                </div>
+              </div>
+            </div>
+          </div>
+      <div class="mdl-cell mdl-cell--1-col mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
+    {% endfor %}
+  </div>
+</div>
