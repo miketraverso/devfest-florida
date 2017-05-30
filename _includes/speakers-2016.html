@@ -1,0 +1,29 @@
+<div id="speakers">
+    <div class="site-section-title logo-font section-header dff-font">Speakers</div>
+    <div class="speaker-card-container mdl-grid">
+      {% for speaker in site.data.speakers-2016 %}
+        {% assign postUrl = site.baseurl | append: post.url %}
+        {% assign s = speaker %}
+        <!-- <a href="#" data-toggle="modal" data-backdrop="false" data-dismiss="modal" id="{{ speaker.id }}" style="text-decoration:none;"> -->
+        <a href="#" style="text-decoration:none;">
+          {% include speaker-card.html %}
+        </a>
+      {% endfor %}
+    </div>
+    <div class="modal fade" id="success" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header modal-header-success">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                    <h1><i class="glyphicon glyphicon-thumbs-up"></i> {{speaker.name}}</h1>
+                </div>
+                <div class="modal-body edit-content">
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default pull-left" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

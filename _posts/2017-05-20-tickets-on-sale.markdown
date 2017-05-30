@@ -19,7 +19,7 @@ These are only available for a short while and once they're gone they're gone. T
 
 🏷️  Personalized badge & lanyard
 
-🎙  Access to the keynote and all the sessions [2016 Speakers](/speakers/) and [2016 Sessions](/schedule/)
+🎙  Access to the keynote and all the sessions [2016 Speakers](/speakers-2016/) and [2016 Sessions](/schedule/)
 
 🍽️  Lunch
 
