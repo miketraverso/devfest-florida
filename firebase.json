@@ -9,6 +9,21 @@
       "CNAME",
       "Readme.md",
       ".gitignore"
-    ]
+    ],
+    "headers": [{
+      "source" : "**",
+      "headers" : [{
+        "key" : "Cache-Control",
+        "value" : "max-age=3600"
+      }]
+    },{
+        "source": "**/*.@(css|html|js|json|txt|xml|markdown|pdf)",
+        "headers": [
+          {
+            "key": "Cache-Control",
+            "value": "max-age=3600"
+          }
+        ]
+      }]
   }
 }
