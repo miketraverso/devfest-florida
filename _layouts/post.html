@@ -14,12 +14,11 @@ layout: post
 
           <div class="page-ribbon"></div>
           <main class="page-main mdl-layout__content">
-            <div class="page-container mdl-grid">
 
               <div id="blog-post">
                 <div class="site-card-container mdl-grid">
                   <div class="mdl-cell mdl-cell--1-col mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
-                  <div class="mdl-cell mdl-cell--10-col mdl-cell--12-col-tablet mdl-cell--12-col-phone mdl-card mdl-shadow--3dp">
+                  <div class="mdl-cell mdl-cell--10-col mdl-cell--12-col-tablet mdl-cell--10-col-phone mdl-card mdl-shadow--3dp">
                     <div class="post-content">
                       <h2>{{ page.title }}</h2>
                       {{ content }}
@@ -29,10 +28,10 @@ layout: post
                       <i class="material-icons">chevron_left</i>Back to blog
                     </a>
                   </div>
+                  <div class="mdl-cell mdl-cell--1-col mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
                 </div>
               </div>
 
-            </div>
             {% include footer.html %}
           </main>
         </div>
