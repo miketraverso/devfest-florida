@@ -3,7 +3,7 @@
   elements:
     - {name: "GDG Central Florida", description: "GDG Central Florida", link: "https://www.meetup.com/GDG-Central-Florida/", imageUrl: "gdg-central-florida.svg"}
     - {name: "GDG Sun Coast", description: "GDG Sun Coast", link: "https://www.meetup.com/gdgsuncoast/", imageUrl: "gdg-sun-coast.svg"}
-    - {name: "GDG Space Coast", description: "GDG Space Coast", link: "https://www.meetup.com/gdgspacecoast/", imageUrl: "gdg-space-coast.svg"}
+    - {name: "GDG Space Coast", description: "GDG Space Coast", link: "http://www.gdgspacecoast.org/", imageUrl: "gdg-space-coast.svg"}
 -
   group: "Individuals"
   elements:
