@@ -2,29 +2,19 @@ ticketsTitle: "Pricetable"
 ticketsInfo: "Tickets grant access to all conference sections, coffee brakes, lunch and party. Accommodation is NOT included in the ticket price."
 ticketTypes:
 -
-  name: "Faithful Supporter"
-  price: "$80"
-  ticketsNumber: "50"
-  ribbon: "-34%"
-  featured: true
-  buyButtonLink: "https://devfestflorida.eventbrite.com/"
-  buyButtonText: "Buy Now"
-  ticketContentList: ["Enjoy our biggest discount", "Full day of talks", "Codelabs", "Lunch", "Swag & Prizes"]
-  validFrom: "2017-05-01T00:00"
-  validThrough: "2017-05-30T00:00"
--
-  name: "Early Bird"
+  name: "Early bird Ticket"
   price: "$100"
   ticketsNumber: "50"
   ribbon: "-17%"
+  featured: true
   buyButtonLink: "https://devfestflorida.eventbrite.com/"
   buyButtonText: "Buy Now"
   ticketContentList: ["Early bird discount", "Full day of talks", "Codelabs", "Lunch", "Swag & Prizes"]
   validFrom: "2017-05-30T00:00"
   validThrough: "2017-09-01T00:00"
-  disabled: true
+  disabled: false
 -
-  name: "Regular ticket"
+  name: "Regular Ticket"
   price: "$120"
   ticketsNumber: "100"
   buyButtonLink: "https://devfestflorida.eventbrite.com/"
@@ -34,7 +24,7 @@ ticketTypes:
   validThrough: "2017-10-11T00:00"
   disabled: true
 -
- name: "Last minute"
+ name: "Last minute Ticket"
  price: "$150"
  ticketsNumber: "25"
  buyButtonLink: "https://devfestflorida.eventbrite.com/"
