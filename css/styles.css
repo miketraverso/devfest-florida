@@ -1,7 +1,8 @@
 @font-face {
-    font-family: 'Florida Project Phase One';
-    src: url('fonts/FloridaProject-PhaseOne.eot');
-    src: url('fonts/FloridaProject-PhaseOne.eot?#iefix') format('embedded-opentype'), url('fonts/FloridaProject-PhaseOne.woff') format('woff'), url('fonts/FloridaProject-PhaseOne.ttf') format('truetype'), url('fonts/FloridaProject-PhaseOne.svg#FloridaProject-PhaseOne') format('svg');
+    font-family: 'FloridaProject-PhaseOne';
+    src: url('fonts/FloridaProjectPhaseOne.eot');
+    src: url('fonts/FloridaProjectPhaseOne.eot?#iefix') format('embedded-opentype'), url('fonts/FloridaProjectPhaseOne.woff') format('woff'),
+    url('fonts/FloridaProjectPhaseOne.ttf') format('truetype'), url('fonts/FloridaProjectPhaseOne.svg#FloridaProjectPhaseOne') format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -833,7 +834,7 @@ a img {
     font-weight: 500;
 }
 .dff-font {
-  font-family: 'FloridaProject-PhaseOne';
+  font-family: 'FloridaProject-PhaseOne', 'Roboto', 'Helvetica', 'Arial', sans-serif;
 }
 .site-slogan {
     font-size: 60px;
