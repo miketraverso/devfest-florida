@@ -12,7 +12,16 @@
 			<h1 class="mdl-mega-footer--heading">{{ block.title }}</h1>
 			<ul class="mdl-mega-footer--link-list">
 				{% for linkElement in block.links %}
-				<li><a href="{% if linkElement.permalink != null %} {{ linkElement.permalink | prepend: site.baseurl }} {% else %} {{ linkElement.link }} {% endif %}" {% if linkElement.link != null %}target="_blank"{% endif %}>{{ linkElement.text }}</a></li>
+  				<li><a href="{% if linkElement.permalink != null %} {{ linkElement.permalink | prepend: site.baseurl }} {% else %} {{ linkElement.link }} {% endif %}" {% if linkElement.link != null %}target="_blank"{% endif %}>{{ linkElement.text }}</a></li>
+
+          {% if linkElement.social != null %}
+            <br>
+            <li>
+            {% for socialElement in linkElement.social %}
+            <a href="{% if socialElement.permalink != null %} {{ socialElement.permalink | prepend: site.baseurl }} {% else %} {{ socialElement.link }} {% endif %}" {% if socialElement.link != null %}target="_blank"{% endif %}>{{ socialElement.text }}</a>&nbsp;&nbsp;&nbsp;&nbsp;
+            {% endfor %}
+            </li>
+          {% endif %}
 				{% endfor %}
 			</ul>
 		</div>

@@ -1,20 +1,26 @@
 footerBlocks:
- -
+-
   title: "For Visitors"
   links:
    - {link: "/organizers/", text: "Organizers"}
    - {link: "/blog/2017/01/01/code-of-conduct.html", text: "Code of Conduct"}
    - {link: "https://developers.google.com", text: "Google Developers"}
- -
+-
   title: "For Partners"
   links:
    - {link: "https://firebasestorage.googleapis.com/v0/b/devfestflorida.appspot.com/o/DevFestFlorida-PartnershipProposal-2017.pdf?alt=media&token=a601acec-e36f-45b2-8fc2-0fddbac3ffbf", text: "Partnership Proposition"}
    - {link: "https://devfestflorida.eventbrite.com", text: "Become a Sponsor"}
- -
+-
   title: "Contact Us"
   links:
    - {link: "mailto:organizers@devfestflorida.org", text: "organizers@devfestflorida.org"}
- -
+   -
+    social:
+     - {link: "https://plus.google.com/+DevFestFloridaOrg", text: '<i class="fa fa-google-plus" aria-hidden="true"></i>' }
+     - {link: "https://twitter.com/devfestflorida", text: '<i class="fa fa-twitter" aria-hidden="true"></i>' }
+     - {link: "https://facebook.com/devfestflorida", text: '<i class="fa fa-facebook-official" aria-hidden="true"></i>' }
+
+-
   title: "Subscribe"
   links:
    - {permalink: "https://firebaseapp.us13.list-manage.com/subscribe/post?u=3f4db9aefbaccd123ad402ffd&amp;id=74fc03d0fa", text: "DevFest Florida Newsletter"}
