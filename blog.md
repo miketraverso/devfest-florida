@@ -1,7 +1,7 @@
 ---
 layout: ribbon-page
 permalink: /blog/
-title: DevFest Florida Organizers
+title: DevFest Florida Blog
 ---
 
 {% include blog.html %}
