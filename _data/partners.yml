@@ -25,5 +25,5 @@
 -
   group: "General sponsors"
   elements:
-    - {name: "Google", description: "Google", link: "https://developers.google.com/", imageUrl: "google-logo.svg"}
-    - {name: "GDG", description: "Google Developer Groups", link: "https://developers.google.com/groups/", imageUrl: "gdg-logo.svg"}
+    - {name: "Google", description: "Google", link: "https://developers.google.com/", imageUrl: "google-developers.svg"}
+    - {name: "GDG", description: "Google Developer Groups", link: "https://developers.google.com/groups/", imageUrl: "gdg-logo-small.svg"}

@@ -692,22 +692,6 @@ a img {
     width: 40%;
     max-width: 300px;
 }
-
-.partners .org-inline li {
-    width: 16%;
-    max-width: 180px;
-    margin: 13px 7px;
-}
-.partners .org-inline li {
-    width: 60%;
-    max-width: 300px;
-}
-.org-inline>li {
-    display: inline-block;
-    padding-left: 5px;
-    padding-right: 5px;
-}
-
 .pricing-col {
     overflow: hidden;
     margin-bottom: 26px;
