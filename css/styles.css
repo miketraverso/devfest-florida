@@ -234,6 +234,10 @@ a img {
     text-align: center;
     align-items: center;
 }
+.center-card {
+  display: block;
+  width: 100%;
+}
 .partner-header {
     text-align: center;
     margin-top: 6vh;
@@ -625,6 +629,15 @@ a img {
     background: url('//devfestflorida.org/img/people/speaker-backdrop.png') center 30% no-repeat;
     background-size: cover;
 }
+
+.sponsor-cover-section {
+    position: relative;
+    height: 800px;
+    width: auto;
+    z-index: 1;
+    background-color: dodgerblue;
+    background-size: cover;
+}
 .site-stats-section-overlay {
     position: relative;
     height: 500px;
@@ -820,6 +833,11 @@ a img {
 .site-slogan {
     font-size: 60px;
     padding-top: 160px;
+    line-height: 1.2;
+}
+.sponsor-slogan {
+    font-size: 60px;
+    padding-top: 20px;
     line-height: 1.2;
 }
 .large-text {
@@ -1161,7 +1179,7 @@ a img {
     .site-be-together-section {
         height: 350px;
     }
-    .site-slogan {
+    .site-slogan, .sponsor-slogan {
         font-size: 26px;
         margin: 0 16px;
         padding-top: 24px;
