@@ -1,18 +1,20 @@
 <div id="speakers">
-  <div class="site-section-title logo-font section-header mdl-typography--display-1-color-contrast">Featured Speakers</div>
+  <div class="site-section-title logo-font dff-font section-header">Featured Speakers</div>
     <div class="site-card-container mdl-grid">
 
-      {% for post in site.posts limit:4 %}
+      {% for speaker in site.data.speakers limit:4 %}
         {% assign postUrl = site.baseurl | append: post.url %}
 
+        {% if speaker.rockstar == true %}
         <div class="mdl-cell mdl-cell--3-col mdl-cell--6-col-tablet mdl-cell--12-col-phone speaker-card mdl-card center-align-items">
           <a href="{{ postUrl }}" >
-              <img src="{{ post.img }}" alt="" class="img-circle"/>
+              <img src="{{ speaker.thumbnailUrl }}" alt="" class="img-circle"/>
           </a>
           <div class="mdl-card__title center-text-align">
-             <h4 class="mdl-card__title-text">{{ post.title }}</h4>
+             <h4 class="mdl-card__title-text">{{ speaker.name }}</h4>
           </div>
         </div>
+        {% endif %}
 
       {% endfor %}
       <div class="centered-div">
