@@ -15,7 +15,7 @@ ticketTypes:
   disabled: false
 -
   name: "Regular Ticket"
-  price: "$120"
+  price: "$125"
   ticketsNumber: "100"
   buyButtonLink: "https://devfestflorida.eventbrite.com/"
   buyButtonText: "Buy Now"
