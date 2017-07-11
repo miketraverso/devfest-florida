@@ -113,6 +113,24 @@ a img {
   font-size: 26px;
   color: dodgerblue;
 }
+.blog-banner-img {
+  height: auto;
+  width: 50%;
+}
+.post-content blockquote {
+  opacity: 1;
+  font-style: normal;
+  background: beige;
+  margin-top: 20px;
+  font-weight: 300;
+  letter-spacing: normal;
+  font-size: 21px;
+}
+.post-content blockquote::before,
+.post-content blockquote::after {
+  display:none;
+}
+
 .photo {
     position: absolute;
     top: 0;
