@@ -13,17 +13,23 @@
 -
   group: "Gold sponsors"
   elements:
-    - {name: "Traversoft", description: "Traversoft Software", link: "https://www.traversoft.com/", imageUrl: "traversoft.svg"}
-# -
-#   group: "Silver sponsors"
-#   elements:
-    # - {name: "Google", description: "Google", link: "https://www.google.com.ua/intl/en/about/", imageUrl: "google.svg"}
-# -
-#   group: "Copper sponsors"
-#   elements:
-    # - {name: "Google", description: "Google", link: "https://www.google.com.ua/intl/en/about/", imageUrl: "google.svg"}
+  - {name: "Traversoft", description: "Traversoft Software", link: "https://www.traversoft.com/", imageUrl: "traversoft.svg"}
+-
+  group: "Silver sponsors"
+  elements:
+  - {name: "SourceToad", description: "SourceToad", link: "http://www.sourcetoad.com/", imageUrl: "sourcetoad.svg"}
+  - {name: "Mozilla", description: "Mozilla", link: "http://www.mozilla.org/", imageUrl: "mozilla.svg"}
+-
+  group: "Copper sponsors"
+  elements:
+  - {name: "Black Girls Code", description: "Black Girls Code", link: "http://www.blackgirlscode.com/", imageUrl: "blackgirlscode.svg"}
+-
+  group: "Prize sponsors"
+  elements:
+  - {name: "Traversoft", description: "Traversoft Software", link: "https://www.traversoft.com/blog/", imageUrl: "traversoft-fish.png", width: "60%"}
+  - {name: "JetBrains", description: "JetBrains", link: "https://www.jetbrains.com/", imageUrl: "jetbrains.png", width: "60%"}
 -
   group: "General sponsors"
   elements:
-    - {name: "Google", description: "Google", link: "https://developers.google.com/", imageUrl: "google-developers.svg"}
-    - {name: "GDG", description: "Google Developer Groups", link: "https://developers.google.com/groups/", imageUrl: "gdg-logo-small.svg"}
+  - {name: "Google", description: "Google", link: "https://developers.google.com/", imageUrl: "google-developers.svg"}
+  - {name: "GDG", description: "Google Developer Groups", link: "https://developers.google.com/groups/", imageUrl: "gdg-logo-small.svg"}

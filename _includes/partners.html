@@ -7,9 +7,9 @@
           <div class="partner-header mdl-typography--font-light mdl-typography--display-1-color-contrast">{{ partner.group }}</div>
           <ul class="list-inline">
               {% for element in partner.elements %}
-              <li {% if element.width != null %}style="width: {{ element.width }};"{% endif %}>
+              <li>
                   <a href="{{ element.link }}" target="_blank">
-                      <img src="{{ site.baseurl }}/img/partners/{{ element.imageUrl }}" title="{{ element.description }}" alt="{{ element.name }}">
+                      <img {% if element.width != null %} style="width: {{ element.width }};"{% endif %} src="{{ site.baseurl }}/img/partners/{{ element.imageUrl }}" title="{{ element.description }}" alt="{{ element.name }}">
                   </a>
               </li>
               {% endfor %}
@@ -21,7 +21,7 @@
               {% if organizer.group == "Organizers" %}
                 <ul class="list-inline">
                     {% for element in organizer.elements %}
-                    <li {% if element.width != null %}style="width: {{ element.width }};"{% endif %}>
+                    <li {% if element.width != null %} style="width: {{ element.width }};"{% endif %}>
                         <a href="{{ element.link }}" target="_blank">
                             <img src="{{ site.baseurl }}/img/partners/{{ element.imageUrl }}" title="{{ element.description }}" alt="{{ element.name }}">
                         </a>
