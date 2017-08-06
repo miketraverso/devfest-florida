@@ -1,98 +1,371 @@
 -
-  id: 3
-  name: "Dawid"
-  surname: "Ostrowski"
-  company: "Google Poland"
-  title: "Developer Relations Program Manager"
-  bio: "Dawid is true technology enthusiast, who loves to work in areas where humans and machines meet to create amazing new products and services. He is experienced program manager with strong technical background, who is able to establish priorities for complex projects and execute across multiple organizations, according to long-term objectives. Dawid has worked in Poland, USA, Germany, Belgium and The Netherlands and truly values diversity of international working environment. His most visible characteristics are individualization (when dealing directly with people), ideation&intellection (inexhaustible source of new concepts) and strong communication (experienced trainer, community manager). He is also an activator constantly impatient for action."
-  thumbnailUrl: img/laptop.jpg
-  companyUrl: img/logos/google.svg
-  rockstar: true
+  id: 1
+  name: "Amahdy Abdelaziz"
+  rockstar: false
+  thumbnailUrl: "../img/people/amahdy_abdelaziz.jpg"
+  company: "Vaadin"
+  companyUrl: "img/partners/vaadin-logo500.png"
   social:
-    - {name: "google-plus", link: "https://plus.google.com/+DawidOstrowski/"}
+    - {name: "twitter", link: "https://twitter.com/amahdy7"}
+    - {name: "github", link: "https://github.com/amahdy"}
+    - {name: "googleplus", link: "https://google.com/+AMahdyAbdElAziz"}
+    - {name: "blog", link: "http://www.amahdy.net"}
+  complexity: "Intermediate"
+  shortBio: "International technical speaker, Google developer expert (GDE), trainer and developer advocate. Passionate about Web and Mobile apps development, including PWA, offline-first design, in-browser database, and cross platform tools."
+  bio: "International technical speaker, Google developer expert (GDE), trainer and developer advocate. Passionate about Web and Mobile apps development, including PWA, offline-first design, in-browser database, and cross platform tools. Also interested in Android internals such as building custom ROMs and customize AOSP for embedded devices. www.amahdy.net"
 -
-  id: 4
-  name: "Annyce Davis"
-  surname: "Davis"
-  company: "Off Grid Electric"
-  companyUrl: img/logos/off-grid-electric.png
-  title: "Android Developer"
-  bio: 'Annyce is an Android Google Developer Expert. She has spent the past 6 years developing applications for the Android ecosystem across multiple form factors. She is also a international conference speaker and author, sharing her knowledge of Android development with others. In addition, Annyce is active in the Washington, DC tech scene and assists with running a local meetup focused on Android development and design.'
-  thumbnailUrl: img/people/annyce_davis.jpg
-  companyUrl: img/logos/google.svg
-  rockstar: true
-  ribbon:
-      - {abbr: "GDE", title: "Google Developer Expert", url: "https://developers.google.com/experts/"}
+  id: 10
+  name: "Namrata Bandekar"
+  rockstar: false
+  thumbnailUrl: "../img/people/namrata_bandekar.jpg"
+  company: "Oanda"
+  companyUrl: "img/companies/oanda.svg"
   social:
-    - {name: "google-plus", link: "https://plus.google.com/+DmytroDanylyk"}
-    - {name: "twitter", link: "https://twitter.com/dmytrodanylyk"}
-    - {name: "github", link: "https://github.com/dmytrodanylyk"}
+    - {name: "twitter", link: "https://twitter.com/namrataCodes"}
+  complexity: "Intermediate"
+  shortBio: "Namrata is a Software Engineer at OANDA and has experience doing native Android and iOS development. She is a member of the Ray Wenderlich Android tutorial team. Apart from building apps, she is passionate about travelling, dancing and hiking with her dog."
+  bio: "Namrata is a Software Engineer at OANDA and has experience doing native Android and iOS development. She is a member of the Ray Wenderlich Android tutorial team. Apart from building apps, she is passionate about travelling, dancing and hiking with her dog."
 -
-    id: 2
-    featured: true
-    name: "Mark Murphy"
-    title: "<p>Founder, CommonsWare & Author of <a href='https://commonsware.com/Android'>The Busy Coder’s Guide to Android Development</a></p>"
-    company: "CommonsWare"
-    companyUrl: "/img/logos/commonsware.png"
-    country: " United States"
-    rockstar: true
-    thumbnailUrl: "/img/people/mark_murphy.jpg"
-    shortBio: "Mark Murphy is the founder of CommonsWare and the author of <a href='https://commonsware.com/Android'>The Busy Coder’s Guide to Android Development</a>."
-    bio: "Mark Murphy is the founder of CommonsWare and the author of <a href='https://commonsware.com/Android'>The Busy Coder’s Guide to Android Development</a>.  He is active in supporting the Android developer community, from <a href='http://stackoverflow.com/users/115145/commonsware'>answering questions on Stack Overflow</a> to <a href='http://github.com/commonsguy'>publishing sample code and reusable components as open source</a>.<br><br>A three-time entrepreneur, his experience ranges from consulting on open source and collaborative development for the Fortune 500 to application development on a myriad of platforms. A polished speaker, Mr. Murphy has delivered conference presentations and training sessions on a wide array of topics internationally."
-    tags:
-      - { "name" : "android" }
-      - { "name" : "ux" }
-      - { "name" : "entrepreneurship" }
-    social:
-      - { "name": "site", "link": "https://commonsware.com/blog/" }
-      - { "name": "twitter",  "link": "https://twitter.com/commonsguy"}
-      - { "name": "github", "link": "https://github.com/commonsguy" }
+  id: 14
+  name: "Etienne Caron-Petit-Pas"
+  rockstar: true
+  thumbnailUrl: "../img/people/etienne_caron.jpg"
+  company: "Shopify"
+  companyUrl: "img/logos/shopify.png"
+  tags:
+    - { "name" : "virtual reality" }
+    - { "name" : "android" }
+  social:
+    - {name: "twitter", link: "https://twitter.com/kanawish"}
+    - {name: "github", link: "https://github.com/kanawish"}
+  complexity: "Intermediate"
+  shortBio: "Etienne Caron is an Android developer at Shopify, a popular Canadian e-commerce company. He is also part of Google's Developer Expert program, and an instructor for Caster.io\n\n3D animation, procedural content generation and VR are some of his hobbies, and he loves introducing other developers to this fascinating field."
+  bio: "Etienne Caron is an Android developer at Shopify, a popular Canadian e-commerce company. He is also part of Google's Developer Expert program, and an instructor for Caster.io\n\n3D animation, procedural content generation and VR are some of his hobbies, and he loves introducing other developers to this fascinating field."
 -
   id: 5
-  name: "Mark Murphy"
-  surname: "Murphy"
-  company: "CommonsWare"
-  title: ""
-  bio: "Mateusz is an Android GDE and GDG organizer. Works as Android Developer for Base CRM where he uses his android-abracadabras to make enterprise software users more productive."
-  thumbnailUrl: img/laptop.jpg
-  companyUrl: img/logos/google.svg
+  name: "Annyce Davis"
   rockstar: true
-  ribbon:
-    - {abbr: "GDE", title: "Google Developer Expert", url: "https://developers.google.com/experts/"}
-    - {abbr: "GDG", title: "Google Developer Group", url: "https://developers.google.com/groups/chapter/107562802227561437057/"}
+  thumbnailUrl: "../img/people/annyce_davis.jpg"
+  company: "Off Grid Electric"
+  companyUrl: "img/logos/off-grid-electric.png"
   social:
-    - {name: "google-plus", link: "https://plus.google.com/+MateuszHerych"}
-    - {name: "twitter", link: "https://twitter.com/mherych"}
+    - {name: "twitter", link: "https://twitter.com/brwngrldev"}
+    - {name: "blog", link: "http://adavis.info/about-me"}
+  complexity: "Intermediate"
+  shortBio: "Annyce is an Android Google Developer Expert. She has spent the past 6 years developing applications for the Android ecosystem across multiple form factors. She is an international conference speaker/author, sharing her knowledge of Android development with others."
+  bio: "Annyce is an Android Google Developer Expert. She has spent the past 6 years developing applications for the Android ecosystem across multiple form factors. She is also a international conference speaker and author, sharing her knowledge of Android development with others. In addition, Annyce is active in the Washington, DC tech scene and helps run a local meetup focused on Android development and design."
+-
+  id: 20
+  name: "Sam Edwards"
+  rockstar: false
+  thumbnailUrl: "../img/people/sam_edwards.jpg"
+  company: "Capital One"
+  companyUrl: "img/companies/capitalone.png"
+  social:
+    - {name: "twitter", link: "https://twitter.com/HandstandSam"}
+    - {name: "blog", link: "https://handstandsam.com"}
+  complexity: "Intermediate"
+  shortBio: "Sam is a Lead Android Engineer for Capital One Wallet. He has been working with Android since 2011 and has over 13 years of professional experience with full-stack development with Java and JavaScript."
+  bio: "Sam is a Lead Android Engineer for Capital One Wallet. He has been working with Android since 2011 and has over 13 years of professional experience with full-stack development with Java and JavaScript. Check out https://handstandsam.com where he shares tips and tricks about Android and software development."
+-
+  id: 23
+  name: "Victoria Gonda"
+  rockstar: false
+  thumbnailUrl: "../img/people/victoria_gonda.jpg"
+  company: "Collective Idea"
+  social:
+    - {name: "twitter", link: "https://twitter.com/TTGonda"}
+    - {name: "blog", link: "http://www.victoriagonda.com/blogs/"}
+  complexity: "Intermediate"
+  shortBio: "Victoria was drawn to programming because of its potential to help people in a meaningful way. She is currently a Software Developer at Collective Idea, building mobile and web applications."
+  bio: "Victoria was drawn to programming because of its potential to help people in a meaningful way. She is currently a Software Developer at Collective Idea, building mobile and web applications. The conferences she has spoken at have been an enjoyable way to connect with the technical community, and exchange information with others. In her spare time, Victoria enjoys taking dance classes, and curling up with a good book."
+-
+  id: 15
+  name: "Yuliya Kaleda"
+  rockstar: false
+  thumbnailUrl: "../img/people/yuliya_kaleda.jpg"
+  company: "Jet.com"
+  companyUrl: "img/partners/jet_logo.svg"
+  complexity: "Intermediate"
+  social:
+    - {name: "twitter", link: "https://twitter.com/yuliyakaleda"}
+  shortBio: "Yuliya is an Android Developer at Jet.com, leading a team of 4 developers whose main focus is to built performant, scalable, cutting-edge Android projects. For the last few months Yuliya has been collaborating with Google to launch the first multi-feature Instant App."
+  bio: "Yuliya is an Android Developer at Jet.com, leading a team of 4 developers whose main focus is to built performant, scalable, cutting-edge Android projects. For the last few months Yuliya has been collaborating with Google to launch the first multi-feature Instant App. It was a great experience that did not bring benefits only in terms of Instant Apps context, it also improved the installed application in regards to architecture, design, scalability."
+-
+  id: 25
+  name: "David Khourshid"
+  rockstar: false
+  thumbnailUrl: "../img/people/david_khoursid.jpg"
+  company: "Microsoft"
+  companyUrl: "img/companies/microsoft.png"
+  social:
+    - {name: "twitter", link: "https://twitter.com/davidkpiano"}
+    - {name: "blog", link: "https://codepen.io/davidkpiano"}
+  complexity: "Intermediate"
+  shortBio: "David Khourshid is a Microsoft software engineer based right here in Orlando. He is passionate about open-source, complex user interfaces and animations, cutting-edge front-end technologies, and helping the web community in any way he can."
+  bio: "David Khourshid is a Microsoft software engineer based right here in Orlando. He is passionate about open-source, complex user interfaces and animations, cutting-edge front-end technologies, and helping the web community in any way he can. When he's not at a computer keyboard, he's behind a piano keyboard, or traveling."
 -
   id: 6
-  name: "Roman"
-  surname: "Mazur"
-  company: "Stanfy, GDG Kyiv"
-  title: "Head of Android/Java Unit"
-  bio: "Roman started his way in Android 5 years ago and fall in love with this platform. Currently he is a head of Android unit in Stanfy LLC and a co-organizer of Kyiv Google Developers Group focusing on Android development. Roman is responsible for building a strong team of Android developers inside Stanfy as well as for organizing Android professionals community in Kyiv."
-  thumbnailUrl: img/laptop.jpg
-  companyUrl: img/logos/google.svg
-  rockstar: true
-  ribbon:
-    - {abbr: "GDG", title: "Google Developer Group", url: "https://developers.google.com/groups/chapter/110301321530950732281/"}
+  name: "John Li"
+  rockstar: false
+  thumbnailUrl: "../img/people/john_li.jpg"
+  company: "Omicron Media"
   social:
-    - {name: "google-plus", link: "https://plus.google.com/+RomanMazur/"}
-    - {name: "web", link: "https://cnn.com/"}
-    - {name: "snapchat", link: "https://cnn.com/"}
-    - {name: "youtube", link: "https://cnn.com/"}
-    - {name: "twitter", link: "http://twitter.com/roman_mazur"}
+    - {name: "twitter", link: "https://twitter.com/tbfJohn"}
+  complexity: "Beginner"
+  shortBio: "John is an Android Developer that enjoys hackathons, organizing talks, and working on side projects that solves problems that already have been solved years ago.  He co-organizes the Central Florida Android Developers Meetup."
+  bio: "John is an Android Developer that enjoys hackathons, organizing talks, and working on side projects that solves problems that already have been solved years ago.  He co-organizes the Central Florida Android Developers Meetup and attends local tech events in Orlando.  He probably follows more animal celebrities than people on Instagram."
+-
+  id: 12
+  name: "Macy Kuang"
+  rockstar: true
+  thumbnailUrl: "../img/people/macy_kuang.jpg"
+  company: "Miaomiao Games"
+  companyUrl: "img/companies/miaomiaogames.png"
+  tags:
+    - { "name" : "virtual reality" }
+    - { "name" : "android" }
+  social:
+    - {name: "twitter", link: "https://twitter.com/MacyKuang"}
+    - {name: "blog", link: "https://youtube.com/codetocreate"}
+  complexity: "Beginner"
+  shortBio: "Macy Kuang is not just the producer and host of her own YouTube technology tips and tricks show - CodeToCreate, she is also the founder of Miaomiao Games.Macy became a Google Developer Expert for Wearable since 2014 and is now an IoT Pioneer."
+  bio: "Macy Kuang is not just the producer and host of her own YouTube technology tips and tricks show - CodeToCreate, she is also the founder of Miaomiao Games. She is on the organizing committee for AndroidTO, the annual Android conference, and the co-organizer of the Toronto Google Developer Group. Macy became a Google Developer Expert for Wearable since 2014 and is now an IoT Pioneer. In early 2017, Macy joins the intel innovator program as an robotic, IoT and VE expert."
+-
+  id: 19
+  name: "Brandy Morgan"
+  rockstar: true
+  thumbnailUrl: "../img/people/brandy_morgan.jpg"
+  social:
+  - {name: "twitter", link: "https://twitter.com/msbrandymorgan"}
+  - {name: "instagram", link: "https://www.instagram.com/msbrandymorgan"}
+  complexity: "Beginner"
+  shortBio: "Brandy is a developer, designer, and doer, that could out hustle Jay-Z. She is a full stack developer, with an enthusiasm for application development and learning the latest technologies. If she isn't coding or creating content you can find her running laps around the beautiful lakes of Winter Park, FL or sipping lattes at the local coffee shops."
+  bio: "Brandy is a developer, designer, and doer, that could out hustle Jay-Z. She is a full stack developer, with an enthusiasm for application development and learning the latest technologies. If she isn't coding or creating content you can find her running laps around the beautiful lakes of Winter Park, FL or sipping lattes at the local coffee shops."
+-
+  id: 11
+  name: "Mark Murphy"
+  rockstar: true
+  thumbnailUrl: "../img/people/mark_murphy.jpg"
+  company: "CommonsWare"
+  companyUrl: "../img/logos/commonsware.png"
+  tags:
+        - { "name" : "android" }
+        - { "name" : "ux" }
+        - { "name" : "entrepreneurship" }
+  social:
+    - {name: "twitter", link: "https://twitter.com/commonsguy"}
+    - {name: "blog", link: "https://commonsware.com/blog"}
+    - { "name": "github", "link": "https://github.com/commonsguy" }
+  complexity: "Intermediate"
+  shortBio: "Author of \"The Busy Coder's Guide to Android Development\". Contributor of over 19,000 answers to Android questions on Stack Overflow. Developer of open source libraries. Presenter at conferences. Trainer of multitudes. Writer of sentence fragments."
+  bio: "Author of \"The Busy Coder's Guide to Android Development\". Contributor of over 19,000 answers to Android questions on Stack Overflow. Developer of open source libraries. Presenter at conferences. Trainer of multitudes. Writer of sentence fragments."
+-
+  id: 13
+  name: "Nitya Narasimhan"
+  rockstar: false
+  thumbnailUrl: "../img/people/nitya_narasimhan.jpg"
+  company: "GDG NYC  / BitNBot (new)"
+  companyUrl: "img/companies/logo-gdgnyc.png"
+  social:
+    - {name: "twitter", link: "https://twitter.com/nitya"}
+    - {name: "blog", link: "https://medium.com/nitya"}
+  complexity: "Intermediate"
+  shortBio: "Nitya is a software architect and polyglot with ~20 years of industry experience in research, development and startup contexts. She is a PhD, an innovator (11 patents, 20+ filings), an educator and a community organizer (GDG NYC & GDG Hudson Valley)."
+  bio: "Nitya is a software architect and polyglot with ~20 years of industry experience in research, development and startup contexts. She is a PhD, an innovator (11 patents, 20+ filings), an educator and a community organizer (GDG NYC & GDG Hudson Valley). She helps architect and build mobile web solutions for early stage startups, runs study camps for workforce retraining & plans to launch her first voice product this fall. She is a frequent tech conference speaker but is happiest talking to kids about science, coding, curiosity and self-confidence."
+-
+  id: 3
+  name: "Christoffer Noring"
+  rockstar: true
+  thumbnailUrl: "../img/people/christoffer_noring.jpg"
+  company: ""
+  social:
+    - {name: "twitter", link: "https://twitter.com/@chris_noring"}
+    - {name: "blog", link: "http://softchris.github.io"}
+  complexity: "Intermediate"
+  shortBio: "Google Developer Expert. Telerik Developer Expert. Author of Rxjs Ultimate. ngVikings organizer. Meetup organizer for 3000+ people."
+  bio: "Google Developer Expert. Telerik Developer Expert. Author of Rxjs Ultimate. ngVikings organizer. Meetup organizer for 3000+ people."
+-
+  id: 16
+  name: "Sandra Persing"
+  rockstar: true
+  thumbnailUrl: "../img/people/sandra_persing.jpg"
+  company: "Mozilla"
+  companyUrl: "img/partners/mozilla.svg"
+  social:
+    - {name: "twitter", link: "https://twitter.com/sandrapersing"}
+    - {name: "blog", link: "http://medium.com/@SandraPersing"}
+  complexity: "Beginner"
+  shortBio: "Sandra Persing is the Sr. Program Manager at Mozilla, investing in DevRel Events. She's the producer of over 50 Developer Roadshows; serves as the Women Who Code Seattle Chapter Director, and is the CoFounder of @DevRelSummit. Find her at meetups, conferences, and the busiest airport terminals."
+  bio: "Sandra Persing is the Sr. Program Manager at Mozilla, investing in DevRel Events. She's the producer of over 50 Developer Roadshows; serves as the Women Who Code Seattle Chapter Director, and is the CoFounder of @DevRelSummit. Find her at meetups, conferences, and the busiest airport terminals."
+-
+  id: 24
+  name: "Betty Pierce"
+  rockstar: false
+  thumbnailUrl: "../img/people/betty_pierce.jpg"
+  company: "Cardinal Solutions"
+  social:
+    - {name: "twitter", link: "https://twitter.com/UIBusyBetty"}
+  complexity: "Intermediate"
+  shortBio: "Betty is a UI/UX Developer with over 16 years of professional experience in Tampa, Florida.  She was a speaker at UXD Summit in Ft Lauderdale, a presenter with Girl Develop It, Women Who Code and Tampa Bay Media Professionals."
+  bio: "Craft Beer drinking, barefoot running, IoT hacking Lady Dev who went from symphonic percussionist to coding for cash, our \"Busy Betty\" is a UI/UX Developer with over 16 years of professional experience in Tampa Florida.  She was a speaker at UXD Summit in Ft Lauderdale, a presenter with Girl Develop It, Women Who Code and Tampa Bay Media Professionals. Betty is currently a Principal UI/UX Consultant, for Cardinal Solutions and has worked in diverse industries from government to advertising and builds everything from enterprise apps to HTML5 games.  This happy mother of five spends her days cooking, cleaning and coding."
+-
+  id: 4
+  name: "Jenell Pizarro"
+  rockstar: false
+  thumbnailUrl: "../img/people/jenell_pizarro.jpg"
+  company: "Skillcrush // Web Benefits Design"
+  social:
+    - {name: "twitter", link: "https://twitter.com/@nellarro"}
+    - {name: "blog", link: "https://medium.com/nellarro"}
+  complexity: "Beginner"
+  shortBio: "Jenell Pizarro is a front end developer at Web Benefits Design and teaches people how to code through her teaching assistant role at Skillcrush. Jenell is an Iron Yard graduate."
+  bio: "Jenell Pizarro is a front end developer at Web Benefits Design and teaches people how to code through her teaching assistant role at Skillcrush. Upon graduation from The Iron Yard, Jenell has made it her personal mission to connect senior developers to their junior developer counterparts and bridge the mentorship gap. She used to peddle Butterbeer to people and now she's a developer so that's pretty sweet."
+-
+  id: 8
+  name: "Michael Prentice"
+  rockstar: true
+  thumbnailUrl: "../img/people/michael_prentice.jpg"
+  company: "DevIntent"
+  companyUrl: "img/partners/devintent.png"
+  social:
+    - {name: "twitter", link: "https://twitter.com/splaktar"}
+  tags:
+    - { "name" : "angular" }
+    - { "name" : "firebase" }
+    - { "name" : "web" }
+    - { "name" : "community" }
+  badges:
+    - {"name": "GDG", "description": "GDG Space Coast", "link": "http://gdgspacecoast.org" }
+  complexity: "Intermediate"
+  shortBio: "Michael Prentice is a software consultant on Angular, Material Design, Firebase, Google Cloud, NodeJS, software architecture, and Agile project management. He is a founder of GDG Space Coast, DevIntent, and Market Amplified. Michael is a Google Developer Expert (GDE) in Angular and active supporter of multiple developer communities."
+  bio: "Michael Prentice is a software consultant on Angular, Material Design, Firebase, Google Cloud, NodeJS, software architecture, and Agile project management. He is a founder of GDG Space Coast, DevIntent, and Market Amplified. Michael is a Google Developer Expert (GDE) in Angular and active supporter of multiple developer communities."
+-
+  id: 9
+  name: "Danny Preussler"
+  rockstar: false
+  thumbnailUrl: "../img/people/danny_preussler.jpg"
+  company: "Viacom"
+  social:
+    - {name: "twitter", link: "https://twitter.com/PreusslerBerlin"}
+    - {name: "blog", link: "https://medium.com/@dpreussler"}
+  complexity: "Intermediate"
+  shortBio: "Danny is in charge of Android development at Viacom in Berlin. Before that he worked for companies like Groupon, eBay and Alcatel. \nHis mobile career started long before any iPhone with Java ME and Blackberry applications. \nDanny writes and talks about mobile development and testing regularly and is is a Google Developer Expert for Android."
+  bio: "Danny is in charge of Android development at Viacom in Berlin. Before that he worked for companies like Groupon, eBay and Alcatel. \nHis mobile career started long before any iPhone with Java ME and Blackberry applications. \nDanny writes and talks about mobile development and testing regularly and is is a Google Developer Expert for Android."
+-
+  id: 22
+  name: "John Riviello"
+  rockstar: false
+  thumbnailUrl: "../img/people/john_riviello.jpg"
+  company: "Comcast"
+  social:
+    - {name: "twitter", link: "https://twitter.com/JohnRiv"}
+  complexity: "Intermediate"
+  shortBio: "John Riviello is a Distinguished Engineer and Lead Frontend Developer at Comcast where he works on the XFINITY customer websites and web applications. He is also the author of the Lynda.com course \"CSS to Sass.\" In his free time, he prefers surfing waves over surfing the internet."
+  bio: "John Riviello is a Distinguished Engineer and Lead Frontend Developer at Comcast where he works on the XFINITY customer websites and web applications. He is also the author of the Lynda.com course \"CSS to Sass.\" In his free time, he prefers surfing waves over surfing the internet."
+-
+  id: 21
+  name: "Dave Smith"
+  rockstar: true
+  thumbnailUrl: "../img/people/dave_smith.jpg"
+  company: "Google"
+  companyUrl: "img/partners/google-logo.svg"
+  social:
+    - {name: "twitter", link: "https://twitter.com/devunwired"}
+  complexity: "Intermediate"
+  shortBio: "Dave is a Developer Advocate at Google, focused on IoT and the Android Things platform. Over the past decade, he has worked with low power M2M systems and wireless radio links, as well as custom applications and system components to run Android on embedded platforms. He has a passion for finding opportunities to make devices, and developers, smarter."
+  bio: "Dave is a Developer Advocate at Google, focused on IoT and the Android Things platform. Over the past decade, he has worked with low power M2M systems and wireless radio links, as well as custom applications and system components to run Android on embedded platforms. He has a passion for finding opportunities to make devices, and developers, smarter."
+-
+  id: 17
+  name: "Mike Traverso"
+  rockstar: false
+  thumbnailUrl: "../img/people/mike_traverso.jpg"
+  company: "Traversoft Software"
+  companyUrl: "img/partners/traversoft.svg"
+  social:
+    - {name: "twitter", link: "https://twitter.com/traversoft"}
+    - {name: "github", link: "https://github.com/miketraverso"}
+    - {name: "blog", link: "https://traversoft.com/blog"}
+  complexity: "Intermediate"
+  shortBio: "Mike traded in a decade of full stack development for Wall Street for mobile development. Now he works on native iOS & Android apps for large corporations and startups."
+  bio: "Mike traded in a decade of full stack development for Wall Street for mobile development. Since then he has worked on native iOS & Android apps for large corporations and startups. He's developed Hillary 2016 for Android, games for Ringling Bro's Circus and apps for the last Twitter Flight conference. \n\nCurrently he's working on enterprise iOS apps for the New York Yankees. He's beat stage 3 cancer twice and always looks to give back to the tech community by speaking at local meetups or organizing and sponsoring DevFest Florida."
+-
+  id: 2
+  name: "Connor Tumbleson"
+  rockstar: false
+  thumbnailUrl: "../img/people/connor_tumbleson.jpg"
+  company: "Sourcetoad"
+  companyUrl: "img/partners/sourcetoad.svg"
+  social:
+    - {name: "twitter", link: "https://twitter.com/iBotPeaches"}
+    - {name: "googleplus", link: "https://plus.google.com/+ConnorTumbleson"}
+    - {name: "blog", link: "https://connortumbleson.com"}
+  complexity: "Intermediate"
+  shortBio: "Connor is a software engineer at Sourcetoad, building software that powers the cruise ship industry. In his free time, he is a big supporter of open-source projects and maintains apktool, a popular Android reverse engineering tool."
+  bio: "Connor is a software engineer at Sourcetoad, building software that powers the cruise ship industry. In his free time, he is a big supporter of open-source projects and maintains apktool, a popular Android reverse engineering tool."
+-
+  id: 18
+  name: "Julien Vehent"
+  rockstar: true
+  thumbnailUrl: "../img/people/julien_vehent.jpg"
+  company: "Mozilla"
+  companyUrl: "img/partners/mozilla.svg"
+  social:
+    - {name: "twitter", link: "https://twitter.com/jvehent"}
+    - {name: "blog", link: "https://j.vehent.org"}
+  complexity: "Beginner"
+  shortBio: "Julien leads the Firefox Operations Security team at Mozilla, tasked with defining, implementing and operating the security of Firefox's backend services and the release engineering infrastructure."
+  bio: "Julien leads the Firefox Operations Security team at Mozilla, tasked with defining, implementing and operating the security of Firefox's backend services and the release engineering infrastructure. Julien's background is in web applications security, services architecture, cryptography and risk management. Julien is the author of \"Securing DevOps\", published at Manning Editions."
 -
   id: 7
-  name: "Valentyn"
-  surname: "Shybanov"
-  company: "Twinfield, GDG Kyiv"
-  title: "Software engineer/country manager"
-  bio: "Valentyn focuses on Polymer and Web Components. In previous roles he’s helped craft design systems for massive enterprise companies, user interfaces for console titles, and even built the occasional enchanted princess game. These days his mission is to fight for a better web and to help developers build great experiences."
-  thumbnailUrl: img/laptop.jpg
-  companyUrl: img/logos/google.svg
-  rockstar: true
-  ribbon:
-    - {abbr: "GDG", title: "Google Developer Group", url: "https://developers.google.com/groups/chapter/110301321530950732281/"}
+  name: "Kesha Williams"
+  rockstar: false
+  thumbnailUrl: "../img/people/kesha_williams.jpg"
+  company: "Chick-fil-A"
   social:
-    - {name: "google-plus", link: "https://google.com/+ValentynShybanov"}
-    - {name: "site", link: "http://olostan.name/"}
+    - {name: "twitter", link: "https://twitter.com/KeshaUCI"}
+    - {name: "linkedin", link: "https://www.linkedin.com/in/java-rock-star-kesha/"}
+    - {name: "blog", link: "http://colorsofstem.org/"}
+  complexity: "Beginner"
+  shortBio: "Kesha Williams is a software engineer with over 20 years۪ experience specializing in web application development. In addition to being a software engineer with Chick-fil-A, she trains and mentors thousands of software developers in the US, Europe, and Asia while teaching at the University of California."
+  bio: "Kesha Williams is a software engineer with over 20 years۪ experience specializing in web application development. In addition to being a software engineer with Chick-fil-A, she trains and mentors thousands of software developers in the US, Europe, and Asia while teaching at the University of California.  She's authored courses on Java, Machine Learning (ML), Artificial Intelligence (AI), and Augmented Reality (AR).  She most recently won the Think Different Innovation Award from Chick-fil-A for her work on investigating how emerging technologies like Artificial Intelligence (AI), Augmented Reality (AR), Computer Vision/Facial Recognition, and the Internet of Things (IOT) can enhance restaurant operations and customer experiences.  She has worked for companies like Delta Air Lines, McKesson Information Systems, and Keane Federal Systems (U.S. Air Force), serving in various technical lead and software development roles. She did her summer internship with the National Security Agency (NSA); how cool is that? In her spare time, she leads the Georgia chapter of Technovation, serves as a mentor with the New York Academy of Sciences, and conducts free Hour of Code sessions for children at her local library."
+-
+  id: 26
+  name: "Mete Atamel"
+  rockstar: false
+  thumbnailUrl: "../img/people/mete_atamel.jpg"
+  company: "Google"
+  companyUrl: "img/partners/google-logo.svg"
+  social:
+    - {name: "twitter", link: "https://twitter.com/meteatamel"}
+    - {name: "linkedin", link: "https://www.linkedin.com/in/meteatamel"}
+    - {name: "blog", link: "https://meteatamel.wordpress.com/"}
+    - {name: "googleplus", link: "https://plus.google.com/+MeteAtamel/"}
+    - {name: "github", link: "https://github.com/meteatamel/"}
+  complexity: "Beginner"
+  shortBio: "Mete is a Developer Advocate at Google, currently focused on helping developers with Google Cloud Platform. As a long-time Java and a recent C# developer, he likes to compare the two ecosystems."
+  bio: "Mete is a Developer Advocate at Google, currently focused on helping developers with Google Cloud Platform. As a long-time Java and a recent C# developer, he likes to compare the two ecosystems. Prior to Google, he worked at Microsoft, Skype, Adobe, EMC, and Nokia building apps and services on various web, mobile and cloud platforms. Originally from Cyprus, he currently lives in Greenwich, not too far away from the prime meridian."
+-
+  id: 27
+  name: "Scott Thisse"
+  rockstar: false
+  thumbnailUrl: "../img/people/scott_thisse.jpg"
+  company: "Centripetal Fusion LLC"
+  social:
+    - {name: "linkedin", link: "https://linkedin.com/in/scottthisse"}
+    - {name: "googleplus", link: "https://google.com/+ScottThisse"}
+  complexity: "Intermediate"
+  shortBio: "Scott is the founder and lead organizer of the six-year-old Tampa Bay Android Developers Group and a co-organizer for the SunCoast Google Developers group. He's a regular speaker/trainer at those groups' meetups and also does paid Android development training.\n\nAfter many years doing development and technical management for government and large enterprise shops, he now has much more fun specializing in developing Android apps for start-ups and other small clients."
+  bio: "Scott is the founder and lead organizer of the six-year-old Tampa Bay Android Developers Group and a co-organizer for the SunCoast Google Developers group. He's a regular speaker/trainer at those groups' meetups and also does paid Android development training.\n\nScott first started professional Android development a little more than 5 years ago. After many years doing development and technical management for government and large enterprise shops, he now has much more fun specializing in developing Android apps for start-ups and other small clients.\n\nFor fun, Scott likes spending time with his family, especially doing technical stuff with his self-described geek son. Another of his favorite activities is teaching a monthly science class for a group of homeschool families."
+-
+  id: 28
+  name: "Phil Palmieri"
+  rockstar: false
+  thumbnailUrl: "../img/people/phillip_palmieri.jpg"
+  company: "Partnercomm"
+  social:
+    - {name: "twitter", link: "https://twitter.com/philpalmieri"}
+    - {name: "blog", link: "http://ppalmieri.com"}
+  complexity: "Intermediate"
+  shortBio: "Phil is a senior dev working at a full service agency.  His background was in PHP, but he has seen the light and now focuses on Angular, NativeScript, and Node.js."
+  bio: "Phil is a senior dev working at a full service agency.  His background was in PHP, but he has seen the light and now focuses on Angular, NativeScript, and Node.js."

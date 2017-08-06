@@ -1,0 +1,78 @@
+-
+  date: "2017-11-11"
+  dateReadable: "November 11"
+  tracks:
+    - {title: "Android", color: "#90be4e"}
+    - {title: "Web & Cloud", color: "#03a9f4"}
+    - {title: "Community", color: "#e91e63"}
+  timeslots:
+    - {
+    	startTime: "08:00",
+    	endTime: "09:00",
+    	sessionIds: [501]
+    }
+    - {
+    	startTime: "09:00",
+    	endTime: "09:30",
+    	sessionIds: [502]
+    }
+    - {
+    	startTime: "09:15",
+    	endTime: "10:30",
+    	sessionIds: [19]
+    }
+    - {
+    	startTime: "10:00",
+    	endTime: "10:30",
+    	sessionIds: [16]
+    }
+    - {
+    	startTime: "10:30",
+    	endTime: "11:30",
+    	sessionIds: [5, 18, 21]
+    }
+    - {
+    	startTime: "11:30",
+    	endTime: "12:30",
+    	sessionIds: [9, 3, 14]
+    }
+    - {
+    	startTime: "12:30",
+    	endTime: "1:00",
+    	sessionIds: [20, 25, 12]
+    }
+    - {
+      startTime: "1:00",
+      endTime: "2:00",
+      sessionIds: [503]
+    }
+    - {
+      startTime: "2:00",
+      endTime: "3:00",
+      sessionIds: [11, 8, 26]
+    }
+    - {
+      startTime: "3:00",
+      endTime: "4:00",
+      sessionIds: [10, 1, 7]
+    }
+    - {
+      startTime: "4:00",
+      endTime: "5:00",
+      sessionIds: [15, 24, 13]
+    }
+    - {
+      startTime: "5:00",
+      endTime: "6:00",
+      sessionIds: [23, 22, 2]
+    }
+    - {
+      startTime: "6:00",
+      endTime: "6:30",
+      sessionIds: [17, 4, 6]
+    }
+    - {
+      startTime: "6:30",
+      endTime: "7:00",
+      sessionIds: [504]
+    }
