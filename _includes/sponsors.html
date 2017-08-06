@@ -4,16 +4,14 @@
       <div class="mdl-grid">
         <div class="mdl-cell mdl-cell--1-col mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
         <div class="mdl-cell mdl-cell--10-col mdl-cell--12-col-tablet mdl-cell--12-col-phone center-align-items">
-
           <div class="site-card-container mdl-grid">
           {% for block in site.data.footer.footerBlocks %}
             {% if block.title == "For Partners" %}
-            <!-- {% assign postUrl = site.baseurl | append: post.url %} -->
               {% for sponsorCard in block.links %}
                 <div class="mdl-cell mdl-cell--6-col mdl-cell--6-col-tablet mdl-cell--12-col-phone mdl-card mdl-shadow--3dp">
                   <div class="mdl-card__media">
                     <a href="{{ sponsorCard.link }}" >
-                        <img src="{{ sponsorCard.imgUrl }}" alt="" style="height:auto;width:100%" />
+                        <img src="{{ sponsorCard.imgUrl }}" alt="" style="height:auto;width:100%;" />
                     </a>
                   </div>
                   <div class="mdl-card__title">

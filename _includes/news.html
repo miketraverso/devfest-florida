@@ -1,12 +1,8 @@
 <div id="news">
     <div class="site-section-title logo-font section-header dff-font">Latest News</div>
     <div class="site-card-container mdl-grid">
-
-
-
     {% for post in site.posts limit:4 %}
       {% assign postUrl = site.baseurl | append: post.url %}
-
       <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--3dp">
         <div class="mdl-card__media">
           <a href="{{ postUrl }}" >
@@ -26,8 +22,6 @@
            </a>
         </div>
       </div>
-
     {% endfor %}
-
     </div>
 </div>
