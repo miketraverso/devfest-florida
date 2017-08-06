@@ -6,7 +6,7 @@
     company: "DevIntent"
     companyUrl: "img/partners/devintent.png"
     country: " Melbourne, Florida"
-    thumbnailUrl: ../img/people/michael_prentice.jpg
+    thumbnailUrl: ../../img/people/michael_prentice.jpg
     shortBio: "Michael Prentice is a consultant on Angular, Material Design, software architecture, and agile project management. He is the founder of GDG Space Coast and a GDG NA South Region Mentor."
     bio: "Michael Prentice is a consultant on Angular, Material Design, software architecture, and agile project management. He is the founder of GDG Space Coast and a GDG NA South Region Mentor. He is a team collaborator on Angular Material and GDG-X. He is currently working on his own company, DevIntent."
     tags:
@@ -27,9 +27,9 @@
     name: "Mark Murphy"
     title: "<p>Founder, CommonsWare & Author of <a href='https://commonsware.com/Android'>The Busy Coder’s Guide to Android Development</a></p>"
     company: "CommonsWare"
-    companyUrl: "../img/logos/commonsware.png"
+    companyUrl: "../../img/logos/commonsware.png"
     country: " United States"
-    thumbnailUrl: "../img/people/mark_murphy.jpg"
+    thumbnailUrl: "../../img/people/mark_murphy.jpg"
     shortBio: "Mark Murphy is the founder of CommonsWare and the author of <a href='https://commonsware.com/Android'>The Busy Coder’s Guide to Android Development</a>."
     bio: "Mark Murphy is the founder of CommonsWare and the author of <a href='https://commonsware.com/Android'>The Busy Coder’s Guide to Android Development</a>.  He is active in supporting the Android developer community, from <a href='http://stackoverflow.com/users/115145/commonsware'>answering questions on Stack Overflow</a> to <a href='http://github.com/commonsguy'>publishing sample code and reusable components as open source</a>.<br><br>A three-time entrepreneur, his experience ranges from consulting on open source and collaborative development for the Fortune 500 to application development on a myriad of platforms. A polished speaker, Mr. Murphy has delivered conference presentations and training sessions on a wide array of topics internationally."
     tags:
@@ -48,7 +48,7 @@
     company: "WeaveUp"
     companyUrl: "img/partners/gdg-central-florida.svg"
     country: " Orlando, Florida"
-    thumbnailUrl: "../img/people/alyssa_nicoll.jpg"
+    thumbnailUrl: "../../img/people/alyssa_nicoll.jpg"
     shortBio: "I am an energetic, über passionate developer. I am a Google Developer Expert, Web Dev at WeaveUp and I have some Front-End and Angular courses on Code School."
     bio: "I am an energetic, über passionate developer. I am a Google Developer Expert, Web Dev at WeaveUp and I have some Front-End and Angular courses on Code School. I love to learn new things and then share them with others. I Scuba Dive and have a toothless dog named 'Gummy'. My name is Alyssa, come talk sometime."
     tags:
@@ -68,7 +68,7 @@
     company: "Shopify"
     companyUrl: "img/logos/shopify.png"
     country: " Montreal, Canada"
-    thumbnailUrl: "../img/people/etienne_caron.jpg"
+    thumbnailUrl: "../../img/people/etienne_caron.jpg"
     shortBio: "Etienne is a software developer who’s worked on all tiers (server, web, mobile and embedded) of large scale software platforms."
     bio: "Etienne is a software developer who’s worked on all tiers (server, web, mobile and embedded) of large scale software platforms. He is now a Mobile Dev Lead for Shopify, and is part of Google's Developer Expert program.<br><br>Etienne got his start in programming in the mid-'80s obsessing over C64 demos, and went on to organize the NAID 95/96 demoparties. 3D animation, procedural content generation and VR are some of his hobbies, and he loves to introduce other developers to this fascinating field. He also regularly volunteers his time towards mentoring startups, developers and students in the mobile space. As part of the Montreal Android GDG, he organises meet-ups, hackathons, and gives regular talks on Android and VR-related subjects.<br><br>Previously, Etienne worked on projects ranging from high-availability stock trading software platforms, all the way to large scale municipal bike sharing systems (London’s cycle Hire amongst others). He lives in Montreal with his wife and daughter, and speaks French and English fluently."
     tags:
@@ -88,7 +88,7 @@
     company: "Vaadin"
     companyUrl: "img/partners/vaadin-logo500.png"
     country: " Seattle, Washington"
-    thumbnailUrl: "../img/people/juniper_belmont.jpg"
+    thumbnailUrl: "../../img/people/juniper_belmont.jpg"
     shortBio: "June is a genderqueer developer advocate passionate about the open web platform."
     bio: "June is a genderqueer developer advocate passionate about the open web platform. They love meeting people, talking about their passions, and giving presentations interspersed with bawdy jokes and lavish, mostly true stories. They use they/them pronouns and they can be found @juniperbelmont."
     tags:
@@ -105,7 +105,7 @@
     company: "Clover"
     companyUrl: "img/logos/cloverpos.png"
     country: " San Francisco, California"
-    thumbnailUrl: "../img/people/james_cha.jpg"
+    thumbnailUrl: "../../img/people/james_cha.jpg"
     shortBio: "James Cha is a developer advocate at Clover and a developer community ninja. He enjoys introducing technology to anyone who will give him a moment to do so."
     bio: "James Cha is a developer advocate at Clover and a developer community ninja. He enjoys introducing technology to anyone who will give him a moment to do so. He takes his experience as a developer and an adjunct teacher to teach coding and clever ways to use the technology we have available to make life easier and more accessible for people."
     tags:
@@ -123,7 +123,7 @@
     company: "CEI"
     companyUrl: "img/logos/cei.png"
     country: " Pittsburgh, Pennsylvania"
-    thumbnailUrl: "../img/people/mike_brocchi.jpg"
+    thumbnailUrl: "../../img/people/mike_brocchi.jpg"
     shortBio: "Mike is a contributor and collaborator on the Angular CLI project. Mike works as an architect at CEI in the Pittsburgh area."
     bio: "Mike is a contributor and collaborator on the Angular CLI project. Mike works as an architect at CEI in the Pittsburgh area."
     tags:
@@ -142,7 +142,7 @@
     company: "Partnercomm"
     companyUrl: "img/partners/gdg-central-florida.svg"
     country: " Orlando, Florida"
-    thumbnailUrl: "../img/people/phillip_palmieri.jpg"
+    thumbnailUrl: "../../img/people/phillip_palmieri.jpg"
     shortBio: "Phil has been coding for the web since the late 90’s focusing in PHP, Flash and JavaScript."
     bio: "Phil has been coding for the web since the late 90’s focusing in PHP, Flash and JavaScript. He started out managing BSD and Linux servers and PHP sites for a travel agency, then moved on to Clear Channel in South Florida. After that, he ran the web department for the largest cruise franchise in the country — managing 400+ travel agent websites. In 2004, Phil moved to Orlando and built a CRM, SFA and Inventory platform for a manufacturing and distribution company. In 2005, he left to start his own web consultancy and development company. For 10 years, he provided consulting, web marketing, development and design for web, mobile, social media and more. In 2015, he closed up shop and took a less stressful position as Senior Developer for a major online travel agency. There he focused on airline, car rental and hotel booking systems for a year before coming to work for PartnerComm. Phil actively participates in local user groups and gives talks on development best practices and technologies."
     tags:
@@ -159,7 +159,7 @@
     company: "Ultimate Software"
     companyUrl: "img/partners/gdg-central-florida.svg"
     country: " Orlando, FL"
-    thumbnailUrl: "../img/people/neela_balkaran.jpg"
+    thumbnailUrl: "../../img/people/neela_balkaran.jpg"
     shortBio: "Neela is a software engineer at Ultimate Software. She graduated from the University of Central Florida with a master's degree in Computer Science in May 2016."
     bio: "Neela is a software engineer at Ultimate Software. She graduated from the University of Central Florida with a master's degree in Computer Science in May 2016. She has previously been at Code School, Google, and Lockheed Martin. She thrives in the intersection of technology, humans, and education and doesn't yet know what she wants to be when she grows up. When not working or learning, she's a fan of yoga, capoeira, and playing piano and clarinet. "
     tags:
@@ -175,7 +175,7 @@
     company: "DataPsy, Inc"
     companyUrl: "img/partners/datapsy.png"
     country: " Kissimmee, FL"
-    thumbnailUrl: "../img/people/christi_kapp.png"
+    thumbnailUrl: "../../img/people/christi_kapp.png"
     shortBio: "Christi has experienced and thrived on the rapid technology changes from the 1970's to today. She cut her teeth building a Sinclair in the late 1970's."
     bio: "Christi has experienced and thrived on the rapid technology changes from the 1970's to today. She cut her teeth building a Sinclair in the late 1970's. Then in the mid-1980's, she coded predictive analytics software to interpret data streams for the X-29 aircraft. Next came pre-XML - she built distributed trading systems in the early 1990's and then became an entrepreneur in the late 1990's.  Since then, she has implemented many distributed business systems using web and database technologies. Her latest accomplishment was contributing a chapter to AAP's 'Ecosystems and Technology Idea Generation and Content Model Processing'."
     tags:
@@ -194,7 +194,7 @@
     company: "SoFriendly"
     companyUrl: "img/logos/sofriendly.png"
     country: " Orlando, Florida"
-    thumbnailUrl: "../img/people/justin_mitchell.jpg"
+    thumbnailUrl: "../../img/people/justin_mitchell.jpg"
     shortBio: "Justin is a UI/UX designer with over 10 years of product design experience. He lead the design team at NXT-ID which went on to be a NASDAQ traded company."
     bio: "Justin is a UI/UX designer with over 10 years of product design experience. He lead the design team at NXT-ID which went on to be a NASDAQ traded company. Justin is now co-founder and design lead at SoFriendly, a product design agency in Orlando which helps startups design delightful experiences that retain users and build loyal customers."
     tags:
@@ -211,7 +211,7 @@
     company: "Droid Journal"
     companyUrl: "img/partners/gdg-central-florida.svg"
     country: " Orlando, Florida"
-    thumbnailUrl: "../img/people/matt_dupree.jpg"
+    thumbnailUrl: "../../img/people/matt_dupree.jpg"
     shortBio: "Matt is a wannabe philosophy professor turned wannabe tech entrepreneur. He's written mobile applications for dev shops, startups, and most recently, Disney."
     bio: "Matt is a wannabe philosophy professor turned wannabe tech entrepreneur. He's written mobile applications for dev shops, startups, and most recently, Disney. He often writes about testing Android applications on his blog and he has a published O'Reilly report on using RxJava for Android applications. Currently, he's working as a freelance mobile application developer and trying to find 'product-market fit' for a startup he's working on."
     tags:
@@ -228,7 +228,7 @@
     company: "Shopify"
     companyUrl: "img/logos/shopify.png"
     country: "Toronto, Canada"
-    thumbnailUrl: "../img/people/eric_fung.png"
+    thumbnailUrl: "../../img/people/eric_fung.png"
     shortBio: "Eric began his career in the embedded world, writing cryptographic toolkits. Since 2010, he has worked on various mobile apps and games, and is currently employed as an Android developer at Shopify."
     bio: "Eric began his career in the embedded world, writing cryptographic toolkits. Since 2010, he has worked on various mobile apps and games, and is currently employed as an Android developer at Shopify. This year, Eric has begun to share his expertise through public speaking, and rebooted the Toronto Android Developers Meetup. In addition to coding, he enjoys baking. A lot. Eric holds a BMath degree from the University of Waterloo, Canada in Computer Science and Combinatorics & Optimization."
     tags:

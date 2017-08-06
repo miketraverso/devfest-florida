@@ -1,6 +1,6 @@
 ---
 layout: plain-page
-permalink: /speakers-2016/
+permalink: /2016/speakers/
 title: DevFest Florida Speakers 2016
 ---
 
