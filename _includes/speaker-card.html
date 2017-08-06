@@ -1,60 +1,32 @@
-<!-- <a href="#addBookDialog" id="show-dialog" style="text-decoration:none;" data-toggle="modal" data-id="{{speaker.id}}" title="Add this item" class="open-AddBookDialog"> -->
-<!-- <a data-toggle="modal" data-id="ISBN564541" title="Add this item" class="open-AddBookDialog btn btn-primary" href="#addBookDialog">test</a> -->
-
-  <div class="mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--12-col-phone mdl-card mdl-shadow--3dp">
-    <div class="header">
-      <div id="sizedImgDiv" role="img" aria-label="{{ site.baseurl }}/{{ speaker.thumbnailUrl }}" style="background-image: url('{{ site.baseurl }}/{{ speaker.thumbnailUrl }}'); background-size: cover; background-position: center center; background-repeat: no-repeat;"></div>
-      <img class="photo placeholder-color" src="{{ site.baseurl }}{{ speaker.thumbnailUrl }}" alt="" />
-      <div class="photo-overlay"></div>
-      <ul class="badges">
-      </ul>
-      <div class="bottom-image-text">
-        <span class="name">{{ speaker.name }} {{ speaker.surname }}</span>
-        <span class="title"></span>
-      </div>
-    </div>
-
-    <div class="mdl-card__title speaker-card-title">
-      <div>
-        {% for tag in speaker.tags %}
-          <span class="mdl-chip {{ tag.name}}">
-            <span class="mdl-chip__text">{{ tag.name}}</span>
-          </span>
-        {% endfor %}
-      </div>
-    </div>
-    <div class="mdl-card__title speaker-card-subtitle">
-      <div id="sizedImgDiv" class="company-logo" role="img" style="background-image: url({{ site.baseurl }}/{{  speaker.companyUrl }}); background-size: contain; background-position: center center; background-repeat: no-repeat;">
-      </div>
-    </div>
-    <div class="speaker-short-bio mdl-card__supporting-text speaker-card-supporting-text">
-      <span class="mdl-typography--font-light mdl-typography--subhead">{{ speaker.shortBio }}</span>
-    </div>
-
-    <div class="speaker-card-action mdl-card__actions">
-        {% for social in speaker.social %}
-          <a id="social-icon" class="android-link social-icon mdl-button mdl-js-button mdl-typography--text-uppercase" href="{{ social.link }}">
-            {% if social.name == "google-plus" %}
-              <i class="fa fa-google-plus" aria-hidden="true"></i>
-            {% elsif social.name == "github" %}
-              <i class="fa fa-github" aria-hidden="true"></i>
-            {% elsif social.name == "facebook" %}
-              <i class="fa fa-facebook-official" aria-hidden="true"></i>
-            {% elsif social.name == "linkedin" %}
-              <i class="fa fa-linkedin" aria-hidden="true"></i>
-            {% elsif social.name == "twitter" %}
-              <i class="fa fa-twitter" aria-hidden="true"></i>
-            {% elsif social.name == "web" %}
-              <i class="fa fa-globe" aria-hidden="true"></i>
-            {% elsif social.name == "snapchat" %}
-              <i class="fa fa-snapchat-ghost" aria-hidden="true"></i>
-            {% elsif social.name == "youtube" %}
-              <i class="fa fa-youtube" aria-hidden="true"></i>
-            {% else %}
-              <i class="fa fa-share-alt" aria-hidden="true"></i>
-            {% endif %}
-          </a>
-        {% endfor %}
+<div class="mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--12-col-phone mdl-card mdl-shadow--3dp" data-toggle="modal" data-target="#speakerDetail-{{ speaker.id }}">
+  <div class="header">
+    <div id="sizedImgDiv" role="img" aria-label="{{ site.baseurl }}/{{ speaker.thumbnailUrl }}" style="background-image: url('{{ site.baseurl }}/{{ speaker.thumbnailUrl }}'); background-size: cover; background-position: center center; background-repeat: no-repeat;"></div>
+    <img class="photo placeholder-color" src="{{ site.baseurl }}{{ speaker.thumbnailUrl }}" alt="" />
+    <div class="photo-overlay"></div>
+    <ul class="badges">
+    </ul>
+    <div class="bottom-image-text">
+      <span class="name">{{ speaker.name }}</span>
+      <span class="title"></span>
     </div>
   </div>
-<!-- </a> -->
+  <!-- <div class="mdl-card__title speaker-card-title">
+    <div>
+      {% for tag in speaker.tags %}
+        <span class="mdl-chip {{ tag.name}}">
+          <span class="mdl-chip__text">{{ tag.name}}</span>
+        </span>
+      {% endfor %}
+    </div>
+  </div> -->
+  <div class="mdl-card__title speaker-card-subtitle">
+    <div id="sizedImgDiv" class="company-logo" role="img" style="background-image: url({{ site.baseurl }}/{{  speaker.companyUrl }}); background-size: contain; background-position: center center; background-repeat: no-repeat;">
+    </div>
+  </div>
+  <div class="speaker-short-bio mdl-card__supporting-text speaker-card-supporting-text">
+    <span class="mdl-typography--font-light mdl-typography--subhead">{{ speaker.shortBio }}</span>
+  </div>
+  <div class="speaker-card-action mdl-card__actions">
+    {% include speaker-social.html %}
+  </div>
+</div>

@@ -1,0 +1,59 @@
+{% for speaker in site.data.speakers %}
+  {% assign postUrl = site.baseurl | append: post.url %}
+  {% assign s = speaker %}
+  <div class="modals">
+      <div class="modal fade text-left" id="sessionDetail-{{ speaker.id }}" tabindex="-1" role="dialog" aria-labelledby="sessionDetail-{{ speaker.id }}" aria-hidden="true" style="z-index:9000">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-body">
+              <div class="people-details">
+                <div class="header centered-div" style="height:400px;">
+                  <div id="sizedImgDiv" role="img" aria-label="{{ site.baseurl }}/{{ speaker.thumbnailUrl }}" style="background-image: url('{{ site.baseurl }}/{{ speaker.thumbnailUrl }}'); background-size: cover; background-position: center center; background-repeat: no-repeat;"></div>
+                  <img class="photo placeholder-color" src="{{ site.baseurl }}{{ speaker.thumbnailUrl }}" alt="" />
+                  <div class="photo-overlay"></div>
+                  <ul class="badges">
+                  </ul>
+                  <div class="bottom-image-text">
+                    <span class="name">{{ speaker.name }}</span>
+                  </div>
+                </div>
+              </div>
+              <div class="speaker-bio mdl-card__supporting-text speaker-card-supporting-text">
+                {% for session in site.data.sessions %}
+                    {% for session_speaker in session.speakers %}
+                      {% if session_speaker == speaker.id %}
+                      <h4>{{ session.title }}</h4>
+                        {% if session.complexity != null %}
+                          <span class="mdl-typography--font-light mdl-typography--subhead"><span class="caption">Complexity: </span>{{ session.complexity }}</span>
+                          <br>
+                          <br>
+                        {% endif %}
+                        {% if session.video %}
+                          <div class="theme-video embed-responsive embed-responsive-16by9">
+                              <iframe class="embed-responsive-item" src="{{ session.video }}"></iframe>
+                          </div>
+                        {% endif %}
+                        <p class="mdl-typography--font-light mdl-typography--subhead">{{ session.description }}</p>
+                        {% if session.presentation %}
+                          <a class="theme-presentation mdl-typography--font-light mdl-typography--subhead" href="{{ session.presentation }}" title="Presentation" target="_blank">View presentation</a>
+                        {% endif %}
+                      {% endif %}
+                    {% endfor %}
+                {% endfor %}
+              </div>
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="speaker-card-action centered-div">
+                    {% include speaker-social.html %}
+                  </div>
+                  <div class="speaker-bio mdl-card__supporting-text speaker-card-supporting-text">
+                    <span class="mdl-typography--font-light mdl-typography--subhead">{{ speaker.bio }}</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+{% endfor %}

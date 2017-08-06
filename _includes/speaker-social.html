@@ -1,0 +1,25 @@
+{% for social in speaker.social %}
+  <a id="social-icon" class="android-link social-icon mdl-button mdl-js-button mdl-typography--text-uppercase" href="{{ social.link }}">
+    {% if social.name == "googleplus" %}
+      <i class="fa fa-google-plus" aria-hidden="true"></i>
+    {% elsif social.name == "github" %}
+      <i class="fa fa-github" aria-hidden="true"></i>
+    {% elsif social.name == "facebook" %}
+      <i class="fa fa-facebook-official" aria-hidden="true"></i>
+    {% elsif social.name == "linkedin" %}
+      <i class="fa fa-linkedin" aria-hidden="true"></i>
+    {% elsif social.name == "twitter" %}
+      <i class="fa fa-twitter" aria-hidden="true"></i>
+    {% elsif social.name == "web" %}
+      <i class="fa fa-globe" aria-hidden="true"></i>
+    {% elsif social.name == "instagram" %}
+      <i class="fa fa-instagram" aria-hidden="true"></i>
+    {% elsif social.name == "snapchat" %}
+      <i class="fa fa-snapchat-ghost" aria-hidden="true"></i>
+    {% elsif social.name == "youtube" %}
+      <i class="fa fa-youtube" aria-hidden="true"></i>
+    {% else %}
+      <i class="fa fa-share-alt" aria-hidden="true"></i>
+    {% endif %}
+  </a>
+{% endfor %}

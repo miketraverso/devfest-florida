@@ -17,8 +17,10 @@ layout: plain-page
 
         {% include footer.html %}
       </div>
-
     </div>
+    {% include speaker-modals.html %}
+    {% include session-modals.html %}
+
     <script
       src="https://code.jquery.com/jquery-3.2.1.min.js"
       integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
@@ -31,7 +33,7 @@ layout: plain-page
                 esseyId = e.relatedTarget.id;
                 $modal.find('.edit-content').html(esseyId);
           })
-    </script> 
+    </script>
     <script src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
   </body>
 </html>
