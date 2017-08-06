@@ -24,6 +24,12 @@
   elements:
   - {name: "Black Girls Code", description: "Black Girls Code", link: "http://www.blackgirlscode.com/", imageUrl: "blackgirlscode.svg"}
 -
+  group: "Speaker sponsors"
+  elements:
+  - {name: "Jet.com", description: "Jet.com", link: "http://jet.com", imageUrl: "jet_logo.svg", width: "70%"}
+  - {name: "Shopify", description: "Shopify", link: "http://shopify.com", imageUrl: "shopify.svg"}
+  - {name: "Traversoft", description: "Traversoft Software", link: "https://www.traversoft.com/", imageUrl: "traversoft.svg"}
+-
   group: "Prize sponsors"
   elements:
   - {name: "Traversoft", description: "Traversoft Software", link: "https://www.traversoft.com/blog/", imageUrl: "traversoft-fish.png", width: "60%"}
