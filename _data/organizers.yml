@@ -7,7 +7,7 @@
 -
   group: "Individuals"
   elements:
-    - {name: "Michael Traverso", imageUrl: "mike_traverso.png", description: "Venue, Swag, Ticketing, Social Media, Website", link: "https://traversoft.com"}
+    - {name: "Michael Traverso", imageUrl: "mike_traverso.png", description: "Venue, Swag, Ticketing, Social Media, Website, Accommodations, Mobile Apps, Finance", link: "https://traversoft.com"}
     - {name: "Christi Kapp", imageUrl: "christi_kapp.png", description: "Swag, Finance, Sponsors, Venue, Accommodations", link: "http://www.datapsy.com/"}
     - {name: "Siva G", imageUrl: "siva_g.jpg", description: "Sponsors", link: "https://plus.google.com/u/0/+SivaG1"}
     - {name: "Michael Prentice", imageUrl: "michael_prentice.jpg", description: "Speakers, Social Media, Website", link: "https://blog.devintent.com/"}
