@@ -2,10 +2,10 @@
 #   group: "Partners"
 #   elements:
 #     - {name: "Google", description: "Google", link: "https://www.google.com.ua/intl/en/about/", imageUrl: "google.svg"}
-# -
-#   group: "Diamond sponsors"
-#   elements:
-#     - {name: "Traversoft", description: "Traversoft Software", link: "https://www.traversoft.com/", imageUrl: "traversoft.svg"}
+-
+  group: "Diamond sponsors"
+  elements:
+    - {name: "Traversoft", description: "Traversoft Software", link: "https://www.traversoft.com/", imageUrl: "traversoft.svg"}
 # -
 #   group: "Gold sponsors"
 #   elements:
@@ -13,11 +13,10 @@
 -
   group: "Gold sponsors"
   elements:
-  - {name: "Traversoft", description: "Traversoft Software", link: "https://www.traversoft.com/", imageUrl: "traversoft.svg"}
+  - {name: "SourceToad", description: "SourceToad", link: "http://www.sourcetoad.com/", imageUrl: "sourcetoad.svg"}
 -
   group: "Silver sponsors"
   elements:
-  - {name: "SourceToad", description: "SourceToad", link: "http://www.sourcetoad.com/", imageUrl: "sourcetoad.svg"}
   - {name: "Mozilla", description: "Mozilla", link: "http://www.mozilla.org/", imageUrl: "mozilla.svg"}
 -
   group: "Copper sponsors"
@@ -30,10 +29,12 @@
   - {name: "Shopify", description: "Shopify", link: "http://shopify.com", imageUrl: "shopify.svg"}
   - {name: "Traversoft", description: "Traversoft Software", link: "https://www.traversoft.com/", imageUrl: "traversoft.svg"}
 -
-  group: "Prize sponsors"
+  group: "Prize & Swag sponsors"
   elements:
   - {name: "Traversoft", description: "Traversoft Software", link: "https://www.traversoft.com/blog/", imageUrl: "traversoft-fish.png", width: "60%"}
   - {name: "JetBrains", description: "JetBrains", link: "https://www.jetbrains.com/", imageUrl: "jetbrains.png", width: "60%"}
+  - {name: "Sticker Mule", description: "Sticker Mule", link: "https://www.stickermule.com/uses/laptop-stickers/", imageUrl: "stickermule.svg", width: "80%"}
+  - {name: "Big Nerd Ranch", description: "Big Nerd Ranch", link: "https://www.bignerdranch.com/books/", imageUrl: "../companies/bnr-logo.png", width: "80%"}
 -
   group: "General sponsors"
   elements:
