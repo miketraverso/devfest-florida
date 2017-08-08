@@ -1,18 +1,19 @@
 -
-  id: 1
-  name: "Amahdy Abdelaziz"
+  id: 26
+  name: "Mete Atamel"
   rockstar: false
-  thumbnailUrl: "../img/people/amahdy_abdelaziz.jpg"
-  company: "Vaadin"
-  companyUrl: "img/partners/vaadin-logo500.png"
+  thumbnailUrl: "../img/people/mete_atamel.jpg"
+  company: "Google"
+  companyUrl: "img/partners/google-logo.svg"
   social:
-    - {name: "twitter", link: "https://twitter.com/amahdy7"}
-    - {name: "github", link: "https://github.com/amahdy"}
-    - {name: "googleplus", link: "https://google.com/+AMahdyAbdElAziz"}
-    - {name: "blog", link: "http://www.amahdy.net"}
-  complexity: "Intermediate"
-  shortBio: "International technical speaker, Google developer expert (GDE), trainer and developer advocate. Passionate about Web and Mobile apps development, including PWA, offline-first design, in-browser database, and cross platform tools."
-  bio: "International technical speaker, Google developer expert (GDE), trainer and developer advocate. Passionate about Web and Mobile apps development, including PWA, offline-first design, in-browser database, and cross platform tools. Also interested in Android internals such as building custom ROMs and customize AOSP for embedded devices. www.amahdy.net"
+    - {name: "twitter", link: "https://twitter.com/meteatamel"}
+    - {name: "linkedin", link: "https://www.linkedin.com/in/meteatamel"}
+    - {name: "blog", link: "https://meteatamel.wordpress.com/"}
+    - {name: "googleplus", link: "https://plus.google.com/+MeteAtamel/"}
+    - {name: "github", link: "https://github.com/meteatamel/"}
+  complexity: "Beginner"
+  shortBio: "Mete is a Developer Advocate at Google, currently focused on helping developers with Google Cloud Platform. As a long-time Java and a recent C# developer, he likes to compare the two ecosystems."
+  bio: "Mete is a Developer Advocate at Google, currently focused on helping developers with Google Cloud Platform. As a long-time Java and a recent C# developer, he likes to compare the two ecosystems. Prior to Google, he worked at Microsoft, Skype, Adobe, EMC, and Nokia building apps and services on various web, mobile and cloud platforms. Originally from Cyprus, he currently lives in Greenwich, not too far away from the prime meridian."
 -
   id: 10
   name: "Namrata Bandekar"
@@ -329,22 +330,6 @@
   complexity: "Beginner"
   shortBio: "Kesha Williams is a software engineer with over 20 years۪ experience specializing in web application development. In addition to being a software engineer with Chick-fil-A, she trains and mentors thousands of software developers in the US, Europe, and Asia while teaching at the University of California."
   bio: "Kesha Williams is a software engineer with over 20 years۪ experience specializing in web application development. In addition to being a software engineer with Chick-fil-A, she trains and mentors thousands of software developers in the US, Europe, and Asia while teaching at the University of California.  She's authored courses on Java, Machine Learning (ML), Artificial Intelligence (AI), and Augmented Reality (AR).  She most recently won the Think Different Innovation Award from Chick-fil-A for her work on investigating how emerging technologies like Artificial Intelligence (AI), Augmented Reality (AR), Computer Vision/Facial Recognition, and the Internet of Things (IOT) can enhance restaurant operations and customer experiences.  She has worked for companies like Delta Air Lines, McKesson Information Systems, and Keane Federal Systems (U.S. Air Force), serving in various technical lead and software development roles. She did her summer internship with the National Security Agency (NSA); how cool is that? In her spare time, she leads the Georgia chapter of Technovation, serves as a mentor with the New York Academy of Sciences, and conducts free Hour of Code sessions for children at her local library."
--
-  id: 26
-  name: "Mete Atamel"
-  rockstar: false
-  thumbnailUrl: "../img/people/mete_atamel.jpg"
-  company: "Google"
-  companyUrl: "img/partners/google-logo.svg"
-  social:
-    - {name: "twitter", link: "https://twitter.com/meteatamel"}
-    - {name: "linkedin", link: "https://www.linkedin.com/in/meteatamel"}
-    - {name: "blog", link: "https://meteatamel.wordpress.com/"}
-    - {name: "googleplus", link: "https://plus.google.com/+MeteAtamel/"}
-    - {name: "github", link: "https://github.com/meteatamel/"}
-  complexity: "Beginner"
-  shortBio: "Mete is a Developer Advocate at Google, currently focused on helping developers with Google Cloud Platform. As a long-time Java and a recent C# developer, he likes to compare the two ecosystems."
-  bio: "Mete is a Developer Advocate at Google, currently focused on helping developers with Google Cloud Platform. As a long-time Java and a recent C# developer, he likes to compare the two ecosystems. Prior to Google, he worked at Microsoft, Skype, Adobe, EMC, and Nokia building apps and services on various web, mobile and cloud platforms. Originally from Cyprus, he currently lives in Greenwich, not too far away from the prime meridian."
 -
   id: 27
   name: "Scott Thisse"
