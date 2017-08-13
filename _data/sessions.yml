@@ -103,29 +103,22 @@
 -
   id:  11
   speakers: [11]
-  title:  "Securing Your (Android) Thing"
-  description:  "When Android Things was announced, security professionals wailed and gnashed their teeth over the prospect of a mashup of IoT's well-documented security challenges with Android's hit-or-miss approach to security. There is little doubt that Android Things makes things more interesting for app developers, in that our focus is on controlling the Thing from outside, rather than necessarily having a direct touchscreen-based UI. In other words, many times our Things are servers, and we need to think of securing our Things the same way that we think of securing our servers. In this presentation, we will review where IoT security has gone wrong and how to prevent your Thing from suffering the same fate. Along the way, we will see how many Thing-related jokes can be crammed into a single presentation."
+  title:  "Get a Room"
+  description:  "One of the Android Architecture Components released at Google I|O 2017 was Room, Google's take on an object-relational mapping (ORM) engine. It offers a convenient, reactive API for working with SQLite or other SQLite-compliant databases (e.g., SQLCipher for Android). In this presentation, we will explore Room, both in terms of its basic integration into your app and some of the challenges and idiosyncrasies that it presents."
   complexity:  "Intermediate"
   bio:  "Author of \"The Busy Coder's Guide to Android Development\". Contributor of over 19,000 answers to Android questions on Stack Overflow. Developer of open source libraries. Presenter at conferences. Trainer of multitudes. Writer of sentence fragments."
 -
   id:  13
   speakers: [13]
-  title:  "Discover the Fun in Functions: Go Serverless with Firebase"
-  description:  "Building mobile web applications that are both performant and cross-platform friendly, is hard. Developers need to manage limited budget/time resources, high customer expectations and a rapidly evolving ecosystem. With Firebase, you can focus on front-end development and get seamless integration of comprehensive backend services out-of-the-box. But how do you add server-side functionality while still remaining essentially \"serverless\"? Hello \"Cloud Functions\".\n\nIn this talk. I'll start with an overview of Firebase, then describe what I mean by \"serverless\" in this context. I'll spend the bulk of my talk explaining how Cloud Functions work, showing how effortless their Firebase integration is, and walking through several examples of function-based integrations that demonstrate the power and simplicity of its usage. Finally, I'll conclude with a look at competitive technologies in the space and pointers to resources for further understanding."
+  title:  "Pragmatic Machine Learning: From Classification To Creativity"
+  description:  "By now, we've all heard that the industry is moving towards an \"AI first\" vision where machine learning powered features like computer vision and natural language processing, drive innovations like autonomous driving, speech & object recognition, smart assistants and more.\n\nBut what does this mean for developers? Do we need PhD-level expertise in data science? What tools & technologies should we master? Where is it useful and why should we care? In this talk, we'll look at machine learning through a pragmatic lens - learning what you need to get the current job done, then exploring paths you can follow to evolve those solutions as your expertise and requirements grow."
   complexity:  "Intermediate"
   bio:  "Nitya is a software architect and polyglot with ~20 years of industry experience in research, development and startup contexts. She is a PhD, an innovator (11 patents, 20+ filings), an educator and a community organizer (GDG NYC & GDG Hudson Valley). She helps architect and build mobile web solutions for early stage startups, runs study camps for workforce retraining & plans to launch her first voice product this fall. She is a frequent tech conference speaker but is happiest talking to kids about science, coding, curiosity and self-confidence."
 -
-  id:  3
-  speakers: [3]
-  title:  "Ngrx - The architecture we so badly need"
-  description:  "Angular is great. Rxjs is great. Redux is awesome for ambitious apps. Why not combine all that. The days of model view whatever are gone. A new age is here. The reactive age. Lets embrace it"
-  complexity:  "Intermediate"
-  bio:  "Google Developer Expert. Telerik Developer Expert. Author of Rxjs Ultimate. ngVikings organizer. Meetup organizer for 3000+ ppl."
--
   id:  16
   speakers: [16]
-  title:  "Overview of the Mozilla Developer Roadshow Program"
-  description:  "This will be a very high overview of the 2017 Mozilla tech product map with an intro to Mozilla and why we are doing 50+ Developer Roadshows in 2017. Then lead into Julien's talk. Should be 10 min long at most! If you'd like me to go deeper into how DevRel works at Mozilla, I can do that as well and would need 20 min."
+  title:  "Reflections on the Mozilla Developer Roadshow Journey"
+  description:  "Sandra Persing, Global Program Manager for DevRel Sponsorship & Events, Director at Women Who Code, and Co-Founder of DevRel Summit, spent 10 months on the road collaborating with global partners and local meetups, influential speakers and freshly minted contributors, to bring over 50 Developer Roadshow programs all around the world. Join us as she reflects about the early days designing the program, wins and fails along the way, and some of the best practices in this weird and wonderful industry called developer relations."
   complexity:  "Beginner"
   bio:  "Sandra Persing is the Sr. Program Manager at Mozilla, investing in DevRel Events. She's the producer of over 50 Developer Roadshows; serves as the Women Who Code Seattle Chapter Director, and is the CoFounder of @DevRelSummit. Find her at meetups, conferences, and the busiest airport terminals."
 -
@@ -173,7 +166,7 @@
 -
   id:  17
   speakers: [17]
-  title:  "Writing a conference app with Flutter"
+  title:  "Developing iOS and Android apps with Flutter"
   description:  "Let's take a look at how promising Flutter looks to be by implementing a conference app. We'll first take a look at Dart, see its similarities & differences compared to Java. Then take a look at what it takes to write an app with one codebase for Android & iOS. Finally we'll pull our conference data into our app using Firebase as our datasource."
   complexity:  "Intermediate"
   bio:  "Mike traded in a decade of full stack development for Wall Street for mobile development. Since then he has worked on native iOS & Android apps for large corporations and startups. He's developed Hillary 2016 for Android, games for Ringling Bro's Circus and apps for the last Twitter Flight conference. \n\nCurrently he's working on enterprise iOS apps for the New York Yankees. He's beat stage 3 colorectal cancer twice and always looks to give back to the tech community by speaking at local meetups or organizing and sponsoring DevFest Florida."
@@ -206,3 +199,23 @@
   complexity:  "Beginner"
   bio: "Mete is a Developer Advocate at Google, currently focused on helping developers with Google Cloud Platform. As a long-time Java and a recent C# developer, he likes to compare the two ecosystems. Prior to Google, he worked at Microsoft, Skype, Adobe, EMC, and Nokia building apps and services on various web, mobile and cloud platforms. Originally from Cyprus, he currently lives in Greenwich, not too far away from the prime meridian."
 -
+  id:  30
+  speakers: [30]
+  title:  "Native Android development for people who’ve been avoiding it"
+  description:  "If you’ve always wanted to write native Android apps but have shied away from it because of Java, Eclipse, or because you’ve been told that native development is so much pain for so little payoff, this session is for you! It’s 2017, and Android development is different now. With a much better IDE, a more expressive programming language in Kotlin, and all sorts of libraries and tools that make this the best time to start building native Android apps."
+  complexity:  "Beginner"
+  bio: "Joey deVilla is the Lead Product Manager at Sourcetoad, a development shop in Tampa, and an author on the Android Team at the tutorial site RayWenderlich.com. In former lives, he’s been a platform evangelist at SMARTRAC, GSG Telco, and Shopify. He was also at Microsoft, where he was a Windows Phone Champ, and tried in vain to make Windows Phone happen. In his spare time, Joey wreaks havoc on karaoke bars with his rock and roll accordion performances."
+-
+  id:  31
+  speakers: [31]
+  title:  "TBD"
+  description:  "TBD."
+  complexity:  "Beginner"
+  bio: "TBD."
+-
+  id:  32
+  speakers: [32]
+  title:  "Building WebVR experiences with AFrame.IO"
+  description:  "In the next few years, augmented reality and virtual reality will continue to provide innovations in gaming, education and training. Other applications might include helping you tour your next vacation resort or explore a future architecture design.  Thanks to open web standards like WebVR, web developers can leverage their existing skills in JavaScript and HTML to create delightful VR experiences. During this session, we will explore  A-Frame.io, an open source project supported by Mozilla enabling you to craft VR experiences using JavaScript and a growing ecosystem of web components.  We’ll include a \"hands on\" code lab to help you start start building 3D experiences today with your Android phone and Google Cardboard."
+  complexity:  "Intermediate"
+  bio: "Michael is an experienced software developer, Scrum master, technologist and blogger. As a principle software engineer at Mercer Engineering Research center, Michael performed a study of the Microsoft HoloLens and various Android eye wear to help enable remote collaboration in aircraft maintenance environments.  On InnovativeTeams.NET, he enjoys sharing stories on growing cultures of innovation, Agile leadership, constructivist learning, makers movement, and human computer interaction."

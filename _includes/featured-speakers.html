@@ -1,24 +1,58 @@
 <div id="speakers">
-  <div class="site-section-title logo-font dff-font section-header">Featured Speakers</div>
-    <div class="site-card-container mdl-grid">
-
-      {% for speaker in site.data.speakers limit:4 %}
-        {% assign postUrl = site.baseurl | append: post.url %}
-
-        {% if speaker.rockstar == true %}
-        <div class="mdl-cell mdl-cell--3-col mdl-cell--6-col-tablet mdl-cell--12-col-phone speaker-card mdl-card center-align-items">
-          <a href="{{ postUrl }}" >
-              <img src="{{ speaker.thumbnailUrl }}" alt="" class="img-circle"/>
-          </a>
-          <div class="mdl-card__title center-text-align">
-             <h4 class="mdl-card__title-text">{{ speaker.name }}</h4>
-          </div>
+  <div class="site-section-title logo-font dff-font section-header">Keynotes</div>
+  <div class="site-card-container mdl-grid">
+    {% for speaker in site.data.speakers limit:30 %}
+      {% assign postUrl = site.baseurl | append: post.url %}
+      {% if speaker.keynote == true %}
+      <div class="mdl-cell mdl-cell--6-col mdl-cell--6-col-tablet mdl-cell--6-col-phone speaker-card mdl-card center-align-items">
+        <a data-toggle="modal" data-target="#speakerDetail-{{ speaker.id }}" >
+          <img src="{{ speaker.thumbnailUrl }}" alt="" class="img-circle"/>
+        </a>
+        <div class="mdl-card__title center-text-align" data-toggle="modal" data-target="#speakerDetail-{{ speaker.id }}">
+           <h4 class="mdl-card__title-text">{{ speaker.name }}</h4>
         </div>
-        {% endif %}
-
-      {% endfor %}
-      <div class="centered-div">
-        <a class="site-link mdl-button mdl-js-button mdl-typography--text-uppercase" href="{{ postUrl }}">View All Speakers</a>
       </div>
-    </div>
+      {% endif %}
+    {% endfor %}
+  </div>
+
+  <div class="site-section-title logo-font dff-font section-header">Featured Speakers</div>
+  <div class="site-card-container mdl-grid">
+    <div class="mdl-cell mdl-cell--1-col mdl-cell--hide-phone"></div>
+    {% for speaker in site.data.speakers limit:30 %}
+      {% assign postUrl = site.baseurl | append: post.url %}
+      {% if speaker.rockstar == true %}
+      <div class="mdl-cell mdl-cell--2-col mdl-cell--2-col-tablet mdl-cell--12-col-phone speaker-card mdl-card center-align-items">
+        <a data-toggle="modal" data-target="#speakerDetail-{{ speaker.id }}" >
+          <img src="{{ speaker.thumbnailUrl }}" alt="" class="img-circle"/>
+        </a>
+        <div class="mdl-card__title center-text-align" data-toggle="modal" data-target="#speakerDetail-{{ speaker.id }}">
+           <h4 class="mdl-card__title-text">{{ speaker.name }}</h4>
+        </div>
+      </div>
+      {% endif %}
+    {% endfor %}
+  </div>
+
+  <div class="site-section-title logo-font dff-font section-header">Google Developer Experts</div>
+  <div class="site-card-container mdl-grid">
+    <div class="mdl-cell mdl-cell--1-col mdl-cell--hide-phone"></div>
+    {% for speaker in site.data.speakers limit:30 %}
+      {% assign postUrl = site.baseurl | append: post.url %}
+      {% if speaker.gde == true %}
+      <div class="mdl-cell mdl-cell--2-col mdl-cell--2-col-tablet mdl-cell--12-col-phone speaker-card mdl-card center-align-items">
+        <a data-toggle="modal" data-target="#speakerDetail-{{ speaker.id }}" >
+          <img src="{{ speaker.thumbnailUrl }}" alt="" class="img-circle"/>
+        </a>
+        <div class="mdl-card__title center-text-align" data-toggle="modal" data-target="#speakerDetail-{{ speaker.id }}">
+           <h4 class="mdl-card__title-text">{{ speaker.name }}</h4>
+        </div>
+      </div>
+      {% endif %}
+    {% endfor %}
+  </div>
+
+  <div class="centered-div">
+    <a class="site-link mdl-button mdl-js-button mdl-typography--text-uppercase" href="{{ site.baseurl }}/speakers/">View All Speakers</a>
+  </div>
 </div>

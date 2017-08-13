@@ -1,7 +1,8 @@
 -
   id: 26
   name: "Mete Atamel"
-  rockstar: false
+  rockstar: true
+  gde: false
   thumbnailUrl: "../img/people/mete_atamel.jpg"
   company: "Google"
   companyUrl: "img/partners/google-logo.svg"
@@ -18,6 +19,7 @@
   id: 10
   name: "Namrata Bandekar"
   rockstar: false
+  gde: false
   thumbnailUrl: "../img/people/namrata_bandekar.jpg"
   company: "Oanda"
   companyUrl: "img/companies/oanda.svg"
@@ -29,7 +31,8 @@
 -
   id: 14
   name: "Etienne Caron-Petit-Pas"
-  rockstar: true
+  rockstar: false
+  gde: true
   thumbnailUrl: "../img/people/etienne_caron.jpg"
   company: "Shopify"
   companyUrl: "img/logos/shopify.png"
@@ -45,7 +48,8 @@
 -
   id: 5
   name: "Annyce Davis"
-  rockstar: true
+  rockstar: false
+  gde: true
   thumbnailUrl: "../img/people/annyce_davis.jpg"
   company: "Off Grid Electric"
   companyUrl: "img/logos/off-grid-electric.png"
@@ -56,9 +60,26 @@
   shortBio: "Annyce is an Android Google Developer Expert. She has spent the past 6 years developing applications for the Android ecosystem across multiple form factors. She is an international conference speaker/author, sharing her knowledge of Android development with others."
   bio: "Annyce is an Android Google Developer Expert. She has spent the past 6 years developing applications for the Android ecosystem across multiple form factors. She is also a international conference speaker and author, sharing her knowledge of Android development with others. In addition, Annyce is active in the Washington, DC tech scene and helps run a local meetup focused on Android development and design."
 -
+  id: 30
+  name: "Joey deVilla"
+  rockstar: false
+  gde: false
+  thumbnailUrl: "../img/people/joey_devilla.jpg"
+  company: "Sourcetoad"
+  companyUrl: "img/partners/sourcetoad.svg"
+  social:
+    - {name: "twitter", link: "https://twitter.com/namrataCodes"}
+    - {name: "linkedin", link: "https://www.linkedin.com/in/joeydevilla"}
+    - {name: "blog", link: "http://globalnerdy.com"}
+  complexity: "Beginner"
+  shortBio: "Joey deVilla is the Lead Product Manager at Sourcetoad, a development shop in Tampa, and an author on the Android Team at the tutorial site RayWenderlich.com. In former lives, he’s been a platform evangelist at SMARTRAC, GSG Telco, and Shopify."
+  bio: "Joey deVilla is the Lead Product Manager at Sourcetoad, a development shop in Tampa, and an author on the Android Team at the tutorial site RayWenderlich.com. In former lives, he’s been a platform evangelist at SMARTRAC, GSG Telco, and Shopify. He was also at Microsoft, where he was a Windows Phone Champ, and tried in vain to make Windows Phone happen. In his spare time, Joey wreaks havoc on karaoke bars with his rock and roll accordion performances."
+-
   id: 20
   name: "Sam Edwards"
   rockstar: false
+  gde: false
+  gde: false
   thumbnailUrl: "../img/people/sam_edwards.jpg"
   company: "Capital One"
   companyUrl: "img/companies/capitalone.png"
@@ -72,6 +93,7 @@
   id: 23
   name: "Victoria Gonda"
   rockstar: false
+  gde: false
   thumbnailUrl: "../img/people/victoria_gonda.jpg"
   company: "Collective Idea"
   social:
@@ -84,6 +106,7 @@
   id: 15
   name: "Yuliya Kaleda"
   rockstar: false
+  gde: false
   thumbnailUrl: "../img/people/yuliya_kaleda.jpg"
   company: "Jet.com"
   companyUrl: "img/partners/jet_logo.svg"
@@ -95,6 +118,7 @@
 -
   id: 25
   name: "David Khourshid"
+  gde: false
   rockstar: false
   thumbnailUrl: "../img/people/david_khoursid.jpg"
   company: "Microsoft"
@@ -109,6 +133,7 @@
   id: 6
   name: "John Li"
   rockstar: false
+  gde: false
   thumbnailUrl: "../img/people/john_li.jpg"
   company: "Omicron Media"
   social:
@@ -119,7 +144,8 @@
 -
   id: 12
   name: "Macy Kuang"
-  rockstar: true
+  gde: true
+  rockstar: false
   thumbnailUrl: "../img/people/macy_kuang.jpg"
   company: "Miaomiao Games"
   companyUrl: "img/companies/miaomiaogames.png"
@@ -135,7 +161,9 @@
 -
   id: 19
   name: "Brandy Morgan"
-  rockstar: true
+  rockstar: false
+  gde: false
+  keynote: true
   thumbnailUrl: "../img/people/brandy_morgan.jpg"
   social:
   - {name: "twitter", link: "https://twitter.com/msbrandymorgan"}
@@ -147,6 +175,7 @@
   id: 11
   name: "Mark Murphy"
   rockstar: true
+  gde: false
   thumbnailUrl: "../img/people/mark_murphy.jpg"
   company: "CommonsWare"
   companyUrl: "../img/logos/commonsware.png"
@@ -164,6 +193,7 @@
 -
   id: 13
   name: "Nitya Narasimhan"
+  gde: false
   rockstar: false
   thumbnailUrl: "../img/people/nitya_narasimhan.jpg"
   company: "GDG NYC  / BitNBot (new)"
@@ -175,21 +205,11 @@
   shortBio: "Nitya is a software architect and polyglot with ~20 years of industry experience in research, development and startup contexts. She is a PhD, an innovator (11 patents, 20+ filings), an educator and a community organizer (GDG NYC & GDG Hudson Valley)."
   bio: "Nitya is a software architect and polyglot with ~20 years of industry experience in research, development and startup contexts. She is a PhD, an innovator (11 patents, 20+ filings), an educator and a community organizer (GDG NYC & GDG Hudson Valley). She helps architect and build mobile web solutions for early stage startups, runs study camps for workforce retraining & plans to launch her first voice product this fall. She is a frequent tech conference speaker but is happiest talking to kids about science, coding, curiosity and self-confidence."
 -
-  id: 3
-  name: "Christoffer Noring"
-  rockstar: true
-  thumbnailUrl: "../img/people/christoffer_noring.jpg"
-  company: ""
-  social:
-    - {name: "twitter", link: "https://twitter.com/@chris_noring"}
-    - {name: "blog", link: "http://softchris.github.io"}
-  complexity: "Intermediate"
-  shortBio: "Google Developer Expert. Telerik Developer Expert. Author of Rxjs Ultimate. ngVikings organizer. Meetup organizer for 3000+ people."
-  bio: "Google Developer Expert. Telerik Developer Expert. Author of Rxjs Ultimate. ngVikings organizer. Meetup organizer for 3000+ people."
--
   id: 16
   name: "Sandra Persing"
-  rockstar: true
+  rockstar: false
+  gde: false
+  keynote: true
   thumbnailUrl: "../img/people/sandra_persing.jpg"
   company: "Mozilla"
   companyUrl: "img/partners/mozilla.svg"
@@ -202,6 +222,7 @@
 -
   id: 24
   name: "Betty Pierce"
+  gde: false
   rockstar: false
   thumbnailUrl: "../img/people/betty_pierce.jpg"
   company: "Cardinal Solutions"
@@ -213,6 +234,7 @@
 -
   id: 4
   name: "Jenell Pizarro"
+  gde: false
   rockstar: false
   thumbnailUrl: "../img/people/jenell_pizarro.jpg"
   company: "Skillcrush // Web Benefits Design"
@@ -225,7 +247,8 @@
 -
   id: 8
   name: "Michael Prentice"
-  rockstar: true
+  gde: true
+  rockstar: false
   thumbnailUrl: "../img/people/michael_prentice.jpg"
   company: "DevIntent"
   companyUrl: "img/partners/devintent.png"
@@ -245,6 +268,7 @@
   id: 9
   name: "Danny Preussler"
   rockstar: false
+  gde: true
   thumbnailUrl: "../img/people/danny_preussler.jpg"
   company: "Viacom"
   social:
@@ -257,6 +281,7 @@
   id: 22
   name: "John Riviello"
   rockstar: false
+  gde: false
   thumbnailUrl: "../img/people/john_riviello.jpg"
   company: "Comcast"
   social:
@@ -265,9 +290,23 @@
   shortBio: "John Riviello is a Distinguished Engineer and Lead Frontend Developer at Comcast where he works on the XFINITY customer websites and web applications. He is also the author of the Lynda.com course \"CSS to Sass.\" In his free time, he prefers surfing waves over surfing the internet."
   bio: "John Riviello is a Distinguished Engineer and Lead Frontend Developer at Comcast where he works on the XFINITY customer websites and web applications. He is also the author of the Lynda.com course \"CSS to Sass.\" In his free time, he prefers surfing waves over surfing the internet."
 -
+  id: 32
+  name: "Michael Rosario"
+  gde: false
+  rockstar: false
+  thumbnailUrl: "../img/people/michael_rosario.jpg"
+  company: "GDG Central Florida"
+  companyUrl: "img/partners/gdg-central-florida.svg"
+  social:
+    - {name: "twitter", link: "https://twitter.com/MichaelRosario"}
+  complexity: "Beginner"
+  shortBio: "Michael is an experienced software developer, Scrum master, technologist and blogger. As a principle software engineer at Mercer Engineering Research center, Michael performed a study of the Microsoft HoloLens and various Android eye wear to help enable remote collaboration in aircraft maintenance environments. On InnovativeTeams.NET, he enjoys sharing stories on growing cultures of innovation, Agile leadership, constructivist learning, makers movement, and human computer interaction."
+  bio: "Michael is an experienced software developer, Scrum master, technologist and blogger. As a principle software engineer at Mercer Engineering Research center, Michael performed a study of the Microsoft HoloLens and various Android eye wear to help enable remote collaboration in aircraft maintenance environments. On InnovativeTeams.NET, he enjoys sharing stories on growing cultures of innovation, Agile leadership, constructivist learning, makers movement, and human computer interaction."
+-
   id: 21
   name: "Dave Smith"
   rockstar: true
+  gde: false
   thumbnailUrl: "../img/people/dave_smith.jpg"
   company: "Google"
   companyUrl: "img/partners/google-logo.svg"
@@ -279,6 +318,7 @@
 -
   id: 17
   name: "Mike Traverso"
+  gde: false
   rockstar: false
   thumbnailUrl: "../img/people/mike_traverso.jpg"
   company: "Traversoft Software"
@@ -293,6 +333,7 @@
 -
   id: 2
   name: "Connor Tumbleson"
+  gde: false
   rockstar: false
   thumbnailUrl: "../img/people/connor_tumbleson.jpg"
   company: "Sourcetoad"
@@ -307,6 +348,7 @@
 -
   id: 18
   name: "Julien Vehent"
+  gde: false
   rockstar: true
   thumbnailUrl: "../img/people/julien_vehent.jpg"
   company: "Mozilla"
@@ -320,6 +362,7 @@
 -
   id: 7
   name: "Kesha Williams"
+  gde: false
   rockstar: false
   thumbnailUrl: "../img/people/kesha_williams.jpg"
   company: "Chick-fil-A"
@@ -333,6 +376,7 @@
 -
   id: 27
   name: "Scott Thisse"
+  gde: false
   rockstar: false
   thumbnailUrl: "../img/people/scott_thisse.jpg"
   company: "Centripetal Fusion LLC"
@@ -345,6 +389,7 @@
 -
   id: 28
   name: "Phil Palmieri"
+  gde: false
   rockstar: false
   thumbnailUrl: "../img/people/phillip_palmieri.jpg"
   company: "Partnercomm"
