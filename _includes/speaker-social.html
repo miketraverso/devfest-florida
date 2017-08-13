@@ -1,5 +1,5 @@
 {% for social in speaker.social %}
-  <a id="social-icon" class="android-link social-icon mdl-button mdl-js-button mdl-typography--text-uppercase" href="{{ social.link }}">
+  <a id="social-icon" class="android-link social-icon mdl-button mdl-js-button mdl-typography--text-uppercase" href="{{ social.link }}" target="_blank">
     {% if social.name == "googleplus" %}
       <i class="fa fa-google-plus" aria-hidden="true"></i>
     {% elsif social.name == "github" %}
