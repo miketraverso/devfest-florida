@@ -1,0 +1,20 @@
+---
+layout: post
+title:  "Why attend a conference?"
+date:   2017-08-15 9:30:47 -0400
+categories: blog
+img: 'img/album/5.jpg'
+---
+![Going to a conference is a great way to build relationships]({{ site.baseurl }}/img/album/5.jpg){: .img-responsive .center-block }
+
+If you haven't seen our speaker lineup yet you should [check it out](/../../../../speakers/). If you have, then you know we curated a LOT of great talks by some talented folks from the local community and from around the world. Topics ranging from animation on the web to getting started with either IoT or Machine Learning, to the new architecture components in Android.
+
+Meeting people. That's the biggest reason you go to a conference in the first place. Finding someone else that's either solved a problem that you're facing or maybe meeting someone that is an expert in the field that you are thinking on embarking in are only going to happen at a conference. Use a talk as a jumping off point to start a conversation with someone you're sitting next to while you're waiting for the next talk to start or while in line to get lunch. We can promise that you'll NEVER build those relationships in the comments of a YouTube video or on StackOverflow.
+
+Expanding your professional network at a conference is great for your career as a developer. Being able to ask a speaker a question after a talk, or discussing a talk at lunch or in the hallway on a break with someone you've just met are opportunities you'll typically not get often. And almost never for a $100 early bird ticket or $125 the price for an ticket after September 1st.
+
+Take advantage of this conference being in your backyard OR being so close to Disney World that you convince the rest of your family to take a vacation for a few days. A ticket gets you access to all the talks, swag, chances to win prizes, lunch & snacks. More importantly, a ticket gets you access to speak to lots of new folks, opportunities for connections and a really great time broadening your knowledge.
+
+You may say 'I'll just wait months for the videos to be publicly posted'. That's your prerogative and that's fine. Know this though. If you have a kickass conference in your neighborhood and don't support it then you're doing the local tech community a disservice.
+
+Any questions? Email the organizers at [organizers@devfestflorida.org](mailto:organizers@devfestflorida.org).
