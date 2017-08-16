@@ -18,10 +18,17 @@
 
   <div class="site-section-title logo-font dff-font section-header">Featured Speakers</div>
   <div class="site-card-container mdl-grid">
-    <div class="mdl-cell mdl-cell--1-col mdl-cell--hide-phone"></div>
+
+    {% assign count = 0 %}
     {% for speaker in site.data.speakers limit:30 %}
-      {% assign postUrl = site.baseurl | append: post.url %}
-      {% if speaker.rockstar == true %}
+      {% if speaker.rockstar == true or speaker.gde == true %}
+
+        {% if count == 6 %}
+          <!-- <p>{{ count }}</p> -->
+          <div class="mdl-cell mdl-cell--2-col mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
+        {% endif %}
+
+      {% assign count = count | plus: 1 %}
       <div class="mdl-cell mdl-cell--2-col mdl-cell--2-col-tablet mdl-cell--12-col-phone speaker-card mdl-card center-align-items">
         <a data-toggle="modal" data-target="#speakerDetail-{{ speaker.id }}" >
           <img src="{{ speaker.thumbnailUrl }}" alt="" class="img-circle"/>
@@ -34,7 +41,7 @@
     {% endfor %}
   </div>
 
-  <div class="site-section-title logo-font dff-font section-header">Google Developer Experts</div>
+  <!-- <div class="site-section-title logo-font dff-font section-header">Google Developer Experts</div>
   <div class="site-card-container mdl-grid">
     <div class="mdl-cell mdl-cell--1-col mdl-cell--hide-phone"></div>
     {% for speaker in site.data.speakers limit:30 %}
@@ -50,7 +57,7 @@
       </div>
       {% endif %}
     {% endfor %}
-  </div>
+  </div> -->
 
   <div class="centered-div">
     <a class="site-link mdl-button mdl-js-button mdl-typography--text-uppercase" href="{{ site.baseurl }}/speakers/">View All Speakers</a>
