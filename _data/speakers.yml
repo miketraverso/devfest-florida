@@ -60,21 +60,6 @@
   shortBio: "Annyce is an Android Google Developer Expert. She has spent the past 6 years developing applications for the Android ecosystem across multiple form factors. She is an international conference speaker/author, sharing her knowledge of Android development with others."
   bio: "Annyce is an Android Google Developer Expert. She has spent the past 6 years developing applications for the Android ecosystem across multiple form factors. She is also a international conference speaker and author, sharing her knowledge of Android development with others. In addition, Annyce is active in the Washington, DC tech scene and helps run a local meetup focused on Android development and design."
 -
-  id: 30
-  name: "Joey deVilla"
-  rockstar: false
-  gde: false
-  thumbnailUrl: "../img/people/joey_devilla.jpg"
-  company: "Sourcetoad"
-  companyUrl: "img/partners/sourcetoad.svg"
-  social:
-    - {name: "twitter", link: "https://twitter.com/namrataCodes"}
-    - {name: "linkedin", link: "https://www.linkedin.com/in/joeydevilla"}
-    - {name: "blog", link: "http://globalnerdy.com"}
-  complexity: "Beginner"
-  shortBio: "Joey deVilla is the Lead Product Manager at Sourcetoad, a development shop in Tampa, and an author on the Android Team at the tutorial site RayWenderlich.com. In former lives, he’s been a platform evangelist at SMARTRAC, GSG Telco, and Shopify."
-  bio: "Joey deVilla is the Lead Product Manager at Sourcetoad, a development shop in Tampa, and an author on the Android Team at the tutorial site RayWenderlich.com. In former lives, he’s been a platform evangelist at SMARTRAC, GSG Telco, and Shopify. He was also at Microsoft, where he was a Windows Phone Champ, and tried in vain to make Windows Phone happen. In his spare time, Joey wreaks havoc on karaoke bars with his rock and roll accordion performances."
--
   id: 20
   name: "Sam Edwards"
   rockstar: false
@@ -235,7 +220,7 @@
   id: 4
   name: "Jenell Pizarro"
   gde: false
-  rockstar: false
+  rockstar: true
   thumbnailUrl: "../img/people/jenell_pizarro.jpg"
   company: "Skillcrush // Web Benefits Design"
   social:
@@ -300,7 +285,7 @@
   social:
     - {name: "twitter", link: "https://twitter.com/MichaelRosario"}
   complexity: "Beginner"
-  shortBio: "Michael is an experienced software developer, Scrum master, technologist and blogger. As a principle software engineer at Mercer Engineering Research center, Michael performed a study of the Microsoft HoloLens and various Android eye wear to help enable remote collaboration in aircraft maintenance environments. On InnovativeTeams.NET, he enjoys sharing stories on growing cultures of innovation, Agile leadership, constructivist learning, makers movement, and human computer interaction."
+  shortBio: "Michael is an experienced software developer, Scrum master, technologist and blogger. As a principle software engineer at Mercer Engineering Research center, Michael performed a study of the Microsoft HoloLens and various Android eye wear to help enable remote collaboration in aircraft maintenance environments."
   bio: "Michael is an experienced software developer, Scrum master, technologist and blogger. As a principle software engineer at Mercer Engineering Research center, Michael performed a study of the Microsoft HoloLens and various Android eye wear to help enable remote collaboration in aircraft maintenance environments. On InnovativeTeams.NET, he enjoys sharing stories on growing cultures of innovation, Agile leadership, constructivist learning, makers movement, and human computer interaction."
 -
   id: 21
@@ -373,29 +358,3 @@
   complexity: "Beginner"
   shortBio: "Kesha Williams is a software engineer with over 20 years۪ experience specializing in web application development. In addition to being a software engineer with Chick-fil-A, she trains and mentors thousands of software developers in the US, Europe, and Asia while teaching at the University of California."
   bio: "Kesha Williams is a software engineer with over 20 years۪ experience specializing in web application development. In addition to being a software engineer with Chick-fil-A, she trains and mentors thousands of software developers in the US, Europe, and Asia while teaching at the University of California.  She's authored courses on Java, Machine Learning (ML), Artificial Intelligence (AI), and Augmented Reality (AR).  She most recently won the Think Different Innovation Award from Chick-fil-A for her work on investigating how emerging technologies like Artificial Intelligence (AI), Augmented Reality (AR), Computer Vision/Facial Recognition, and the Internet of Things (IOT) can enhance restaurant operations and customer experiences.  She has worked for companies like Delta Air Lines, McKesson Information Systems, and Keane Federal Systems (U.S. Air Force), serving in various technical lead and software development roles. She did her summer internship with the National Security Agency (NSA); how cool is that? In her spare time, she leads the Georgia chapter of Technovation, serves as a mentor with the New York Academy of Sciences, and conducts free Hour of Code sessions for children at her local library."
--
-  id: 27
-  name: "Scott Thisse"
-  gde: false
-  rockstar: false
-  thumbnailUrl: "../img/people/scott_thisse.jpg"
-  company: "Centripetal Fusion LLC"
-  social:
-    - {name: "linkedin", link: "https://linkedin.com/in/scottthisse"}
-    - {name: "googleplus", link: "https://google.com/+ScottThisse"}
-  complexity: "Intermediate"
-  shortBio: "Scott is the founder and lead organizer of the six-year-old Tampa Bay Android Developers Group and a co-organizer for the SunCoast Google Developers group. He's a regular speaker/trainer at those groups' meetups and also does paid Android development training.\n\nAfter many years doing development and technical management for government and large enterprise shops, he now has much more fun specializing in developing Android apps for start-ups and other small clients."
-  bio: "Scott is the founder and lead organizer of the six-year-old Tampa Bay Android Developers Group and a co-organizer for the SunCoast Google Developers group. He's a regular speaker/trainer at those groups' meetups and also does paid Android development training.\n\nScott first started professional Android development a little more than 5 years ago. After many years doing development and technical management for government and large enterprise shops, he now has much more fun specializing in developing Android apps for start-ups and other small clients.\n\nFor fun, Scott likes spending time with his family, especially doing technical stuff with his self-described geek son. Another of his favorite activities is teaching a monthly science class for a group of homeschool families."
--
-  id: 28
-  name: "Phil Palmieri"
-  gde: false
-  rockstar: false
-  thumbnailUrl: "../img/people/phillip_palmieri.jpg"
-  company: "Partnercomm"
-  social:
-    - {name: "twitter", link: "https://twitter.com/philpalmieri"}
-    - {name: "blog", link: "http://ppalmieri.com"}
-  complexity: "Intermediate"
-  shortBio: "Phil is a senior dev working at a full service agency.  His background was in PHP, but he has seen the light and now focuses on Angular, NativeScript, and Node.js."
-  bio: "Phil is a senior dev working at a full service agency.  His background was in PHP, but he has seen the light and now focuses on Angular, NativeScript, and Node.js."

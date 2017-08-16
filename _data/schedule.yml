@@ -4,7 +4,7 @@
   tracks:
     - {title: "Android", color: "#90be4e"}
     - {title: "Web & Cloud", color: "#03a9f4"}
-    - {title: "Community", color: "#e91e63"}
+    - {title: "New Hotness 🔥", color: "#ff3300"}
   timeslots:
     - {
     	startTime: "08:00",
@@ -29,7 +29,7 @@
     - {
     	startTime: "11:30",
     	endTime: "12:30",
-    	sessionIds: [9, 22, 14]
+    	sessionIds: [9, 8, 14]
     }
     - {
     	startTime: "12:30",
@@ -49,7 +49,7 @@
     - {
       startTime: "3:00",
       endTime: "4:00",
-      sessionIds: [23, 8, 7]
+      sessionIds: [23, 22, 7]
     }
     - {
       startTime: "4:00",

@@ -160,7 +160,7 @@
   id:  21
   speakers: [21]
   title:  "Bootstrapping IoT Products with Google"
-  description:  "Building embedded products for IoT requires a wide range of disciplines and often includes infrastructure and process that may seem out of reach for companies developing products for the long tail of the market. Android Things is focused on enabling Android developers to leverage existing skills, while also providing the hardware support and cloud infrastructure necessary to move from prototype to sustainable production. In this session, we will discuss how to get started with Android Things development and build apps that integrate with Google��s cloud offerings for enterprise IoT and the smart home."
+  description:  "Building embedded products for IoT requires a wide range of disciplines and often includes infrastructure and process that may seem out of reach for companies developing products for the long tail of the market. Android Things is focused on enabling Android developers to leverage existing skills, while also providing the hardware support and cloud infrastructure necessary to move from prototype to sustainable production. In this session, we will discuss how to get started with Android Things development and build apps that integrate with Google's cloud offerings for enterprise IoT and the smart home."
   complexity:  "Intermediate"
   bio:  "Dave is a Developer Advocate at Google, focused on IoT and the Android Things platform. Over the past decade, he has worked with low power M2M systems and wireless radio links, as well as custom applications and system components to run Android on embedded platforms. He has a passion for finding opportunities to make devices, and developers, smarter."
 -
