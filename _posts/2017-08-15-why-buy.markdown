@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Why attend a conference?"
-date:   2017-08-15 9:30:47 -0400
+date:   2017-08-14 12:00:00 -0500
 categories: blog
 img: 'img/album/5.jpg'
 ---
