@@ -94,10 +94,17 @@
   complexity:  "Beginner"
   bio:  "John is an Android Developer that enjoys hackathons, organizing talks, and working on side projects that solves problems that already have been solved years ago.  He co-organizes the Central Florida Android Developers Meetup and attends local tech events in Orlando.  He probably follows more animal celebrities than people on Instagram."
 -
+  id:  29
+  speakers: [29]
+  title:  "Angular in the Cloud: When it's time to get MEAN"
+  description:  "We can build amazing apps with Angular and Node.js. But we can level-up our skills by using great tools like VS Code and Azure services. We'll demonstrate how to create an app with the MEAN.js stack, build it with the Angular CLI, deploy it with CI/CD and host it in the cloud. You'll walk out know how to deploy your apps to the cloud with confidence and consistency"
+  complexity:  "Intermediate"
+  bio:  "John Papa is a Principal Developer Advocate with Microsoft and an alumni of the Google Developer Expert, Microsoft Regional Director, and MVP programs. He's passionate about Web and mobile technologies and often enjoys speaking around the world at keynotes and sessions for conferences including NgConf, Build, Ignite, VSLive and AngleBrackets. John is a co-host of the popular Adventures in Angular podcast, author of the Angular Style Guide, several books, and many popular Pluralsight courses."
+-
   id:  19
   speakers: [19]
   title:  "Production vs Staging in Life"
-  description:  "Maybe your current production build (job) is stable and predictable but that's not very exciting. Use your spare time and weekends to run your staging environments. Maybe this is your side projects or content on your YouTube channel. It's the thing that you're testing and building on the side in a safe zone to eventually deploy it as your production build."
+  description:  "Sometimes your current production build (job/life) is stable and predictable. That's good but not very exciting. You want to be part of something that you're passionate about and truly enjoy! Use your spare time and weekends to run staging environments (side projects). Maybe this is building an innovative product or an open source project that you're particularly passionate about. It's the thing that you're testing and building on the side in a safe place to eventually deploy it as your production build. Many awesome opportunities and connections are created through side projects. Let's talk about ways to successfully build this staging environment in your life so when your ready we can deploy this side project to production!"
   complexity:  "Beginner"
   bio:  "Brandy is a developer, designer, and doer, that could out hustle Jay-Z. She is a full stack developer, with an enthusiasm for application development and learning the latest technologies. If she isn't coding or creating content you can find her running laps around the beautiful lakes of Winter Park, FL or sipping lattes at the local coffee shops."
 -
