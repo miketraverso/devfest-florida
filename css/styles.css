@@ -1732,6 +1732,13 @@ a img {
       text-align: center
   }
 }
+/* Portrait */
+@media screen and (min-width: 320px) and (max-width: 770px) {
+    .post-content {
+        padding: 80px 16px;
+    }
+}
+
 @media screen and (min-width: 770px) and (max-width: 990px) {
     .plan .mediafix h3 {
         font-size: 55px !important;
