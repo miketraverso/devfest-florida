@@ -77,7 +77,7 @@
 -
   id: 23
   name: "Victoria Gonda"
-  rockstar: false
+  rockstar: true
   gde: false
   thumbnailUrl: "../img/people/victoria_gonda.jpg"
   company: "Collective Idea"
@@ -189,6 +189,21 @@
   complexity: "Intermediate"
   shortBio: "Nitya is a software architect and polyglot with ~20 years of industry experience in research, development and startup contexts. She is a PhD, an innovator (11 patents, 20+ filings), an educator and a community organizer (GDG NYC & GDG Hudson Valley)."
   bio: "Nitya is a software architect and polyglot with ~20 years of industry experience in research, development and startup contexts. She is a PhD, an innovator (11 patents, 20+ filings), an educator and a community organizer (GDG NYC & GDG Hudson Valley). She helps architect and build mobile web solutions for early stage startups, runs study camps for workforce retraining & plans to launch her first voice product this fall. She is a frequent tech conference speaker but is happiest talking to kids about science, coding, curiosity and self-confidence."
+-
+  id: 29
+  name: "John Papa"
+  rockstar: true
+  gde: false
+  thumbnailUrl: "../img/people/john_papa.png"
+  company: "Microsoft"
+  companyUrl: "img/companies/microsoft.png"
+  social:
+    - {name: "twitter", link: "https://twitter.com/john_papa"}
+    - {name: "github", link: "https://gist.github.com/johnpapa"}
+    - {name: "blog", link: "http://johnpapa.net"}
+  complexity: "Intermediate"
+  shortBio: "John Papa is dedicated a father and husband, a Principal Developer Advocate with Microsoft, and an alumni of the Google Developer Expert, Microsoft RD and MVP programs. His passions are deploying and teaching modern web technologies, and enjoying everything Disney with his family. John is a co-host of the popular Adventures in Angular podcast, author of the Angular Style Guide, and many popular Pluralsight courses."
+  bio: "John Papa is a Principal Developer Advocate with Microsoft and an alumni of the Google Developer Expert, Microsoft Regional Director, and MVP programs. He's passionate about Web and mobile technologies and often enjoys speaking around the world at keynotes and sessions for conferences including NgConf, Build, Ignite, VSLive and AngleBrackets. John is a co-host of the popular Adventures in Angular podcast, author of the Angular Style Guide, several books, and many popular Pluralsight courses.\n\nYou can reach me at johnpapa.net or on twitter at @john_papa."
 -
   id: 16
   name: "Sandra Persing"

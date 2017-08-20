@@ -19,16 +19,8 @@
   <div class="site-section-title logo-font dff-font section-header">Featured Speakers</div>
   <div class="site-card-container mdl-grid">
 
-    {% assign count = 0 %}
     {% for speaker in site.data.speakers limit:30 %}
       {% if speaker.rockstar == true or speaker.gde == true %}
-
-        {% if count == 6 %}
-          <!-- <p>{{ count }}</p> -->
-          <div class="mdl-cell mdl-cell--2-col mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
-        {% endif %}
-
-      {% assign count = count | plus: 1 %}
       <div class="mdl-cell mdl-cell--2-col mdl-cell--2-col-tablet mdl-cell--12-col-phone speaker-card mdl-card center-align-items">
         <a data-toggle="modal" data-target="#speakerDetail-{{ speaker.id }}" >
           <img src="{{ speaker.thumbnailUrl }}" alt="" class="img-circle"/>
