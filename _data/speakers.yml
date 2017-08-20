@@ -284,8 +284,11 @@
   gde: false
   thumbnailUrl: "../img/people/john_riviello.jpg"
   company: "Comcast"
+  companyUrl: "img/companies/comcast.svg"
   social:
     - {name: "twitter", link: "https://twitter.com/JohnRiv"}
+    - {name: "linkedin", link: "http://www.linkedin.com/in/johnriviello"}
+    - {name: "github", link: "https://github.com/JohnRiv"}
   complexity: "Intermediate"
   shortBio: "John Riviello is a Distinguished Engineer and Lead Frontend Developer at Comcast where he works on the XFINITY customer websites and web applications. He is also the author of the Lynda.com course \"CSS to Sass.\" In his free time, he prefers surfing waves over surfing the internet."
   bio: "John Riviello is a Distinguished Engineer and Lead Frontend Developer at Comcast where he works on the XFINITY customer websites and web applications. He is also the author of the Lynda.com course \"CSS to Sass.\" In his free time, he prefers surfing waves over surfing the internet."
