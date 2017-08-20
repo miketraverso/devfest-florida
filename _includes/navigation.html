@@ -12,7 +12,7 @@
               <a class="mdl-navigation__link mdl-typography--text-uppercase" href="{% if navigationLink.permalink != null %} {{ navigationLink.permalink | prepend: site.baseurl }} {% else %} {{ navigationLink.link }} {% endif %}" {% if navigationLink.link != null %}target="_blank"{% endif %}>{{ navigationLink.text}}</a>
             {% endif %}
           {% endfor %}
-          <a class="green-button mdl-button mdl-js-button mdl-typography--text-uppercase" href="https://devfestflorida.eventbrite.com">Buy ticket</a>
+          <a class="buyticket-button mdl-button mdl-js-button mdl-typography--text-uppercase" href="https://devfestflorida.eventbrite.com" target="_blank">Buy ticket</a>
         </nav>
       </div>
       <span class="site-mobile-title mdl-layout-title">
