@@ -13,7 +13,7 @@
 -
   group: "Gold sponsors"
   elements:
-  - {name: "SourceToad", description: "SourceToad", link: "http://www.sourcetoad.com/", imageUrl: "sourcetoad.svg"}
+  - {name: "SourceToad", description: "SourceToad", link: "http://www.sourcetoad.com/", imageUrl: "sourcetoad.svg", width: "80%"}
 -
   group: "Silver sponsors"
   elements:
@@ -33,6 +33,7 @@
   elements:
   - {name: "Traversoft", description: "Traversoft Software", link: "https://www.traversoft.com/blog/", imageUrl: "traversoft-fish.png", width: "60%"}
   - {name: "JetBrains", description: "JetBrains", link: "https://www.jetbrains.com/", imageUrl: "jetbrains.png", width: "60%"}
+  - {name: "Realm", description: "Realm", link: "https://www.realm.io/", imageUrl: "../companies/realm.svg", width: "80%"}
   - {name: "Sticker Mule", description: "Sticker Mule", link: "https://www.stickermule.com/uses/laptop-stickers/", imageUrl: "stickermule.svg", width: "80%"}
   - {name: "Big Nerd Ranch", description: "Big Nerd Ranch", link: "https://www.bignerdranch.com/books/", imageUrl: "../companies/bnr-logo.png", width: "80%"}
 -
