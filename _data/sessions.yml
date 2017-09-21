@@ -47,8 +47,16 @@
 -
   id:  5
   speakers: [5]
-  title:  "First, Do No Harm"
-  description:  "Developing Android applications is a powerful way to connect people with the information they need the most. Apps are for living your life: daily commutes, traveling abroad, handling your money, communicating with family, and much more! This places the responsibility of engineering top-notch software squarely in the laps of us developers. Unlike doctors, we were not required to take an oath or pledge when becoming Android Developers. However, we can still learn much from the principles behind the phrase, \"First, do no harm\". In this talk, we will discuss over a dozen tools that are at your disposal as a developer which can enable you to provide high quality applications to your users. Thus allowing you to first, do no harm!"
+  title:  "RxJava in Baby Steps"
+  description: "Reactive Programming with RxJava has widely been adopted by both backend services and Android applications alike. Yet, the steep learning curve leaves many developers hesitant about adding it to their own Software tool belt. I was one such developer. Over the past two years, I’ve watched countless videos, read numerous blog posts and attended several conference talks on the subject. Yet, I often left each experience feeling only slightly more knowledgeable, but not quite empowered to start using RxJava in my apps. That’s not going to happen today!
+  <br/><br/>
+  In this talk, we’re going to cover the bare minimum concepts you need to grok, in order to start using RxJava today. In particular, we’re going to focus on:<br/><br/>
+    * The 3 O’s: Observable, Observer and Operator<br/>
+    * The most common Operators: map(), flatMap(), and filter()<br/>
+    * Understanding those Marble Diagrams<br/>
+    * How Kotlin helps to simplify the code
+  <br/><br/>
+  Reactive Programming is not going away any time soon. It’s a powerful way to create asynchronous, event-based applications. It allows developers the ability to craft applications that can easily combine multiple network calls, gracefully handle failures, all while providing a snappy user experience. I want everyone to feel comfortable with the basic concepts of RxJava. Today can be your first step..."
   complexity:  "Intermediate"
   bio:  "Annyce is an Android Google Developer Expert. She has spent the past 6 years developing applications for the Android ecosystem across multiple form factors. She is also a international conference speaker and author, sharing her knowledge of Android development with others. In addition, Annyce is active in the Washington, DC tech scene and assists with running a local meetup focused on Android development and design."
 -
