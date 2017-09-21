@@ -14,14 +14,22 @@
   group: "Gold sponsors"
   elements:
   - {name: "SourceToad", description: "SourceToad", link: "http://www.sourcetoad.com/", imageUrl: "sourcetoad.svg", width: "80%"}
+  - {name: "Chewy", description: "Chewy", link: "https://www.chewy.com/", imageUrl: "chewy.svg"}
+  # - {name: "TEKsystems", description: "TEKsystems", link: "https://www.TEKsystems.com/", imageUrl: "TEKsystems.png", width: "120%"}
 -
   group: "Silver sponsors"
   elements:
   - {name: "Mozilla", description: "Mozilla", link: "http://www.mozilla.org/", imageUrl: "mozilla.svg"}
+  - {name: "Google Actions", description: "Google Actions", link: "https://developers.google.com/actions", imageUrl: "google_actions.svg" }
+  - {name: "SlidesLive", description: "SlidesLive", link: "http://www.slideslive.com/", imageUrl: "slideslive.svg"}
+  - {name: "Capgemini", description: "Capgemini", link: "https://www.capgemini.com/", imageUrl: "capgemini.svg" }
 -
   group: "Copper sponsors"
   elements:
   - {name: "Black Girls Code", description: "Black Girls Code", link: "http://www.blackgirlscode.com/", imageUrl: "blackgirlscode.svg"}
+  - {name: "Haneke Design", description: "Haneke Design", link: "http://www.hanekedesign.com/", imageUrl: "haneke-design.svg", width: "55%"}
+  - {name: "DevIntent", description: "DevIntent", link: "https://www.devintent.com/", imageUrl: "devintent.svg", width: "85%"}
+  - {name: "Kapp & Kappy", description: "Kapp and Kappy Bed & Breakfast", link: "http://www.kappandkappy.com/", imageUrl: "kappandkappy.svg", width: "45%"}
 -
   group: "Speaker sponsors"
   elements:
