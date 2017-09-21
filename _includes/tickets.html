@@ -12,8 +12,13 @@
                   <div class="pricing-ribbon">{{ ticketsOffer.ribbon }}</div>
                 {% endif %}
                 <div class="pricing-header">
-                  <p class="title">{{ ticketsOffer.name }}</p>
-                  <p class="price"><span class="currency">{{ ticketsOffer.priceCurrency }} </span>{{ ticketsOffer.price }}</p>
+                  {% if ticketsOffer.disabled != true %}
+                    <p class="title">{{ ticketsOffer.name }}</p>
+                    <p class="price"><span class="currency">{{ ticketsOffer.priceCurrency }} </span>{{ ticketsOffer.price }}</p>
+                  {% else %}
+                    <p class="title disabled">{{ ticketsOffer.name }}</p>
+                    <p class="price disabled-button"><span class="currency">{{ ticketsOffer.priceCurrency }} </span>{{ ticketsOffer.price }}</p>
+                  {% endif %}
                 </div>
                 <div class="pricing-content">
                   <ul>
@@ -25,9 +30,14 @@
                     <span class="button disabled" style="margin-top:10px;">{{ ticketsOffer.soldOutText }}</span>
                   {% elsif ticketsOffer.disabled != true %}
                     <a class="button" href="{{ ticketsOffer.buyButtonLink }}" target="_blank">{{ ticketsOffer.buyButtonText }}</a>
+                  {% elsif ticketsOffer.ended == true %}
+                    {% assign ticketvalidThrough = ticketsOffer.validThrough | split: "T" %}
+                    <span class="button fallback"  style="margin-top:10px; background:gray;">
+                      Sales ended on<br>{{ ticketvalidThrough[0] | date: "%-d %B %Y"}}
+                    </span>
                   {% else %}
                     {% assign ticketValidFrom = ticketsOffer.validFrom | split: "T" %}
-                    <span class="button disabled fallback"  style="margin-top:10px;">
+                    <span class="button fallback"  style="margin-top:10px;">
                       Sales begin on<br>{{ ticketValidFrom[0] | date: "%-d %B %Y"}}
                     </span>
                   {% endif %}

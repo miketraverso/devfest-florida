@@ -5,31 +5,31 @@ ticketTypes:
   name: "Early bird Ticket"
   price: "$100"
   ticketsNumber: "50"
-  ribbon: "-17%"
-  featured: true
   buyButtonLink: "https://devfestflorida.eventbrite.com/"
   buyButtonText: "Buy Now"
-  ticketContentList: ["Early bird discount", "Full day of talks", "Codelabs", "Lunch", "Swag & Prizes"]
+  ticketContentList: ["Early bird discount", "Full day of talks", "Lunch & snacks", "Swag & Prizes"]
   validFrom: "2017-05-30T00:00"
   validThrough: "2017-09-01T00:00"
-  disabled: false
+  disabled: true
+  ended: true
 -
   name: "Regular Ticket"
   price: "$125"
+  featured: true
   ticketsNumber: "100"
   buyButtonLink: "https://devfestflorida.eventbrite.com/"
   buyButtonText: "Buy Now"
-  ticketContentList: ["Regular ticket price", "Full day of talks", "Codelabs", "Lunch", "Swag & Prizes"]
+  ticketContentList: ["Regular ticket price", "Full day of talks", "Lunch & snacks", "Swag & Prizes"]
   validFrom: "2017-09-01T00:00"
   validThrough: "2017-10-11T00:00"
-  disabled: true
+  disabled: false
 -
  name: "Last minute Ticket"
  price: "$150"
  ticketsNumber: "25"
  buyButtonLink: "https://devfestflorida.eventbrite.com/"
  buyButtonText: "Buy Now"
- ticketContentList: ["Regular ticket price", "Full day of talks", "Codelabs", "Lunch", "Swag & Prizes"]
+ ticketContentList: ["Regular ticket price", "Full day of talks", "Lunch & snacks", "Swag & Prizes"]
  validFrom: "2017-10-11T00:00"
  validThrough: "2017-11-02T11:59"
  disabled: true

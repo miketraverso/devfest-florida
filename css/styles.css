@@ -87,8 +87,13 @@ a, .anchor-like, .markdown-html a {
 }
 
 
+.disabled {
+  color: gray;
+}
 
-
+.disabled-background {
+  background: gray;
+}
 body {
     margin: 0;
 }
@@ -894,7 +899,7 @@ a img {
     padding: 26px 0;
     font-size: 65px;
     font-weight: 100;
-    color: #000
+    color: lightgray;
 }
 .pricing-col .currency {
     font-size: 32px
