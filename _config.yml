@@ -15,7 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 title: DevFest Florida
 email: organizers@devfestflorida.org
-description: "DevFest Florida is the first combined DevFest being organized by three Google Developer Groups in the central Florida area: Space Coast, Central Florida, and Sun Coast."
+description: "DevFest Florida is the first combined DevFest being organized by three Google Developer Groups in the central Florida area: Space Coast, Central Florida, and Tampa Bay."
 keywords: "event, gdg, gde, devfest, google, programming, android, chrome, polymer, developers, web, cloud, androiddev, ai, machinelearning, tensorflow, webassembly, web"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://devfestflorida.org" # the base hostname & protocol for your site, e.g. http://example.com
@@ -34,6 +34,6 @@ navigationLinks:
  - {permalink: "/", text: "Home"}
  - {permalink: "/blog/", text: "Blog"}
  - {permalink: "/sponsors/", text: "Sponsor"}
- # - {permalink: "/schedule/", text: "Schedule"}
+ - {permalink: "/schedule/", text: "Schedule"}
  - {permalink: "/speakers/", text: "Speakers"}
  - {permalink: "/organizers/", text: "Organizers"}

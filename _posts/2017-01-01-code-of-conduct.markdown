@@ -6,7 +6,7 @@ categories: blog
 img: 'img/posts/code-of-conduct.jpg'
 ---
 
-GDG Sun Coast, GDG Central Florida, and GDG Space Coast are chapters of the larger Google Developer community, as such we follow and
+GDG Tampa Bay, GDG Central Florida, and GDG Space Coast are chapters of the larger Google Developer community, as such we follow and
 enforce the <a href="https://developers.google.com/groups/guidelines/">GOOGLE DEVELOPER COMMUNITY GUIDELINES</a>. We, the group organizers
 and/or event organizers, reserve the right to take any action that we see fit against any person or persons that are found to be in breach
 of these guidelines including; issuing a warning (verbal or written), asking the offending person or persons to leave the event, or

@@ -1,7 +1,7 @@
 -
   group: "Organizers"
   elements:
-    - {name: "GDG Sun Coast", description: "GDG Sun Coast", link: "https://www.meetup.com/gdgsuncoast/", imageUrl: "sun.svg"}
+    - {name: "GDG Tampa Bay", description: "GDG Tampa Bay", link: "https://www.meetup.com/gdgtampabay/", imageUrl: "gdgtampabay.svg"}
     - {name: "GDG Central Florida", description: "GDG Central Florida", link: "https://www.meetup.com/GDG-Central-Florida/", imageUrl: "central.svg"}
     - {name: "GDG Space Coast", description: "GDG Space Coast", link: "http://www.gdgspacecoast.org/", imageUrl: "space.svg"}
 -
