@@ -44,12 +44,12 @@
     - {
       startTime: "2:00",
       endTime: "3:00",
-      sessionIds: [15, 24, 13]
+      sessionIds: [5, 24, 13]
     }
     - {
       startTime: "3:00",
       endTime: "4:00",
-      sessionIds: [5, 22, 7]
+      sessionIds: [15, 22, 7]
     }
     - {
       startTime: "4:00",
