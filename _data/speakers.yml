@@ -185,7 +185,7 @@
   companyUrl: "img/companies/logo-gdgnyc.png"
   social:
     - {name: "twitter", link: "https://twitter.com/nitya"}
-    - {name: "blog", link: "https://medium.com/nitya"}
+    - {name: "blog", link: "https://medium.com/@nitya"}
   complexity: "Intermediate"
   shortBio: "Nitya is a software architect and polyglot with ~20 years of industry experience in research, development and startup contexts. She is a PhD, an innovator (11 patents, 20+ filings), an educator and a community organizer (GDG NYC & GDG Hudson Valley)."
   bio: "Nitya is a software architect and polyglot with ~20 years of industry experience in research, development and startup contexts. She is a PhD, an innovator (11 patents, 20+ filings), an educator and a community organizer (GDG NYC & GDG Hudson Valley). She helps architect and build mobile web solutions for early stage startups, runs study camps for workforce retraining & plans to launch her first voice product this fall. She is a frequent tech conference speaker but is happiest talking to kids about science, coding, curiosity and self-confidence."
