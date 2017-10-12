@@ -21,6 +21,10 @@
 .pwas { background-color: #00b4aa; color: white;}
 .cloud { background-color: #0d47a1; color: white;}
 
+.appstore {
+    height: 80px;
+    width: auto;
+}
 .sections-wrapper {
     border-top: 1px solid #BDBDBD;
 }

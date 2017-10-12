@@ -7,6 +7,8 @@ img: 'img/posts/ham-tickets.jpg'
 ---
 ![Tickets]({{ site.baseurl }}/img/posts/ham-tickets.jpg){: .img-responsive .center-block }
 
+###Update (02 Oct 2017) : We've announced our scholarship ticket recipients. ###
+
 No, we don't have Hamilton tickets. We've got something better! Tickets to DevFest Florida! 😄
 
 We want to make sure that we are serving __**ALL**__ the folks of Tampa, St. Pete, Orlando, Melbourne as well as other areas across the state. That's why we set aside some tickets for members of underrepresented groups, which includes, but is not limited to: women, people of color, LGBTQ people, disabled people, and those facing economic hardships.
