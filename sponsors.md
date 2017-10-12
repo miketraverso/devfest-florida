@@ -5,3 +5,4 @@ title: DevFest Florida Sponsorship
 ---
 
 {% include sponsors.html %}
+{% include partners.html %}
