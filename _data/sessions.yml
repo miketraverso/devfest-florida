@@ -9,6 +9,11 @@
   place: "Disney's Contemporary Resort Convention Center"
   service: true
 -
+  id: 0
+  title: ""
+  place: ""
+  service: true
+-
   id: 502
   title: "Introduction remarks"
   subtype: workshop
@@ -189,7 +194,7 @@
   id:  2
   speakers: [2]
   title:  "Attacking an Android Application"
-  description:  "Shown with the launch of Pokemon Go, applications need to prepare for all vectors of attack to stay ahead of the curve of attackers. In this talk we will look into some common methods applications take to slow attackers while at the same time looking into methods attackers use to unravel the inner workings of an application."
+  description:  "Shown with the launch of popular Android games, applications need to prepare for all vectors of attack to stay ahead of the curve of attackers. In this talk we will look into some common methods applications take to slow attackers while at the same time looking into methods attackers use to unravel the inner workings of an application. This talk will not be recorded and slides will not be made available."
   complexity:  "Intermediate"
   bio:  "Connor is a software engineer at Sourcetoad, building software that powers the cruise ship industry. In his free time, he is a big supporter of open-source projects and maintains apktool, a popular Android reverse engineering tool."
 -
@@ -221,12 +226,21 @@
   complexity:  "Beginner"
   bio: "Joey deVilla is the Lead Product Manager at Sourcetoad, a development shop in Tampa, and an author on the Android Team at the tutorial site RayWenderlich.com. In former lives, he’s been a platform evangelist at SMARTRAC, GSG Telco, and Shopify. He was also at Microsoft, where he was a Windows Phone Champ, and tried in vain to make Windows Phone happen. In his spare time, Joey wreaks havoc on karaoke bars with his rock and roll accordion performances."
 -
-  id:  31
-  speakers: [31]
-  title:  "TBD"
-  description:  "TBD."
-  complexity:  "Beginner"
-  bio: "TBD."
+  id:  27
+  speakers: [27]
+  title:  "Build a Faster UI with Constraint Layout"
+  description:  "ConstraintLayout, which was first introduced as an alpha-level feature at last year's I/O has now matured into a go-to tool for large and complex layouts. While similar to RelativeLayout, using it is much more flexible, easy, and intuitive. The resulting layouts will be flatter and perform better at run time. Even though it's the newest layout, it's compatible for use in SDK versions as far back as Android 2.3 Gingerbread (API 9).\n\nIn this session, you will learn how to:\n\t
+    * enable constraint layouts in your project\n\t* use the new Layout Editor to work with constraint layouts\n\t* convert existing layouts to constraint layouts\n\t* add new constraint layouts\n\t
+    * determine and add appropriate constraints\n\t* configure constraint properties\n\t* avoid some common pitfalls\n\nNote: No prior experience with ConstraintLayout is required, but some experience with Android development and familiarity using other Android layouts would be helpful."
+  complexity:  "Intermediate"
+  bio: "Scott is the founder and lead organizer of the six-year-old Tampa Bay Android Developers Group and a co-organizer for the SunCoast Google Developers group. He's a regular speaker/trainer at those groups' meetups and also does paid Android development training.\n\nAfter many years doing development and technical management for government and large enterprise shops, he now has much more fun specializing in developing Android apps for start-ups and other small clients."
+-
+  id:  28
+  speakers: [28]
+  title:  "Testing Your Angular App"
+  description:  "Dive into unit testing your angular app! - Explore using the angular testing tools to make sure your code is behaving... From a basic hello world to fakeSync service dependency."
+  complexity:  "Intermediate"
+  bio: "Phil is a senior dev working at a full service agency.  His background was in PHP, but he has seen the light and now focuses on Angular, NativeScript, and Node.js."
 -
   id:  32
   speakers: [32]
@@ -234,3 +248,17 @@
   description:  "In the next few years, augmented reality and virtual reality will continue to provide innovations in gaming, education and training. Other applications might include helping you tour your next vacation resort or explore a future architecture design.  Thanks to open web standards like WebVR, web developers can leverage their existing skills in JavaScript and HTML to create delightful VR experiences. During this session, we will explore  A-Frame.io, an open source project supported by Mozilla enabling you to craft VR experiences using JavaScript and a growing ecosystem of web components.  We’ll include a \"hands on\" code lab to help you start start building 3D experiences today with your Android phone and Google Cardboard."
   complexity:  "Intermediate"
   bio: "Michael is an experienced software developer, Scrum master, technologist and blogger. As a principle software engineer at Mercer Engineering Research center, Michael performed a study of the Microsoft HoloLens and various Android eye wear to help enable remote collaboration in aircraft maintenance environments.  On InnovativeTeams.NET, he enjoys sharing stories on growing cultures of innovation, Agile leadership, constructivist learning, makers movement, and human computer interaction."
+-
+  id: 40
+  speakers: [40]
+  title: "Decoupling with Google Polymer"
+  description: "Are you looking to build a cutting edge responsive web app? Instead of using heavy frameworks that take time to learn, maintain and replace, #UseThePlatform and leverage new web platform primitives to build a better web!\n\nYou'll learn how the Polymer library is fundamentally different than other frameworks. You'll get to hear how Comcast is building its next generation single page apps for millions of customers using the latest browser APIs, Redux and Polymer's building block model. Find out how Comcast simplified its server architecture and development process - making it faster to add new features and easier to maintain. You'll walk away from this talk feeling motivated and empowered to simplify your architecture."
+  complexity: "Beginner"
+  bio: "Chris has worked at Comcast for 10 years -- currently as a Senior Principal Engineer. He enjoys building/motivating teams and ramping up new projects using the latest patterns and web primitives. Besides coding in Javascript, He loves spending time with his wife and two kids and helping out in the community. Chris is also heavily involved with local colleges and schools to mentor the next generation."
+-
+  id: 41
+  speakers: [41]
+  title: "The Pillars of Good Design"
+  description: "Building the foundation and design of a website that is user friendly while being able to function on all devices."
+  complexity: "Beginner"
+  bio: "Victoria is the CEO and Founder of TAG Digital Design, her time as a web designer and front end developer span 15 years. Delivering high quality website designs, that help small and medium-sized businesses expand."

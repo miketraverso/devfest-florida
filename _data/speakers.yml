@@ -60,6 +60,36 @@
   shortBio: "Annyce is an Android Google Developer Expert. She has spent the past 6 years developing applications for the Android ecosystem across multiple form factors. She is an international conference speaker/author, sharing her knowledge of Android development with others."
   bio: "Annyce is an Android Google Developer Expert. She has spent the past 6 years developing applications for the Android ecosystem across multiple form factors. She is also a international conference speaker and author, sharing her knowledge of Android development with others. In addition, Annyce is active in the Washington, DC tech scene and helps run a local meetup focused on Android development and design."
 -
+  id: 30
+  name: "Joey deVilla"
+  rockstar: false
+  gde: false
+  thumbnailUrl: "../img/people/joey_devilla.jpg"
+  company: "Sourcetoad"
+  companyUrl: "img/partners/sourcetoad.svg"
+  social:
+    - {name: "twitter", link: "https://twitter.com/namrataCodes"}
+    - {name: "linkedin", link: "https://www.linkedin.com/in/joeydevilla"}
+    - {name: "blog", link: "http://globalnerdy.com"}
+  complexity: "Beginner"
+  shortBio: "Joey deVilla is the Lead Product Manager at Sourcetoad, a development shop in Tampa, and an author on the Android Team at the tutorial site RayWenderlich.com. In former lives, he’s been a platform evangelist at SMARTRAC, GSG Telco, and Shopify."
+  bio: "Joey deVilla is the Lead Product Manager at Sourcetoad, a development shop in Tampa, and an author on the Android Team at the tutorial site RayWenderlich.com. In former lives, he’s been a platform evangelist at SMARTRAC, GSG Telco, and Shopify. He was also at Microsoft, where he was a Windows Phone Champ, and tried in vain to make Windows Phone happen. In his spare time, Joey wreaks havoc on karaoke bars with his rock and roll accordion performances."
+-
+  id: 41
+  name: "Victoria Dieterle"
+  rockstar: false
+  gde: false
+  thumbnailUrl: "../img/people/victoria_dieterle.jpg"
+  company: ""
+  companyUrl: ""
+  social:
+    - {name: "twitter", link: "https://twitter.com/toriagold"}
+    - {name: "facebook", link: "https://www.facebook.com/TAGdigital.design"}
+    - {name: "linkedin", link: "https://www.linkedin.com/in/victoriadieterle"}
+  complexity: "Beginner"
+  shortBio: "Victoria is the CEO and Founder of TAG Digital Design, her time as a web designer and front end developer span 15 years. Delivering high quality website designs, that help small and medium-sized businesses expand."
+  bio: "Victoria is the CEO and Founder of TAG Digital Design, her time as a web designer and front end developer span 15 years. Delivering high quality website designs, that help small and medium-sized businesses expand."
+-
   id: 20
   name: "Sam Edwards"
   rockstar: false
@@ -144,6 +174,19 @@
   shortBio: "Macy Kuang is not just the producer and host of her own YouTube technology tips and tricks show - CodeToCreate, she is also the founder of Miaomiao Games.Macy became a Google Developer Expert for Wearable since 2014 and is now an IoT Pioneer."
   bio: "Macy Kuang is not just the producer and host of her own YouTube technology tips and tricks show - CodeToCreate, she is also the founder of Miaomiao Games. She is on the organizing committee for AndroidTO, the annual Android conference, and the co-organizer of the Toronto Google Developer Group. Macy became a Google Developer Expert for Wearable since 2014 and is now an IoT Pioneer. In early 2017, Macy joins the intel innovator program as an robotic, IoT and VE expert."
 -
+  id: 40
+  name: "Christopher Lorenzo"
+  rockstar: false
+  gde: false
+  thumbnailUrl: "../img/people/chris_lorenzo.jpg"
+  company: "Comcast"
+  companyUrl: "img/companies/comcast.svg"
+  social:
+    - {name: "twitter", link: "https://twitter.com/chiefcll"}
+  complexity: "Beginner"
+  shortBio: "Chris has worked at Comcast for 10 years -- currently as a Senior Principal Engineer. He enjoys building/motivating teams and ramping up new projects using the latest patterns and web primitives. Besides coding in Javascript, He loves spending time with his wife and two kids and helping out in the community. Chris is also heavily involved with local colleges and schools to mentor the next generation."
+  bio: "Chris has worked at Comcast for 10 years -- currently as a Senior Principal Engineer. He enjoys building/motivating teams and ramping up new projects using the latest patterns and web primitives. Besides coding in Javascript, He loves spending time with his wife and two kids and helping out in the community. Chris is also heavily involved with local colleges and schools to mentor the next generation."
+-
   id: 19
   name: "Brandy Morgan"
   rockstar: false
@@ -189,6 +232,19 @@
   complexity: "Intermediate"
   shortBio: "Nitya is a software architect and polyglot with ~20 years of industry experience in research, development and startup contexts. She is a PhD, an innovator (11 patents, 20+ filings), an educator and a community organizer (GDG NYC & GDG Hudson Valley)."
   bio: "Nitya is a software architect and polyglot with ~20 years of industry experience in research, development and startup contexts. She is a PhD, an innovator (11 patents, 20+ filings), an educator and a community organizer (GDG NYC & GDG Hudson Valley). She helps architect and build mobile web solutions for early stage startups, runs study camps for workforce retraining & plans to launch her first voice product this fall. She is a frequent tech conference speaker but is happiest talking to kids about science, coding, curiosity and self-confidence."
+-
+  id: 28
+  name: "Phil Palmieri"
+  gde: false
+  rockstar: false
+  thumbnailUrl: "../img/people/phillip_palmieri.jpg"
+  company: "Partnercomm"
+  social:
+    - {name: "twitter", link: "https://twitter.com/philpalmieri"}
+    - {name: "blog", link: "http://ppalmieri.com"}
+  complexity: "Intermediate"
+  shortBio: "Phil is a senior dev working at a full service agency.  His background was in PHP, but he has seen the light and now focuses on Angular, NativeScript, and Node.js."
+  bio: "Phil is a senior dev working at a full service agency.  His background was in PHP, but he has seen the light and now focuses on Angular, NativeScript, and Node.js."
 -
   id: 29
   name: "John Papa"
@@ -376,3 +432,17 @@
   complexity: "Beginner"
   shortBio: "Kesha Williams is a software engineer with over 20 years۪ experience specializing in web application development. In addition to being a software engineer with Chick-fil-A, she trains and mentors thousands of software developers in the US, Europe, and Asia while teaching at the University of California."
   bio: "Kesha Williams is a software engineer with over 20 years۪ experience specializing in web application development. In addition to being a software engineer with Chick-fil-A, she trains and mentors thousands of software developers in the US, Europe, and Asia while teaching at the University of California.  She's authored courses on Java, Machine Learning (ML), Artificial Intelligence (AI), and Augmented Reality (AR).  She most recently won the Think Different Innovation Award from Chick-fil-A for her work on investigating how emerging technologies like Artificial Intelligence (AI), Augmented Reality (AR), Computer Vision/Facial Recognition, and the Internet of Things (IOT) can enhance restaurant operations and customer experiences.  She has worked for companies like Delta Air Lines, McKesson Information Systems, and Keane Federal Systems (U.S. Air Force), serving in various technical lead and software development roles. She did her summer internship with the National Security Agency (NSA); how cool is that? In her spare time, she leads the Georgia chapter of Technovation, serves as a mentor with the New York Academy of Sciences, and conducts free Hour of Code sessions for children at her local library."
+-
+  id: 27
+  name: "Scott Thisse"
+  gde: false
+  rockstar: false
+  thumbnailUrl: "../img/people/scott_thisse.jpg"
+  company: "Centripetal Fusion LLC"
+  companyUrl: "img/companies/centripetal-fusion.png"
+  social:
+    - {name: "linkedin", link: "https://linkedin.com/in/scottthisse"}
+    - {name: "googleplus", link: "https://google.com/+ScottThisse"}
+  complexity: "Intermediate"
+  shortBio: "Scott is the founder and lead organizer of the six-year-old Tampa Bay Android Developers Group and a co-organizer for the SunCoast Google Developers group. He's a regular speaker/trainer at those groups' meetups and also does paid Android development training.\n\nAfter many years doing development and technical management for government and large enterprise shops, he now has much more fun specializing in developing Android apps for start-ups and other small clients."
+  bio: "Scott is the founder and lead organizer of the six-year-old Tampa Bay Android Developers Group and a co-organizer for the SunCoast Google Developers group. He's a regular speaker/trainer at those groups' meetups and also does paid Android development training.\n\nScott first started professional Android development a little more than 5 years ago. After many years doing development and technical management for government and large enterprise shops, he now has much more fun specializing in developing Android apps for start-ups and other small clients.\n\nFor fun, Scott likes spending time with his family, especially doing technical stuff with his self-described geek son. Another of his favorite activities is teaching a monthly science class for a group of homeschool families."
