@@ -3,26 +3,30 @@
 #   elements:
 #     - {name: "Google", description: "Google", link: "https://www.google.com.ua/intl/en/about/", imageUrl: "google.svg"}
 -
-  group: "Diamond sponsors"
+  group: "Partner sponsors"
   elements:
     - {name: "Traversoft", description: "Traversoft Software", link: "https://www.traversoft.com/", imageUrl: "traversoft.svg"}
-# -
-#   group: "Gold sponsors"
-#   elements:
-#     - {name: "Google", description: "Google", link: "https://www.google.com.ua/intl/en/about/", imageUrl: "google.svg"}
+-
+  group: "Diamond sponsors"
+  elements:
+   - {name: "Google Developers", description: "Google Developers", link: "https://developers.google.com/groups/", imageUrl: "google-developers.svg"}
 -
   group: "Gold sponsors"
   elements:
-  - {name: "SourceToad", description: "SourceToad", link: "http://www.sourcetoad.com/", imageUrl: "sourcetoad.svg", width: "80%"}
   - {name: "Chewy", description: "Chewy", link: "https://www.chewy.com/", imageUrl: "chewy.svg"}
-  - {name: "TEKsystems", description: "TEKsystems", link: "https://www.TEKsystems.com/", imageUrl: "TEKsystems.png", width: "120%"}
+  - {name: "TEKsystems", description: "TEKsystems", link: "https://www.TEKsystems.com/", imageUrl: "teksystems.svg", width: "120%"}
+  - {name: "JP Morgan Chase & Co.", description: "JP Morgan Chase & Co.", link: "https://www.jpmorganchase.com/", imageUrl: "jpmorgan.svg", width: "120%"}
+  - {name: "SourceToad", description: "SourceToad", link: "http://www.sourcetoad.com/", imageUrl: "sourcetoad.svg", width: "80%"}
 -
   group: "Silver sponsors"
   elements:
   - {name: "Mozilla", description: "Mozilla", link: "http://www.mozilla.org/", imageUrl: "mozilla.svg"}
   - {name: "Google Actions", description: "Google Actions", link: "https://developers.google.com/actions", imageUrl: "google_actions.svg" }
+  - {name: "Flutter", description: "Flutter", link: "https://www.flutter.io", imageUrl: "flutter.svg", width: "50%"}
+  - {name: "Women Techmakers", description: "Women Techmakers", link: "https://www.womentechmakers.com/", imageUrl: "wtm.svg", width: "50%"}
   - {name: "SlidesLive", description: "SlidesLive", link: "http://www.slideslive.com/", imageUrl: "slideslive.svg"}
   - {name: "Capgemini", description: "Capgemini", link: "https://www.capgemini.com/", imageUrl: "capgemini.svg" }
+  - {name: "Lucas Group", description: "Lucas Group", link: "https://www.lucasgroup.com/", imageUrl: "lucasgroup.svg" }
 -
   group: "Copper sponsors"
   elements:
