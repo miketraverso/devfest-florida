@@ -22,7 +22,7 @@
   gde: false
   thumbnailUrl: "../img/people/namrata_bandekar.jpg"
   company: "Oanda"
-  companyUrl: "img/companies/oanda.svg"
+  companyUrl: "img/partners/oanda.svg"
   social:
     - {name: "twitter", link: "https://twitter.com/namrataCodes"}
   complexity: "Intermediate"
@@ -80,8 +80,8 @@
   rockstar: false
   gde: false
   thumbnailUrl: "../img/people/victoria_dieterle.jpg"
-  company: ""
-  companyUrl: ""
+  company: "TAG Digital Design"
+  companyUrl: "img/companies/tag.svg"
   social:
     - {name: "twitter", link: "https://twitter.com/toriagold"}
     - {name: "facebook", link: "https://www.facebook.com/TAGdigital.design"}
