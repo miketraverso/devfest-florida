@@ -4,6 +4,7 @@
     - {name: "GDG Tampa Bay", description: "GDG Tampa Bay", link: "https://www.meetup.com/gdgtampabay/", imageUrl: "gdgtampabay.svg"}
     - {name: "GDG Central Florida", description: "GDG Central Florida", link: "https://www.meetup.com/GDG-Central-Florida/", imageUrl: "central.svg"}
     - {name: "GDG Space Coast", description: "GDG Space Coast", link: "http://www.gdgspacecoast.org/", imageUrl: "space.svg"}
+    - {name: "Tampa Bay Android Developers Group", description: "Tampa Bay Android Developers Group", link: "https://www.meetup.com/Tampa-Bay-Android-Developers-Group/", imageUrl: "tbadg.png"}
 -
   group: "Individuals"
   elements:
