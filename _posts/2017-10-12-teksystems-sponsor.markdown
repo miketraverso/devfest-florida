@@ -8,7 +8,7 @@ img: 'img/posts/teksystems-thumbnail.png'
 
 One of the great things about DevFest Florida is that it's made possible by the generosity of our sponsors. This year that proves to be true once more.
 
-Sourcetoad is our latest **Gold Sponsor** this year. Please help us say thank you to
+TEKsystems is our latest **Gold Sponsor** this year. Please help us say thank you to them.
 
 ![TEKsystems]({{ site.baseurl }}/img/partners/teksystems.svg){: .img-responsive .center-block }
 
@@ -21,3 +21,8 @@ TEKsystems Facebook: [https://www.facebook.com/teksystems/](https://www.facebook
 TEKsystems LinkedIn: [https://www.linkedin.com/company/2152/](https://www.linkedin.com/company/2152/)<br>
 TEKsystems Twitter: [https://twitter.com/TEKsystems](https://twitter.com/TEKsystems)<br>
 TEKsystems Instagram: [https://www.instagram.com/teksystems/](https://www.instagram.com/teksystems/)<br>
+
+<br>
+Thank you TEKsystems!
+
+<a class="big-button white mdl-button mdl-js-ripple-effect" href="/sponsors">Become a sponsor</a>
