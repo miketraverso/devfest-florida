@@ -29,6 +29,11 @@
   place: "Fantasia A-D"
   service: true
 -
+  id: 506
+  title: "Snack break 🍪🍹☕️"
+  place: "Main hallway"
+  service: true
+-
   id:  1
   speakers: [1]
   title:  "Offline-first apps with WebComponents"
