@@ -242,10 +242,10 @@
 -
   id:  28
   speakers: [28]
-  title:  "Testing Your Angular App"
-  description:  "Dive into unit testing your angular app! - Explore using the angular testing tools to make sure your code is behaving... From a basic hello world to fakeSync service dependency."
-  complexity:  "Intermediate"
-  bio: "Phil is a senior dev working at a full service agency.  His background was in PHP, but he has seen the light and now focuses on Angular, NativeScript, and Node.js."
+  title:  "Intro to Testing in Angular"
+  description:  "Angular has grown to become one of the most successful single page application frameworks.  One of Angluar’s chief advantages is its ability to be unit tested.  Imagine getting rid of deployment stress, a “code-and-pray” coding style and never-ending feature development. This talk is an introduction to the many benefits of unit testing."
+  complexity:  "Beginner"
+  bio: "Reba-Lynne Parsons is a developer and consultant specializing in front end web and mobile development.  Her career spans over 10+ years. She is also one of the co-organizers of the GDG Tampa Bay and the Women Techmakers Tampa Bay."
 -
   id:  32
   speakers: [32]

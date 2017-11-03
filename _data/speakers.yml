@@ -234,17 +234,17 @@
   bio: "Nitya is a software architect and polyglot with ~20 years of industry experience in research, development and startup contexts. She is a PhD, an innovator (11 patents, 20+ filings), an educator and a community organizer (GDG NYC & GDG Hudson Valley). She helps architect and build mobile web solutions for early stage startups, runs study camps for workforce retraining & plans to launch her first voice product this fall. She is a frequent tech conference speaker but is happiest talking to kids about science, coding, curiosity and self-confidence."
 -
   id: 28
-  name: "Phil Palmieri"
+  name: "Reba-Lynne Parsons"
   gde: false
   rockstar: false
-  thumbnailUrl: "../img/people/phillip_palmieri.jpg"
-  company: "Partnercomm"
+  thumbnailUrl: "../img/people/rebalynne_parsons.jpg"
+  company: ""
   social:
-    - {name: "twitter", link: "https://twitter.com/philpalmieri"}
-    - {name: "blog", link: "http://ppalmieri.com"}
-  complexity: "Intermediate"
-  shortBio: "Phil is a senior dev working at a full service agency.  His background was in PHP, but he has seen the light and now focuses on Angular, NativeScript, and Node.js."
-  bio: "Phil is a senior dev working at a full service agency.  His background was in PHP, but he has seen the light and now focuses on Angular, NativeScript, and Node.js."
+    - {name: "linkedin", link: "https://www.linkedin.com/in/rebalynne/"}
+    - {name: "blog", link: "https://www.meetup.com/Women-Techmakers-Tampa-Bay"}
+  complexity: "Beginner"
+  shortBio: "Reba-Lynne Parsons is a developer and consultant specializing in front end web and mobile development.  Her career spans over 10+ years. She is also one of the co-organizers of the GDG Tampa Bay and the Women Techmakers Tampa Bay."
+  bio: "Reba-Lynne Parsons is a developer and consultant specializing in front end web and mobile development.  Her career spans over 10+ years. She is also one of the co-organizers of the GDG Tampa Bay and the Women Techmakers Tampa Bay."
 -
   id: 29
   name: "John Papa"
