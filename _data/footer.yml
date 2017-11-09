@@ -8,7 +8,7 @@ footerBlocks:
 -
   title: "For Partners"
   links:
-   - {link: "https://firebasestorage.googleapis.com/v0/b/devfestflorida.appspot.com/o/DevFestFlorida-PartnershipProposal-2017.pdf?alt=media&token=a601acec-e36f-45b2-8fc2-0fddbac3ffbf", text: "Partnership Proposition", subtext: "Read more about the benefits you'll receive for being a generous sponsor of DevFest Florida 2017. From your logo on our shirts/website to the opportunity to address the crowd.", imgUrl: "/img/logos/partnership.png" }
+   - {link: "https://firebasestorage.googleapis.com/v0/b/devfestflorida.appspot.com/o/DevFestFlorida-PartnershipProposal-2017.pdf?alt=media&token=a601acec-e36f-45b2-8fc2-0fddbac3ffbf", text: "Partnership Proposition", subtext: "Read more about the benefits you'll receive for being a generous sponsor of DevFest Florida 2017. From your logo on our shirts/website to the opportunity to address the crowd.", imgUrl: "/img/logos/partnership.jpg" }
    - {link: "https://devfestflorida.eventbrite.com", text: "Become a Sponsor", subtext: "Sponsor today and help DevFest Florida pay for speaker travel, provide tickets to those that cannot afford them, throw a fantastic after conference party, give away cool swag & prizes", imgUrl: "/img/logos/click-to-sponsor.jpg" }
 -
   title: "Contact Us"
