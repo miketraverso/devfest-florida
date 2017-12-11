@@ -68,7 +68,7 @@
   company: "Sourcetoad"
   companyUrl: "img/partners/sourcetoad.svg"
   social:
-    - {name: "twitter", link: "https://twitter.com/namrataCodes"}
+    - {name: "twitter", link: "https://twitter.com/accordionguy"}
     - {name: "linkedin", link: "https://www.linkedin.com/in/joeydevilla"}
     - {name: "blog", link: "http://globalnerdy.com"}
   complexity: "Beginner"
