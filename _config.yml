@@ -34,6 +34,6 @@ navigationLinks:
  - {permalink: "/", text: "Home"}
  - {permalink: "/blog/", text: "Blog"}
  - {permalink: "/sponsors/", text: "Sponsor"}
- - {permalink: "/schedule/", text: "Schedule"}
+ - {permalink: "/2017/schedule/", text: "Schedule"}
  - {permalink: "/speakers/", text: "Speakers"}
  - {permalink: "/organizers/", text: "Organizers"}
