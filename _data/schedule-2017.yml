@@ -1,0 +1,79 @@
+-
+  date: "2017-11-11"
+  dateReadable: "November 11"
+  tracks:
+    - {title: "Android", color: "#90be4e"}
+    - {title: "Web & Cloud", color: "#03a9f4"}
+    - {title: "New Hotness 🔥", color: "#ff3300"}
+    - {title: "Afternoon Awesome 🦄", color: "#ffff33"}
+  timeslots:
+    - {
+    	startTime: "08:00",
+    	endTime: "09:00",
+    	sessionIds: [501]
+    }
+    - {
+    	startTime: "09:00",
+    	endTime: "09:30",
+    	sessionIds: [19]
+    }
+    - {
+    	startTime: "10:00",
+    	endTime: "10:30",
+    	sessionIds: [16]
+    }
+    - {
+    	startTime: "10:30",
+    	endTime: "11:30",
+    	sessionIds: [23, 18, 21, 0]
+    }
+    - {
+      startTime: "11:30",
+      endTime: "12:00",
+        	sessionIds: [20, 25, 12, 0]
+    }
+    - {
+      startTime: "12:00",
+      endTime: "1:00",
+      sessionIds: [503]
+    }
+    - {
+    	startTime: "1:00",
+    	endTime: "2:00",
+    	sessionIds: [9, 8, 14, 0]
+    }
+    - {
+      startTime: "2:00",
+      endTime: "3:00",
+      sessionIds: [5, 24, 13, 41]
+    }
+    - {
+      startTime: "3:00",
+      endTime: "4:00",
+      sessionIds: [15, 22, 7, 30]
+    }
+    - {
+      startTime: "3:45",
+      endTime: "4:00",
+      sessionIds: [506]
+    }
+    - {
+      startTime: "4:00",
+      endTime: "5:00",
+      sessionIds: [11, 29, 26, 40]
+    }
+    - {
+      startTime: "5:00",
+      endTime: "6:00",
+      sessionIds: [10, 32, 2, 27]
+    }
+    - {
+      startTime: "6:00",
+      endTime: "6:30",
+      sessionIds: [17, 4, 6, 28]
+    }
+    - {
+      startTime: "6:30",
+      endTime: "7:00",
+      sessionIds: [504]
+    }

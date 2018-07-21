@@ -3,33 +3,33 @@ ticketsInfo: "Tickets grant access to all conference sections, coffee brakes, lu
 ticketTypes:
 -
   name: "Early bird Ticket"
-  price: "$100"
-  ticketsNumber: "50"
-  buyButtonLink: "https://devfestflorida.eventbrite.com/"
-  buyButtonText: "Buy Now"
-  ticketContentList: ["Early bird discount", "Full day of talks", "Lunch & snacks", "Swag & Prizes"]
-  validFrom: "2017-05-30T00:00"
-  validThrough: "2017-09-01T00:00"
-  disabled: true
-  ended: true
--
-  name: "Regular Ticket"
-  price: "$125"
+  price: "$150"
   featured: true
   ticketsNumber: "100"
   buyButtonLink: "https://devfestflorida.eventbrite.com/"
   buyButtonText: "Buy Now"
+  ticketContentList: ["Early bird discount", "Exclusive swag", "Full day of talks", "Lunch & snacks", "Swag & Prizes"]
+  validFrom: "2018-08-15T00:00"
+  validThrough: "2018-09-15T00:00"
+  disabled: true
+  ended: false
+-
+  name: "Regular Ticket"
+  price: "$175"
+  ticketsNumber: "200"
+  buyButtonLink: "https://devfestflorida.eventbrite.com/"
+  buyButtonText: "Buy Now"
   ticketContentList: ["Regular ticket price", "Full day of talks", "Lunch & snacks", "Swag & Prizes"]
-  validFrom: "2017-09-01T00:00"
-  validThrough: "2017-10-11T00:00"
-  disabled: false
+  validFrom: "2018-09-15T00:00"
+  validThrough: "2018-11-31T00:00"
+  disabled: true
 -
  name: "Last minute Ticket"
- price: "$150"
- ticketsNumber: "25"
+ price: "$200"
+ ticketsNumber: "50"
  buyButtonLink: "https://devfestflorida.eventbrite.com/"
  buyButtonText: "Buy Now"
  ticketContentList: ["Regular ticket price", "Full day of talks", "Lunch & snacks", "Swag & Prizes"]
- validFrom: "2017-10-11T00:00"
- validThrough: "2017-11-02T11:59"
+ validFrom: "2018-12-01T00:00"
+ validThrough: "2019-01-07T11:59"
  disabled: true
