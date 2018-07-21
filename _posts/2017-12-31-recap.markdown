@@ -1,0 +1,79 @@
+---
+layout: post
+title:  "DevFestFL 2017: Growing an Innovative Developer Community Together"
+date:   2017-10-12 00:00:00 -0500
+author: "Michael Rosario"
+categories: blog
+img: 'img/posts/recap.jpg'
+---
+
+![Recap]({{ site.baseurl }}/img/posts/recap.jpg){: .img-responsive .center-block }
+
+I want to share a sincere thank you to our Google developer group(GDG) leaders in Florida for their efforts in organizing the Google DevFest Florida conference. On November 11th, we had an awesome time connecting with developers on topics ranging from VR, AR trends, machine learning, and advancing the open web. I enjoyed getting to serve with other speakers and technologists who believe in giving back to their local developer community and connecting with other GDG leaders.   We especially enjoyed connecting with developers who shared that they just started their career in software development or said that DevFestFL was their first developer conference. It was cool to see that the conference attracted developers from across the country too.
+
+In this post, I wanted to share a few impressions and resources that you might find helpful in your work.
+
+**Developing iOS and Android apps with Flutter**: Mike Traverso of traversoft.com shared a fun talk reviewing Flutter.IO, a new Google framework for writing native Android and iOS applications. Since the Dart language has been released, I have been a fan. It’s nice to see that Google has leveraged the Dart language to build this set of tools. As an organizer of the conference, Mike wrote the conference schedule app in Flutter and Google Firebase. During the talk, he provided a quick tour of Dart followed by exploring the “under the hood” code of the conference app.  Check out his source code here: https://github.com/miketraverso/devfest_florida_app
+
+![Recap]({{ site.baseurl }}/img/posts/recap-1.jpg){: .img-responsive .center-block }
+
+**Exploring Kotlin**: Victoria Gonda provided an elegant tour of the Kotlin programming language. In Google I/O 2017, Google announced that Kotlin has become a first-class language for writing Android applications. I didn’t realize that the language also compiles to JavaScript too. (Really? You can do  NodeJS apps in Kotlin?) Through the talk Victoria makes the case for Kotlin by showing how productive the language can be over Java. She did this by de-compiling various language features and reflecting on the Java or IL produced. Really enjoyed this approach.  She has outlined the major ideas in this blog post series.
+
+**Mixed Reality for social good**: Etienne Caron-Petit-Pas shared an amazing story of using mixed reality and maker technologies to create a positive social impact in this community. In OSMOS academy that he helps organize, I appreciated that their community focuses on building stuff that can help enrich people’s lives. It’s not just about the maker tech. For example, their current project focused on building playful VR experiences to support and distract kids who are going through medical procedures in a hospital. Some of the other projects they have attempted feel like citizen science efforts. This talk touches technology ranging from Google Daydream, augmented reality, Android Things and more.
+
+<div><br></div>
+<iframe src="https://www.youtube.com/embed/uKEbKSM68dA" frameborder="0" width="90%" height="500"></iframe>{: .video .center-block }
+
+**Designing VR/AR experiences**: Macy Kuang of Miaomiao Games shared her journey in building VR experiences. I especially appreciated learning her perspective on market research of various VR headsets. With all of the emerging VR technology, this space of application development provides unique challenges and opportunities. (i.e. What kinds of controllers will my end users have?) In my talk on AFrame, I got to share my admiration for Mozilla’s contribution to making WebVR programming accessible to web developers. If you’d like to get a sense of this fun topic, check out the following video from [Mozilla](https://www.youtube.com/watch?v=wRqoSdPZQBY) and [AFrame.IO](AFrame.IO). You can also check out [our AFrame post here](http://gdgcentralflorida.org/aframe-building-webvr-experiences-with-html-and-javascript/).
+
+**Pragmatic Machine Learning**: During this session, Nitya Narasimhan explored many of the major challenges when starting with machine learning. In the spirit of pragmatism, she provided a framework for making sure machine learning can add value to solving your business problem. She reviewed the [cloud services Google provides for leveraging pre-trained models](https://cloud.google.com/products/machine-learning/) to solve problems in computer vision, text analysis, translation, and video analysis. I know that many valued her exploration of getting started with Deep learning and [TensorFlow](https://www.tensorflow.org/). We also valued her ethical reflection on making sure we’re building machine learning models that avoid having bias.  We can acknowledge that human beings can act in an unjust manner at times.   We should make sure our ML models promote fairness by design.
+
+![Recap]({{ site.baseurl }}/img/posts/recap-ml.jpg){: .img-responsive .center-block }
+
+**Define and Do your one thing**: Brandy Morgan shared an awesome keynote message entitled “Staging vs. Production.” In this talk, she challenged our developer community to define a dream that you’d like to see hit production. Like anything else, she reflected that you’ll need to craft a staging area to explore and build this dream one step at a time. Her talk reminded me of one of my favorite books,  “Quitter” by Jon Acuff.  It provided a solid motivational framework for defining your “one” thing, building a plan, and executing. It’s a great message for tech entrepreneurs. Here’s her outline of action steps.
+
+-Define your “what”
+-Tell someone(for accountability)
+-Seek someone to guide you.
+-Tell your inner critic to shut up.
+-Pick and do your one thing
+-Figure out how to fund your staging work
+-Always be closing(ABC’s)
+-Build Armor (Things will be hard sometimes)
+-Repeat process as needed.
+
+There was so much great content at DevFestFL. Unfortunately, one blog post can’t do the event justice. It was an honor to be a part of this community built conference. We enjoyed the opportunity to serve so many developers. This event would not be possible without the support of many sponsors and developers who value investing in their local developer community. Many thanks!
+
+![Sponsors]({{ site.baseurl }}/img/posts/recap-sponsors.jpg){: .img-responsive .center-block }
+
+For the curious, I have provided links to various slides shared on Twitter. Make sure to check out #DevFestFL to learn more. Hope to see you at your local GDG and see you at DevFestFL next year!!
+
+*Create Enterprise UIs that your users will love*
+Michael Prentice
+Slides
+
+*Decoupling with Google Polymer*
+Chris Lorenzo
+[Slides](https://docs.google.com/presentation/d/11yzMgZcvMjHtdsog0CU2l0XMfVStAYNG55F0slFq_VE/edit)
+
+*Pragmatic Machine Learning*
+Nitya Narasimhan
+Slides
+
+*Google Assistant, Not Your Ordinary Alexa*
+Kesha Williams
+[Slides](https://www.slideshare.net/secret/11xglmolbTe5lr)
+
+*View Model in Action*
+Danny Preussler
+[Slides](https://speakerdeck.com/dpreussler/viewmodel-in-action-devfest-florida-2018)
+
+*Attacking Android*
+Connor Tumbleson
+[Slides](https://connortumbleson.com/slides/2017-11-11-AttackingAndroidDevFest.pdf)
+
+Android cake
+![Cake]({{ site.baseurl }}/img/posts/recap-cake.jpg){: .img-responsive .center-block }
+
+Disney kindly provided a fireworks display for our conference.  Thanks Mike Traverso for arranging this!   🙂
+![Fireworks]({{ site.baseurl }}/img/posts/recap-fireworks.jpg){: .img-responsive .center-block }
