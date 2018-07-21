@@ -1,14 +1,14 @@
 -
   group: "Organizers"
   elements:
-    - {name: "GDG Tampa Bay", description: "GDG Tampa Bay", link: "https://www.meetup.com/gdgtampabay/", imageUrl: "gdgtampabay.svg"}
+    # - {name: "GDG Tampa Bay", description: "GDG Tampa Bay", link: "https://www.meetup.com/gdgtampabay/", imageUrl: "gdgtampabay.svg"}
     - {name: "GDG Central Florida", description: "GDG Central Florida", link: "https://www.meetup.com/GDG-Central-Florida/", imageUrl: "central.svg"}
-    - {name: "GDG Space Coast", description: "GDG Space Coast", link: "http://www.gdgspacecoast.org/", imageUrl: "space.svg"}
-    - {name: "Tampa Bay Android Developers Group", description: "Tampa Bay Android Developers Group", link: "https://www.meetup.com/Tampa-Bay-Android-Developers-Group/", imageUrl: "tbadg.png"}
+    # - {name: "GDG Space Coast", description: "GDG Space Coast", link: "http://www.gdgspacecoast.org/", imageUrl: "space.svg"}
+    # - {name: "Tampa Bay Android Developers Group", description: "Tampa Bay Android Developers Group", link: "https://www.meetup.com/Tampa-Bay-Android-Developers-Group/", imageUrl: "tbadg.png"}
 -
   group: "Individuals"
   elements:
-    - {name: "Michael Traverso", imageUrl: "mike_traverso.png", description: "Venue, Swag, Ticketing, Social Media, Website, Accommodations, Mobile Apps, Finance", link: "https://traversoft.com"}
-    - {name: "Christi Kapp", imageUrl: "christi_kapp.png", description: "Swag, Finance, Sponsors, Accommodations", link: "http://www.datapsy.com/"}
-    - {name: "Siva G", imageUrl: "siva_g.jpg", description: "Sponsors", link: "https://plus.google.com/u/0/+SivaG1"}
-    - {name: "Michael Prentice", imageUrl: "michael_prentice.jpg", description: "Speakers, Website", link: "https://blog.devintent.com/"}
+    - {name: "Hendrix Tavarez", imageUrl: "hendrix_tavarez.jpg", description: "Organizer", link: "https://www.meetup.com/gdg-central-florida/"}
+    - {name: "Michael Rosario", imageUrl: "michael_rosario.jpg", description: "Organizer", link: "https://www.meetup.com/gdg-central-florida/"}
+    - {name: "Siva G", imageUrl: "siva_g.jpg", description: "Organizer", link: "https://www.meetup.com/gdg-central-florida/"}
+    - {name: "Michael Traverso", imageUrl: "mike_traverso.jpg", description: "Organizer", link: "https://traversoft.com"}
