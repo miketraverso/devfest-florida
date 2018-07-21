@@ -37,6 +37,11 @@
                               <br>
                               <br>
                             {% endif %}
+                            {% if speaker.slides %}
+                            <a id="social-icon" class="android-link social-icon mdl-button mdl-js-button mdl-typography--text-center" href="https://slideslive.com/{{ speaker.slides }}" target="_blank">
+                              <i class="fa fa-film" aria-hidden="true"></i> Click here to watch the presentation
+                            </a>
+                            {% endif %}
                             {% if session.video %}
                               <div class="theme-video embed-responsive embed-responsive-16by9">
                                   <iframe class="embed-responsive-item" src="{{ session.video }}"></iframe>
