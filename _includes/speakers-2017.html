@@ -1,0 +1,10 @@
+<div id="speakers">
+    <div class="site-section-title logo-font section-header dff-font">Speakers</div>
+    <div class="speaker-card-container mdl-grid">
+      {% for speaker in site.data.speakers %}
+        {% assign postUrl = site.baseurl | append: post.url %}
+        {% assign s = speaker %}
+          {% include speaker-card.html %}
+      {% endfor %}
+    </div>
+</div>

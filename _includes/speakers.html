@@ -1,10 +1,22 @@
-<div id="speakers">
-    <div class="site-section-title logo-font section-header dff-font">Speakers</div>
-    <div class="speaker-card-container mdl-grid">
-      {% for speaker in site.data.speakers %}
-        {% assign postUrl = site.baseurl | append: post.url %}
-        {% assign s = speaker %}
-          {% include speaker-card.html %}
-      {% endfor %}
+<div class="speaker-cover-section mdl-typography--text-center">
+  <div class="speaker-cover-section-overlay mdl-typography--text-center"></div>
+  <div class="site-cover-section-above-overlay mdl-typography--text-center">
+    <div id="speakers">
+      <div class="site-card-container mdl-grid">
+        <div class="mdl-cell mdl-cell--1-col mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
+        <div class="mdl-cell mdl-cell--10-col mdl-cell--12-col-tablet mdl-cell--12-col-phone center-align-items">
+          <div class="white logo-font site-slogan">Call for talks is OPEN!<br>🎙</div>
+          <div class="white logo-font site-sub-slogan">Doing something cool in AI? Want to show off some of the new features of Android O? Want to share the gotchas you experienced with Angular or PWA? Have another fantastic idea for our tech conference?</div>
+          <div class="row" style="margin-top:20px;">
+            <div class="col-lg-6">
+              <a class="big-button white mdl-button mdl-js-ripple-effect" href="/2017/speakers">Speakers 2017</a>
+            </div>
+            <div class="col-lg-6">
+              <a class="big-button white mdl-button mdl-js-ripple-effect" href="https://docs.google.com/forms/d/e/1FAIpQLSfcchhhaKETrOEVY-h5EngpTby7QMJl_G2LEl8XjYP5nXIS4g/viewform">Submit a Talk</a>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
+  </div>
 </div>
