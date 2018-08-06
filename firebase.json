@@ -3,27 +3,35 @@
     "public": "_site",
     "ignore": [
       "firebase.json",
+      "**/.*",
+      "**/node_modules/**",
       "Gemfile",
       "Gemfile.lock",
       "Rakefile",
       "CNAME",
       "Readme.md",
       ".gitignore"
-    ],
-    "headers": [{
-      "source" : "**",
-      "headers" : [{
-        "key" : "Cache-Control",
-        "value" : "max-age=3600"
-      }]
-    },{
+      ],
+      "headers": [{
+        "source" : "**",
+        "headers" : [{
+          "key" : "Cache-Control",
+          "value" : "max-age=3600"
+        }]
+      },{
         "source": "**/*.@(css|html|js|json|txt|xml|markdown|pdf)",
         "headers": [
           {
             "key": "Cache-Control",
             "value": "max-age=3600"
-          }
-        ]
-      }]
+          }]
+      }
+    ]
+  },
+  "database": {
+    "rules": "database.rules.json"
+  },
+  "storage": {
+    "rules": "storage.rules"
   }
 }
